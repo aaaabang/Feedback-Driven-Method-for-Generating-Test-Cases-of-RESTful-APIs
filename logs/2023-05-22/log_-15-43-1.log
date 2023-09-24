@@ -1,0 +1,22 @@
+2023-05-22 15:43:24.018 [main] INFO  org.restct.RESTCT - 6-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}
+2023-05-22 15:43:24.024 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:43:24.024 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=7.610,-122.107, Default=47.610,-122.107]
+2023-05-22 15:43:24.024 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=12, Random=20, Random=18]
+2023-05-22 15:43:24.024 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:43:24.486 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:43:28.583 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:43:28.583 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:43:38.744 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:43:38.745 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47w.610,-122.107, Default=47.610,-122.107]
+2023-05-22 15:43:38.745 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=8, Random=12, Random=8]
+2023-05-22 15:43:38.745 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:43:39.214 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:43:43.471 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:43:43.471 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:43:54.207 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:43:54.208 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.610,-22.107, Default=47.610,-122.107]
+2023-05-22 15:43:54.208 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=6, Random=17, Random=0]
+2023-05-22 15:43:54.208 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:43:54.802 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:43:59.196 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:43:59.197 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

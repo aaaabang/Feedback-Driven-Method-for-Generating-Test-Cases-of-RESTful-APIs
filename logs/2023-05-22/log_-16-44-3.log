@@ -1,0 +1,18 @@
+2023-05-22 16:45:06.282 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:45:06.290 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{query}
+2023-05-22 16:45:06.290 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:45:06.291 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:45:06.291 [main] INFO  org.restct.RESTCT -             query: 2 - [Random=Whit%20House, Default=White%20House]
+2023-05-22 16:45:06.653 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:45:08.127 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 20, parameters: 5
+2023-05-22 16:45:08.127 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:45:20.843 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 16:45:20.843 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:45:20.844 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:45:21.258 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 16:45:22.445 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 16:45:22.445 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:45:30.448 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:45:30.465 [main] INFO  org.restct.RESTCT - Locations,2,3,2,5.0,3.80,1.00,1.00,20,0,468,320,5.73
+
+2023-05-22 16:45:30.465 [main] INFO  org.restct.RESTCT - Program execution time: 343924 ms.

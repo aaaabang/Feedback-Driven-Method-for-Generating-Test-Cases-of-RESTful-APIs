@@ -1,0 +1,13 @@
+2023-05-22 16:21:06.943 [main] INFO  org.restct.RESTCT - 5-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}/Routes/{travelMode}
+2023-05-22 16:21:07.320 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 60, parameters: 6, constraints: 0
+2023-05-22 16:21:28.680 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 52, parameters: 19
+2023-05-22 16:21:28.680 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:21:47.549 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 16:21:47.550 [main] INFO  org.restct.RESTCT - 6-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 16:21:47.924 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 16:21:49.462 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:21:49.463 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:21:56.481 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 16:21:57.981 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:21:57.981 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

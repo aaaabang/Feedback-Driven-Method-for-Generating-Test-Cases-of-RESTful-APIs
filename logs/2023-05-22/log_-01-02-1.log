@@ -1,0 +1,8 @@
+2023-05-22 01:02:14.994 [main] ERROR org.restct.RESTCT - Program execution failed: Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_231]
+	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_231]
+	at org.restct.CoveringArray.run(CoveringArray.java:118) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 01:02:15.003 [main] INFO  org.restct.RESTCT - Program execution time: 38136 ms.

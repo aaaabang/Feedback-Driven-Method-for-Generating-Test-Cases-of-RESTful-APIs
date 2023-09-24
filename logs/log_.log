@@ -1,0 +1,4 @@
+2023-05-22 23:21:44.605 [main] INFO  org.restct.RESTCT - 3-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 23:21:44.649 [main] INFO  org.restct.RESTCT - Route,2,3,2,1.0,14.00,0.07,0.00,182,1,11414,56,85.65
+
+2023-05-22 23:21:44.650 [main] INFO  org.restct.RESTCT - Program execution time: 5138772 ms.

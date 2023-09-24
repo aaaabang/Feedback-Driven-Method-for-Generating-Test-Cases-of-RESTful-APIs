@@ -1,0 +1,11 @@
+2023-05-22 14:22:10.519 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 14:22:10.550 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 14:22:10.550 [main] INFO  org.restct.RESTCT -             query: 2 - [Random=belleve,wa,us, Default=bellevue,wa,us]
+2023-05-22 14:22:10.551 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 14:22:11.422 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 14:22:13.023 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 14:22:13.023 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:22:17.517 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 14:22:17.543 [main] INFO  org.restct.RESTCT - TimeZone,2,3,2,3.0,4.00,1.00,1.00,12,0,1941,767,13.72
+
+2023-05-22 14:22:17.544 [main] INFO  org.restct.RESTCT - Program execution time: 823289 ms.

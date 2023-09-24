@@ -1,0 +1,6 @@
+2023-05-22 19:55:55.892 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 19:55:56.164 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-22 19:55:56.164 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-22 19:55:56.243 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-22 19:55:56.248 [main] INFO  org.restct.RESTCT - 1-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync
+2023-05-22 19:55:58.131 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2542, parameters: 23, constraints: 0

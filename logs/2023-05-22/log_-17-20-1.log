@@ -1,0 +1,9 @@
+2023-05-22 17:21:33.860 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 17:21:33.863 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:21:50.274 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 17:21:51.662 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 17:21:51.662 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:21:51.689 [main] INFO  org.restct.RESTCT - 7-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync
+2023-05-22 17:21:54.609 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0
+2023-05-22 17:21:58.315 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 577, parameters: 23
+2023-05-22 17:21:58.316 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

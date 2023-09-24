@@ -1,0 +1,12 @@
+2023-05-22 15:57:15.360 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:57:15.366 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:57:15.367 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:57:15.829 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:57:20.272 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:57:20.272 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:57:38.771 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:57:38.771 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:57:38.771 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:57:39.662 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:57:44.364 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:57:44.364 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

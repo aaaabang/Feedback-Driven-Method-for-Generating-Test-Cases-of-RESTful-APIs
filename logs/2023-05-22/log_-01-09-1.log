@@ -1,0 +1,3 @@
+2023-05-22 01:09:27.709 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 01:09:27.713 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 01:09:32.890 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0

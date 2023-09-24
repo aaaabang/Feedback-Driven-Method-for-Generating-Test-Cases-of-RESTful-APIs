@@ -1,0 +1,25 @@
+2023-05-21 19:09:48.233 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 19:09:48.361 [main] INFO  org.restct.RESTCT - Operations: 4
+2023-05-21 19:09:48.362 [main] INFO  org.restct.RESTCT - Examples found: 5
+2023-05-21 19:09:48.389 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 4
+2023-05-21 19:09:48.393 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 4
+2023-05-21 19:09:48.395 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 3
+2023-05-21 19:09:48.403 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 1.649
+2023-05-21 19:09:48.407 [main] DEBUG org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel
+2023-05-21 19:09:48.428 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 19:09:48.430 [main] DEBUG org.restct.RESTCT -             key: 2 - [Enum]
+2023-05-21 19:09:48.431 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random, Default]
+2023-05-21 19:09:49.243 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 19:09:49.248 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 19:09:50.044 [main] ERROR org.restct.RESTCT - response fail 400 {"authenticationResultCode":"ValidCredentials","brandLogoUri":"http:\/\/dev.virtualearth.net\/Branding\/logo_powered_by.png","copyright":"Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.","errorDetails":["One or more parameters are not valid.","Points: This parameter value has an invalid format."],"resourceSets":[],"statusCode":400,"statusDescription":"Bad Request","traceId":"51d7616252674c13bc48584ef6b9f5dc|PUS000DE2E|0.0.0.0"}
+2023-05-21 19:09:50.044 [main] ERROR org.restct.RESTCT - Program execution failed: closed
+java.lang.IllegalStateException: closed
+	at okio.RealBufferedSource.select(RealBufferedSource.kt:218) ~[okio-2.8.0.jar:?]
+	at okhttp3.internal.Util.readBomAsCharset(Util.kt:265) ~[okhttp-4.9.2.jar:?]
+	at okhttp3.ResponseBody.string(ResponseBody.kt:187) ~[okhttp-4.9.2.jar:?]
+	at org.restct.utils.SendRequest.send(SendRequest.java:197) ~[classes/:?]
+	at org.restct.utils.SendRequest.run(SendRequest.java:88) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:103) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-21 19:09:50.054 [main] INFO  org.restct.RESTCT - Program execution time: 3300 ms.

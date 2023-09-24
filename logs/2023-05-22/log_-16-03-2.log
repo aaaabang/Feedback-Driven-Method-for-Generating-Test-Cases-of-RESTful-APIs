@@ -1,0 +1,8 @@
+2023-05-22 16:04:02.187 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 44, parameters: 20
+2023-05-22 16:04:02.190 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:04:20.891 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 16:04:20.892 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
+2023-05-22 16:04:21.359 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0
+2023-05-22 16:04:35.056 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 16:04:35.056 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

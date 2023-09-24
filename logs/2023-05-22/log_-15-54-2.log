@@ -1,0 +1,9 @@
+2023-05-22 15:55:17.528 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 15:55:17.536 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:55:17.537 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{query}
+2023-05-22 15:55:18.311 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:55:25.052 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:55:25.052 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:55:43.219 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}
+2023-05-22 15:55:43.641 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 60, parameters: 4, constraints: 0

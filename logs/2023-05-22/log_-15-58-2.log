@@ -1,0 +1,10 @@
+2023-05-22 15:59:01.841 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:59:01.844 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:59:30.372 [main] INFO  org.restct.RESTCT - 8-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
+2023-05-22 15:59:30.373 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:59:30.373 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 15:59:30.373 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Default=47.610,-122.107, Random=47.610,-122.10]
+2023-05-22 15:59:30.373 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:59:30.839 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 15:59:47.125 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 66, parameters: 8
+2023-05-22 15:59:47.126 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

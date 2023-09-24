@@ -1,0 +1,8 @@
+2023-05-22 16:43:01.120 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
+2023-05-22 16:43:02.030 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0
+2023-05-22 16:43:15.223 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 16:43:15.223 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:43:54.791 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}
+2023-05-22 16:43:55.172 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 16:43:58.896 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:43:58.897 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

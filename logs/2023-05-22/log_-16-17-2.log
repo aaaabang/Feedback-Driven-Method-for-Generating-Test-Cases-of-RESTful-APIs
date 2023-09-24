@@ -1,0 +1,33 @@
+2023-05-22 16:18:23.375 [main] ERROR org.restct.RESTCT - Program execution failed: timeout
+java.net.SocketTimeoutException: timeout
+	at okio.SocketAsyncTimeout.newTimeoutException(JvmOkio.kt:143) ~[okio-2.8.0.jar:?]
+	at okio.AsyncTimeout.access$newTimeoutException(AsyncTimeout.kt:162) ~[okio-2.8.0.jar:?]
+	at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:335) ~[okio-2.8.0.jar:?]
+	at okio.RealBufferedSource.request(RealBufferedSource.kt:206) ~[okio-2.8.0.jar:?]
+	at okio.RealBufferedSource.require(RealBufferedSource.kt:199) ~[okio-2.8.0.jar:?]
+	at okio.RealBufferedSource.readHexadecimalUnsignedLong(RealBufferedSource.kt:381) ~[okio-2.8.0.jar:?]
+	at okhttp3.internal.http1.Http1ExchangeCodec$ChunkedSource.readChunkSize(Http1ExchangeCodec.kt:429) ~[okhttp-4.9.2.jar:?]
+	at okhttp3.internal.http1.Http1ExchangeCodec$ChunkedSource.read(Http1ExchangeCodec.kt:408) ~[okhttp-4.9.2.jar:?]
+	at okhttp3.internal.connection.Exchange$ResponseBodySource.read(Exchange.kt:276) ~[okhttp-4.9.2.jar:?]
+	at okio.Buffer.writeAll(Buffer.kt:1642) ~[okio-2.8.0.jar:?]
+	at okio.RealBufferedSource.readString(RealBufferedSource.kt:95) ~[okio-2.8.0.jar:?]
+	at okhttp3.ResponseBody.string(ResponseBody.kt:187) ~[okhttp-4.9.2.jar:?]
+	at org.restct.utils.SendRequest.send(SendRequest.java:194) ~[classes/:?]
+	at org.restct.utils.SendRequest.run(SendRequest.java:88) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:108) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[?:1.8.0_231]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[?:1.8.0_231]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[?:1.8.0_231]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_231]
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_231]
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_231]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_231]
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933) ~[?:1.8.0_231]
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[?:1.8.0_231]
+	at okio.InputStreamSource.read(JvmOkio.kt:90) ~[okio-2.8.0.jar:?]
+	at okio.AsyncTimeout$source$1.read(AsyncTimeout.kt:129) ~[okio-2.8.0.jar:?]
+	... 14 more
+2023-05-22 16:18:23.420 [main] INFO  org.restct.RESTCT - Program execution time: 68223 ms.

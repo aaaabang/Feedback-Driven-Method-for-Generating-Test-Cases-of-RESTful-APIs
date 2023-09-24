@@ -1,0 +1,11 @@
+2023-05-22 15:53:03.579 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 15:53:03.589 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:53:32.986 [main] INFO  org.restct.RESTCT - 6-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 15:53:33.453 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:53:36.394 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:53:36.394 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:53:48.110 [main] INFO  org.restct.RESTCT - 7-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}
+2023-05-22 15:53:48.460 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:53:51.676 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:53:51.676 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:53:58.925 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0

@@ -1,0 +1,21 @@
+2023-05-22 16:07:09.627 [main] INFO  org.restct.RESTCT - 7-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 16:07:09.631 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:07:09.631 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 16:07:09.631 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:07:09.971 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 16:07:15.369 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:07:15.370 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:07:31.439 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:07:31.439 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 16:07:31.439 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:07:31.799 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 16:07:33.666 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:07:33.666 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:07:44.855 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:07:44.858 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 16:07:44.858 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:07:44.858 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:07:44.859 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 16:07:45.190 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 11, parameters: 2, constraints: 0
+2023-05-22 16:07:50.349 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 66, parameters: 6
+2023-05-22 16:07:50.349 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

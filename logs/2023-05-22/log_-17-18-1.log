@@ -1,0 +1,8 @@
+2023-05-22 17:18:04.151 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 17:18:04.523 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 17:18:06.370 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 17:18:06.370 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:18:30.155 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 17:18:30.510 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 14, parameters: 2, constraints: 0
+2023-05-22 17:18:37.997 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 84, parameters: 6
+2023-05-22 17:18:37.997 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

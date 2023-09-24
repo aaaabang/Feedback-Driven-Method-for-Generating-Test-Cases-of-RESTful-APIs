@@ -1,0 +1,22 @@
+2023-05-22 16:02:05.817 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/{point}
+2023-05-22 16:02:05.824 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:02:05.824 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 16:02:05.824 [main] DEBUG org.restct.RESTCT -             point: 2 - [Default, Random]
+2023-05-22 16:02:06.229 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:02:06.229 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:02:07.045 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:02:07.045 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 16:02:07.046 [main] DEBUG org.restct.RESTCT -             dateTime: 3 - [NULL=null, Random=018-05-15T13:14:15Z, Default=2018-05-15T13:14:15Z]
+2023-05-22 16:02:07.046 [main] DEBUG org.restct.RESTCT -             includeDstRules: 3 - [NULL=null, Enum=false, Enum=true]
+2023-05-22 16:02:07.046 [main] DEBUG org.restct.RESTCT -             point: 2 - [Random=7.610679194331169,-122.10788659751415, Default=47.610679194331169,-122.10788659751415]
+2023-05-22 16:02:07.046 [main] DEBUG org.restct.RESTCT -             output: 3 - [NULL=null, Enum=XML, Enum=JSON]
+2023-05-22 16:02:07.791 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:02:07.792 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:02:07.792 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:02:12.586 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone
+2023-05-22 16:02:12.587 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:02:12.588 [main] DEBUG org.restct.RESTCT -             desttz: 75 - [Enum]
+2023-05-22 16:02:12.588 [main] DEBUG org.restct.RESTCT -             timezonestandard: 2 - [Enum]
+2023-05-22 16:02:12.588 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 16:02:13.137 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:02:13.139 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

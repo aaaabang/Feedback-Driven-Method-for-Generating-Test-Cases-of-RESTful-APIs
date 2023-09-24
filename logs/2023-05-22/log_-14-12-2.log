@@ -1,0 +1,4 @@
+2023-05-22 14:14:03.867 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 14:14:09.461 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 14:14:09.461 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:14:45.036 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 60, parameters: 4, constraints: 0

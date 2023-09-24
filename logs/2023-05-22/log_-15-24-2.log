@@ -1,0 +1,6 @@
+2023-05-22 15:25:14.516 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:25:20.455 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:25:20.455 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:25:39.025 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:25:44.900 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:25:44.900 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

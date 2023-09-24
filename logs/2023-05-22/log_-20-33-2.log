@@ -1,0 +1,20 @@
+2023-05-22 20:37:52.062 [main] INFO  org.restct.RESTCT -         11-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 20:37:53.257 [main] INFO  org.restct.RESTCT -         11-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 20:37:53.257 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:37:53.837 [main] INFO  org.restct.RESTCT -         11-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 20:37:54.441 [main] INFO  org.restct.RESTCT -         11-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 20:37:54.441 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:37:54.455 [main] INFO  org.restct.RESTCT - 12-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItinerary
+2023-05-22 20:37:55.089 [main] INFO  org.restct.RESTCT -         12-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 20:37:55.749 [main] INFO  org.restct.RESTCT -         12-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 20:37:55.749 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:37:56.464 [main] INFO  org.restct.RESTCT -         12-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 20:37:57.107 [main] INFO  org.restct.RESTCT -         12-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 20:37:57.107 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:37:58.304 [main] INFO  org.restct.RESTCT -         12-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 20:37:58.897 [main] INFO  org.restct.RESTCT -         12-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 20:37:58.897 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:37:58.913 [main] INFO  org.restct.RESTCT - 13-th operation: get*http://dev.virtualearth.net/REST/v1/Routes
+2023-05-22 20:37:59.329 [main] INFO  org.restct.RESTCT -         13-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 20:37:59.830 [main] INFO  org.restct.RESTCT -         13-th operation all parameters covering array size: 51, parameters: 17
+2023-05-22 20:37:59.830 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

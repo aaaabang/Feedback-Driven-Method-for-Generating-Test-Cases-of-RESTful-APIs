@@ -1,0 +1,20 @@
+2023-05-22 18:01:38.235 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0
+2023-05-22 18:01:39.935 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 577, parameters: 23
+2023-05-22 18:01:39.936 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 18:01:40.091 [main] INFO  org.restct.RESTCT - 9-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 18:01:40.879 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 18:01:41.546 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 18:01:41.546 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 18:01:41.557 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 18:01:41.557 [main] INFO  org.restct.RESTCT - 1-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 18:01:42.299 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 18:01:43.041 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 18:01:43.041 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 18:01:43.053 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Truck
+2023-05-22 18:01:43.582 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 18:01:44.422 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 579, parameters: 28
+2023-05-22 18:01:44.422 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 18:01:44.610 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 18:01:44.626 [main] INFO  org.restct.RESTCT - Route,2,3,2,8.0,10.63,0.36,0.05,182,3,68024,88,51.93
+
+2023-05-22 18:01:44.626 [main] INFO  org.restct.RESTCT - Program execution time: 3115726 ms.

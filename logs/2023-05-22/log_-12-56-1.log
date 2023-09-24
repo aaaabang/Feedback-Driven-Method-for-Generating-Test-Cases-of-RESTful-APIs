@@ -1,0 +1,10 @@
+2023-05-22 12:56:30.195 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 12:56:30.313 [main] INFO  org.restct.RESTCT - Operations: 4
+2023-05-22 12:56:30.314 [main] INFO  org.restct.RESTCT - Examples found: 5
+2023-05-22 12:56:30.333 [main] ERROR org.restct.RESTCT - Program execution failed: null
+java.lang.NullPointerException: null
+	at org.restct.SequenceCoveringArray.removeFailuerCandidates(SequenceCoveringArray.java:335) ~[classes/:?]
+	at org.restct.SequenceCoveringArray.buildSequence(SequenceCoveringArray.java:356) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:100) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 12:56:30.343 [main] INFO  org.restct.RESTCT - Program execution time: 1617 ms.

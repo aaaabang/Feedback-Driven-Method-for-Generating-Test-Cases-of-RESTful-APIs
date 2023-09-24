@@ -1,0 +1,14 @@
+2023-05-21 21:27:21.691 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 44, parameters: 20
+2023-05-21 21:27:21.694 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 21:27:27.937 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-21 21:27:31.853 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 44, parameters: 18
+2023-05-21 21:27:31.853 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 21:27:36.722 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-21 21:27:40.381 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 44, parameters: 18
+2023-05-21 21:27:40.381 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 21:27:45.645 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-21 21:27:49.627 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 44, parameters: 18
+2023-05-21 21:27:49.628 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 21:27:54.788 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-21 21:27:57.211 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 25, parameters: 18
+2023-05-21 21:27:57.211 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

@@ -1,0 +1,57 @@
+2023-05-22 15:27:15.846 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:27:15.871 [main] INFO  org.restct.RESTCT - Imagery,2,3,2,5.0,8.00,0.60,0.33,90,2,4390,534,36.41
+
+2023-05-22 15:27:15.871 [main] INFO  org.restct.RESTCT - Program execution time: 2184898 ms.
+2023-05-22 15:27:45.983 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 15:27:46.098 [main] INFO  org.restct.RESTCT - Operations: 4
+2023-05-22 15:27:46.098 [main] INFO  org.restct.RESTCT - Examples found: 5
+2023-05-22 15:27:46.119 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:27:46.120 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:27:46.120 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:27:46.120 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:27:46.120 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:27:46.121 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:27:46.121 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 4
+2023-05-22 15:27:46.124 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 1.461
+2023-05-22 15:27:46.128 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Bounds
+2023-05-22 15:27:46.139 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:27:46.139 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:27:46.140 [main] DEBUG org.restct.RESTCT -             rows: 2 - [Default, Random]
+2023-05-22 15:27:46.142 [main] DEBUG org.restct.RESTCT -             bounds: 2 - [Default, Random]
+2023-05-22 15:27:46.142 [main] DEBUG org.restct.RESTCT -             cols: 2 - [Default, Random]
+2023-05-22 15:27:46.956 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:27:46.960 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 8, parameters: 4, constraints: 0
+2023-05-22 15:27:52.642 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:27:52.642 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:27:52.643 [main] DEBUG org.restct.RESTCT -             rows: 2 - [Default=30, Random=8]
+2023-05-22 15:27:52.643 [main] DEBUG org.restct.RESTCT -             bounds: 2 - [Random=45.219c,-122.234,47.61,-122.07, Default=45.219,-122.234,47.61,-122.07]
+2023-05-22 15:27:52.644 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:27:52.644 [main] DEBUG org.restct.RESTCT -             cols: 2 - [Default=15, Random=5]
+2023-05-22 15:27:52.997 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:27:52.998 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 6, parameters: 5
+2023-05-22 15:27:53.007 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:27:55.370 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/List
+2023-05-22 15:27:55.370 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:27:55.371 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:27:55.371 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:27:55.719 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:27:55.720 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:27:56.392 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:27:56.392 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:27:56.392 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random=35.89431,-110.72522,3w5.89393,-110.72578,35.89374, Default=35.89431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:27:56.392 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:27:56.763 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:27:56.764 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 15:27:56.765 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:27:58.402 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:27:58.402 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:27:58.403 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:27:58.745 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:27:58.745 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:27:59.362 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:27:59.363 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:27:59.363 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random=35.89431,-110.72522,3w5.89393,-110.72578,35.89374, Default=35.89431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:27:59.364 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:27:59.740 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:27:59.741 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 15:27:59.741 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

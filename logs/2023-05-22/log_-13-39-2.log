@@ -1,0 +1,16 @@
+2023-05-22 13:40:00.174 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 13:40:00.185 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:40:02.920 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel
+2023-05-22 13:40:03.249 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-22 13:40:05.443 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 4, parameters: 2
+2023-05-22 13:40:05.443 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:40:07.808 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-22 13:40:09.746 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 4, parameters: 2
+2023-05-22 13:40:09.746 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:40:11.894 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-22 13:40:13.899 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 4, parameters: 2
+2023-05-22 13:40:13.899 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:40:15.897 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 13:40:15.911 [main] INFO  org.restct.RESTCT - Elevations,2,3,2,2.0,4.00,0.25,0.00,12,0,156,10,1.51
+
+2023-05-22 13:40:15.911 [main] INFO  org.restct.RESTCT - Program execution time: 90774 ms.

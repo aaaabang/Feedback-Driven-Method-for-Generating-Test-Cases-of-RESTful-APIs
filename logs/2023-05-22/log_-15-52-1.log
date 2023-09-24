@@ -1,0 +1,32 @@
+2023-05-22 15:52:19.239 [main] INFO  org.restct.RESTCT - 7-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 15:52:19.245 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:52:19.245 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:52:19.245 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 15:52:19.627 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 11, parameters: 2, constraints: 0
+2023-05-22 15:52:24.421 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 66, parameters: 6
+2023-05-22 15:52:24.421 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:52:52.015 [main] INFO  org.restct.RESTCT - 8-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}
+2023-05-22 15:52:52.015 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:52:52.015 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:52:52.016 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=0, Random=1, Random=20]
+2023-05-22 15:52:52.016 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.10,-122.107, Default=47.610,-122.107]
+2023-05-22 15:52:52.016 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:52:53.674 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 60, parameters: 4, constraints: 0
+2023-05-22 15:52:54.553 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 15:52:54.725 [main] INFO  org.restct.RESTCT - Operations: 4
+2023-05-22 15:52:54.725 [main] INFO  org.restct.RESTCT - Examples found: 3
+2023-05-22 15:52:54.753 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:52:54.753 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:52:54.753 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:52:54.754 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:52:54.754 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:52:54.754 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:52:54.754 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 4
+2023-05-22 15:52:54.759 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 2.624
+2023-05-22 15:52:54.763 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone
+2023-05-22 15:52:54.772 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:52:54.775 [main] DEBUG org.restct.RESTCT -             desttz: 75 - [Enum]
+2023-05-22 15:52:54.776 [main] DEBUG org.restct.RESTCT -             timezonestandard: 2 - [Enum]
+2023-05-22 15:52:54.779 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:52:55.488 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:52:55.493 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

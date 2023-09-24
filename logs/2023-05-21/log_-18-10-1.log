@@ -1,0 +1,565 @@
+2023-05-21 18:10:35.289 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 18:10:35.520 [main] INFO  org.restct.RESTCT - Operations: 9
+2023-05-21 18:10:35.520 [main] INFO  org.restct.RESTCT - Examples found: 602
+2023-05-21 18:10:35.579 [main] INFO  org.restct.RESTCT - Uncovered combinations: 31, sequence length: 8
+2023-05-21 18:10:35.582 [main] INFO  org.restct.RESTCT - Uncovered combinations: 12, sequence length: 9
+2023-05-21 18:10:35.585 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 9
+2023-05-21 18:10:35.614 [main] INFO  org.restct.RESTCT - Uncovered combinations: 3, sequence length: 6
+2023-05-21 18:10:35.616 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 6
+2023-05-21 18:10:35.627 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 4
+2023-05-21 18:10:35.631 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 1.795
+2023-05-21 18:10:35.631 [main] DEBUG org.restct.RESTCT - 1-th operation: post*http://localhost:30000/api/v4/projects
+2023-05-21 18:10:35.641 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 18:10:36.466 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:36.467 [main] DEBUG org.restct.RESTCT -             requirements_access_level: 5 - [Enum=public, NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.468 [main] DEBUG org.restct.RESTCT -             remove_source_branch_after_merge: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.468 [main] DEBUG org.restct.RESTCT -             wiki_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.469 [main] DEBUG org.restct.RESTCT -             auto_devops_deploy_strategy: 4 - [Enum=timed_incremental, NULL=null, Enum=manual, Enum=continuous]
+2023-05-21 18:10:36.469 [main] DEBUG org.restct.RESTCT -             cadence: 3 - [Random=7du, Default=7d, NULL=null]
+2023-05-21 18:10:36.469 [main] DEBUG org.restct.RESTCT -             enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.470 [main] DEBUG org.restct.RESTCT -             keep_n: 4 - [NULL=null, Random=iiAqwB, Random=Kd8joi1, Random=Iho6HGVgkgB6Rr2FBjFE]
+2023-05-21 18:10:36.470 [main] DEBUG org.restct.RESTCT -             older_than: 4 - [Random=AzO6d, NULL=null, Random=71NDmCti9, Random=XG3]
+2023-05-21 18:10:36.470 [main] DEBUG org.restct.RESTCT -             name_regex: 4 - [Random=fsXpys5bPrTbH4yzzcSvZa2iU, NULL=null, Random=WdeoBfiROef, Random=oZGPwfiVjOxgHf0W]
+2023-05-21 18:10:36.471 [main] DEBUG org.restct.RESTCT -             name_regex_delete: 4 - [NULL=null, Random=9x5ZobU1fnEXLNW, Random=4vwfJjg9sRQAkFvk9Bp5qNNFtYlRcWeXgD, Random=mTXiTKQyJNsdTuxPD]
+2023-05-21 18:10:36.471 [main] DEBUG org.restct.RESTCT -             name_regex_keep: 4 - [NULL=null, Random=zeopaYaQ, Random=zgOo, Random=dnAM0yynwAn0a]
+2023-05-21 18:10:36.471 [main] DEBUG org.restct.RESTCT -             next_run_at: 3 - [NULL=null, Default=2020-01-07T21:42:58.658Z, Random=2020-05-04T06:13:22.654Z]
+2023-05-21 18:10:36.472 [main] DEBUG org.restct.RESTCT -             template_name: 4 - [NULL=null, Random=PnAn7, Random=MVtxPJzE, Random=5SabXzmoDmVdS]
+2023-05-21 18:10:36.472 [main] DEBUG org.restct.RESTCT -             default_branch: 2 - [NULL=null, Default=master]
+2023-05-21 18:10:36.472 [main] DEBUG org.restct.RESTCT -             pages_access_level: 5 - [Enum=public, NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.472 [main] DEBUG org.restct.RESTCT -             merge_method: 4 - [NULL=null, Enum=ff, Enum=merge, Enum=rebase_merge]
+2023-05-21 18:10:36.473 [main] DEBUG org.restct.RESTCT -             auto_cancel_pending_pipelines: 3 - [NULL=null, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.473 [main] DEBUG org.restct.RESTCT -             build_git_strategy: 2 - [NULL=null, Default=fetch]
+2023-05-21 18:10:36.473 [main] DEBUG org.restct.RESTCT -             shared_runners_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.473 [main] DEBUG org.restct.RESTCT -             repository_storage: 3 - [NULL=null, Default=default, Random=defuault]
+2023-05-21 18:10:36.473 [main] DEBUG org.restct.RESTCT -             resolve_outdated_diff_discussions: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.474 [main] DEBUG org.restct.RESTCT -             build_timeout: 3 - [NULL=null, Random=6, Default=3600]
+2023-05-21 18:10:36.474 [main] DEBUG org.restct.RESTCT -             container_registry_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.474 [main] DEBUG org.restct.RESTCT -             tag_list: 3 - [NULL=null, Default=[example, puppet], Random=[example, disapora client]]
+2023-05-21 18:10:36.474 [main] DEBUG org.restct.RESTCT -             only_allow_merge_if_pipeline_succeeds: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.474 [main] DEBUG org.restct.RESTCT -             visibility: 4 - [Enum=public, NULL=null, Enum=private, Enum=internal]
+2023-05-21 18:10:36.475 [main] DEBUG org.restct.RESTCT -             only_allow_merge_if_all_discussions_are_resolved: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.475 [main] DEBUG org.restct.RESTCT -             build_coverage_regex: 4 - [NULL=null, Random=Tq7U04VMZsPLBSoCT0n2vFxdDX6uXl2jMF, Random=8Xw26Nuq, Random=CXlVNlmqHlguNHoSsU]
+2023-05-21 18:10:36.475 [main] DEBUG org.restct.RESTCT -             issues_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.475 [main] DEBUG org.restct.RESTCT -             merge_requests_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.475 [main] DEBUG org.restct.RESTCT -             show_default_award_emojis: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.476 [main] DEBUG org.restct.RESTCT -             jobs_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.476 [main] DEBUG org.restct.RESTCT -             merge_requests_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.476 [main] DEBUG org.restct.RESTCT -             namespace_id: 4 - [NULL=null, Random=7, Random=74, Random=51]
+2023-05-21 18:10:36.476 [main] DEBUG org.restct.RESTCT -             path: 3 - [NULL=null, Default=files/markdown, Random=diaspora-project-site]
+2023-05-21 18:10:36.477 [main] DEBUG org.restct.RESTCT -             avatar: 2 - [NULL=null, Random=long random long random]
+2023-05-21 18:10:36.477 [main] DEBUG org.restct.RESTCT -             description: 3 - [NULL=null, Random=Shared project for Html5 Boilerplate, Default=GitLab Community Edition]
+2023-05-21 18:10:36.477 [main] DEBUG org.restct.RESTCT -             forking_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.477 [main] DEBUG org.restct.RESTCT -             wiki_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.478 [main] DEBUG org.restct.RESTCT -             issues_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.478 [main] DEBUG org.restct.RESTCT -             allow_merge_on_skipped_pipeline: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.478 [main] DEBUG org.restct.RESTCT -             autoclose_referenced_issues: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.478 [main] DEBUG org.restct.RESTCT -             packages_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.478 [main] DEBUG org.restct.RESTCT -             public_builds: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.479 [main] DEBUG org.restct.RESTCT -             repository_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.479 [main] DEBUG org.restct.RESTCT -             name: 3 - [NULL=null, Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:36.479 [main] DEBUG org.restct.RESTCT -             ci_config_path: 4 - [Random=lMFHe9VPEkFVA, NULL=null, Random=BJhyz3GsDp2F3EGh52ofxEwr5, Random=7LlWZUuxFYP6]
+2023-05-21 18:10:36.479 [main] DEBUG org.restct.RESTCT -             request_access_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.479 [main] DEBUG org.restct.RESTCT -             import_url: 4 - [NULL=null, Random=MVGngkpH7NwTsJvVC, Random=bZSeGfngW9kxxQUeeRbGx, Random=gZ1r]
+2023-05-21 18:10:36.479 [main] DEBUG org.restct.RESTCT -             snippets_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.480 [main] DEBUG org.restct.RESTCT -             snippets_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.480 [main] DEBUG org.restct.RESTCT -             builds_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:36.480 [main] DEBUG org.restct.RESTCT -             auto_devops_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.480 [main] DEBUG org.restct.RESTCT -             initialize_with_readme: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.480 [main] DEBUG org.restct.RESTCT -             lfs_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.481 [main] DEBUG org.restct.RESTCT -             printing_merge_request_link_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:36.481 [main] DEBUG org.restct.RESTCT -             emails_disabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:37.410 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:37.421 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 41, parameters: 57
+2023-05-21 18:10:37.433 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:37.547 [main] DEBUG org.restct.RESTCT - 2-th operation: post*http://localhost:30000/api/v4/projects/{id}/protected_branches
+2023-05-21 18:10:37.549 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:37.550 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:37.550 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]
+2023-05-21 18:10:37.949 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:37.949 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:10:37.956 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:37.956 [main] DEBUG org.restct.RESTCT -             merge_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:37.956 [main] DEBUG org.restct.RESTCT -             push_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:37.957 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:37.957 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:37.957 [main] DEBUG org.restct.RESTCT -             allow_force_push: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:37.957 [main] DEBUG org.restct.RESTCT -             unprotect_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:38.427 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:38.428 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 6
+2023-05-21 18:10:38.428 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:38.461 [main] DEBUG org.restct.RESTCT - 3-th operation: get*http://localhost:30000/api/v4/projects
+2023-05-21 18:10:38.461 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 18:10:38.465 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:38.465 [main] DEBUG org.restct.RESTCT -             sort: 3 - [NULL=null, Enum=asc, Enum=desc]
+2023-05-21 18:10:38.465 [main] DEBUG org.restct.RESTCT -             membership: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.466 [main] DEBUG org.restct.RESTCT -             order_by: 11 - [Enum=last_activity_at, Enum=wiki_size, NULL=null, Enum=storage_size, Enum=packages_size, Enum=repository_size, Enum=updated_at, Enum=path, Enum=name, Enum=id, Enum=created_at]
+2023-05-21 18:10:38.466 [main] DEBUG org.restct.RESTCT -             archived: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.466 [main] DEBUG org.restct.RESTCT -             last_activity_after: 7 - [NULL=null, Random=2023-05-21T18:10:38, Random=2023-05-23T18:10:38, Random=2023-05-20T18:10:38, Random=Random]
+2023-05-21 18:10:38.466 [main] DEBUG org.restct.RESTCT -             id_after: 4 - [NULL=null, Random=92, Random=78, Random=62]
+2023-05-21 18:10:38.467 [main] DEBUG org.restct.RESTCT -             min_access_level: 7 - [Enum=30, NULL=null, Enum=0, Enum=50, Enum=20, Enum=40, Enum=10]
+2023-05-21 18:10:38.467 [main] DEBUG org.restct.RESTCT -             repository_storage: 3 - [NULL=null, Random=defaultc, Default=default]
+2023-05-21 18:10:38.467 [main] DEBUG org.restct.RESTCT -             with_programming_language: 4 - [NULL=null, Random=wtb9Lhf9812xIbArVomR6DO, Random=Rd9VoxZFbeWdWiKY, Random=MbBNIojQ9OJVeqLyGlC0]
+2023-05-21 18:10:38.468 [main] DEBUG org.restct.RESTCT -             statistics: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.468 [main] DEBUG org.restct.RESTCT -             simple: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.468 [main] DEBUG org.restct.RESTCT -             with_issues_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.469 [main] DEBUG org.restct.RESTCT -             starred: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.469 [main] DEBUG org.restct.RESTCT -             with_merge_requests_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.469 [main] DEBUG org.restct.RESTCT -             last_activity_before: 7 - [NULL=null, Random=2023-05-21T18:10:38, Random=2023-05-23T18:10:38, Random=2023-05-20T18:10:38, Random=Random]
+2023-05-21 18:10:38.469 [main] DEBUG org.restct.RESTCT -             visibility: 4 - [Enum=public, NULL=null, Enum=private, Enum=internal]
+2023-05-21 18:10:38.470 [main] DEBUG org.restct.RESTCT -             with_custom_attributes: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.470 [main] DEBUG org.restct.RESTCT -             search_namespaces: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.471 [main] DEBUG org.restct.RESTCT -             owned: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:38.471 [main] DEBUG org.restct.RESTCT -             search: 4 - [NULL=null, Random=YXVg9yQKyygjCGlnWUPJ3ulsGZ7em2, Random=mghuzbQLrinuZRzkV, Random=C5tPFr5AScv2Fa9bAo1dn]
+2023-05-21 18:10:38.471 [main] DEBUG org.restct.RESTCT -             id_before: 4 - [Random=25, NULL=null, Random=81, Random=46]
+2023-05-21 18:10:38.967 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:38.968 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 79, parameters: 21
+2023-05-21 18:10:38.969 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:39.082 [main] DEBUG org.restct.RESTCT - 4-th operation: delete*http://localhost:30000/api/v4/projects/{id}/protected_branches/{name}
+2023-05-21 18:10:39.082 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:39.082 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]
+2023-05-21 18:10:39.083 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:39.472 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:39.474 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:10:39.478 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:39.478 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:39.478 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:39.862 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:39.863 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 4, parameters: 2
+2023-05-21 18:10:39.863 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:39.869 [main] DEBUG org.restct.RESTCT - 5-th operation: post*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:39.869 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:39.869 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:39.869 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default, Random]
+2023-05-21 18:10:39.870 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:40.251 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:40.252 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 12, parameters: 3, constraints: 0
+2023-05-21 18:10:40.264 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:40.264 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:40.264 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default=master, Random=test-branch]
+2023-05-21 18:10:40.264 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=, Random=rR6DeqbNc5xGEq, Random=eGYcxFgk9AYs5QTPn4TRycKvMlYm3rH]
+2023-05-21 18:10:40.644 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:40.645 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 6, parameters: 3
+2023-05-21 18:10:40.645 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:40.651 [main] DEBUG org.restct.RESTCT - 6-th operation: get*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:40.651 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:40.651 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:41.021 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:41.022 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 2, parameters: 1, constraints: 0
+2023-05-21 18:10:41.026 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:41.026 [main] DEBUG org.restct.RESTCT -             search: 4 - [NULL=null, Random=vkWHpdRGOQosVi6QKsll5PtjjPfvi, Random=zF1gzMB6LZoq2veRLnocGt81Qne3zaiY0bi4, Random=o6j79q0Pw0upLHoTNXd1ZH4IrfPjBv0]
+2023-05-21 18:10:41.026 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:41.412 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:41.413 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 8, parameters: 2
+2023-05-21 18:10:41.414 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:41.424 [main] DEBUG org.restct.RESTCT - 7-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/branches/{branch}
+2023-05-21 18:10:41.424 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:41.425 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:41.425 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:41.802 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:41.803 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 18:10:41.809 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:41.809 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:41.809 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=oeQZIEnokptI0HDNpoQOy, Random=tcMe6UUc0HsaVNLcXRQl, Random=t]
+2023-05-21 18:10:42.197 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:42.198 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 6, parameters: 2
+2023-05-21 18:10:42.198 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:42.205 [main] DEBUG org.restct.RESTCT - 8-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/merged_branches
+2023-05-21 18:10:42.206 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:42.207 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:42.568 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:42.568 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 2, parameters: 1, constraints: 0
+2023-05-21 18:10:42.571 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:42.571 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:42.951 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:42.951 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 2, parameters: 1
+2023-05-21 18:10:42.952 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:42.955 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 18:10:42.957 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 9.121
+2023-05-21 18:10:42.957 [main] DEBUG org.restct.RESTCT - 1-th operation: post*http://localhost:30000/api/v4/projects
+2023-05-21 18:10:42.957 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 18:10:42.959 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:42.959 [main] DEBUG org.restct.RESTCT -             requirements_access_level: 5 - [Enum=public, NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.959 [main] DEBUG org.restct.RESTCT -             remove_source_branch_after_merge: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             wiki_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             auto_devops_deploy_strategy: 4 - [Enum=timed_incremental, NULL=null, Enum=manual, Enum=continuous]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             cadence: 3 - [Random=7du, Default=7d, NULL=null]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             keep_n: 4 - [NULL=null, Random=iiAqwB, Random=Kd8joi1, Random=Iho6HGVgkgB6Rr2FBjFE]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             older_than: 4 - [Random=AzO6d, NULL=null, Random=71NDmCti9, Random=XG3]
+2023-05-21 18:10:42.960 [main] DEBUG org.restct.RESTCT -             name_regex: 4 - [Random=fsXpys5bPrTbH4yzzcSvZa2iU, NULL=null, Random=WdeoBfiROef, Random=oZGPwfiVjOxgHf0W]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             name_regex_delete: 4 - [NULL=null, Random=9x5ZobU1fnEXLNW, Random=4vwfJjg9sRQAkFvk9Bp5qNNFtYlRcWeXgD, Random=mTXiTKQyJNsdTuxPD]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             name_regex_keep: 4 - [NULL=null, Random=zeopaYaQ, Random=zgOo, Random=dnAM0yynwAn0a]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             next_run_at: 3 - [NULL=null, Default=2020-01-07T21:42:58.658Z, Random=2020-05-04T06:13:22.654Z]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             template_name: 4 - [NULL=null, Random=PnAn7, Random=MVtxPJzE, Random=5SabXzmoDmVdS]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             default_branch: 2 - [NULL=null, Default=master]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             pages_access_level: 5 - [Enum=public, NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             merge_method: 4 - [NULL=null, Enum=ff, Enum=merge, Enum=rebase_merge]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             auto_cancel_pending_pipelines: 3 - [NULL=null, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.961 [main] DEBUG org.restct.RESTCT -             build_git_strategy: 2 - [NULL=null, Default=fetch]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             shared_runners_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             repository_storage: 3 - [NULL=null, Default=default, Random=defuault]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             resolve_outdated_diff_discussions: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             build_timeout: 3 - [NULL=null, Random=6, Default=3600]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             container_registry_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             tag_list: 3 - [NULL=null, Default=[example, puppet], Random=[example, disapora client]]
+2023-05-21 18:10:42.962 [main] DEBUG org.restct.RESTCT -             only_allow_merge_if_pipeline_succeeds: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             visibility: 4 - [Enum=public, NULL=null, Enum=private, Enum=internal]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             only_allow_merge_if_all_discussions_are_resolved: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             build_coverage_regex: 4 - [NULL=null, Random=Tq7U04VMZsPLBSoCT0n2vFxdDX6uXl2jMF, Random=8Xw26Nuq, Random=CXlVNlmqHlguNHoSsU]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             issues_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             merge_requests_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             show_default_award_emojis: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             jobs_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.963 [main] DEBUG org.restct.RESTCT -             merge_requests_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.964 [main] DEBUG org.restct.RESTCT -             namespace_id: 4 - [NULL=null, Random=7, Random=74, Random=51]
+2023-05-21 18:10:42.964 [main] DEBUG org.restct.RESTCT -             path: 3 - [NULL=null, Default=files/markdown, Random=diaspora-project-site]
+2023-05-21 18:10:42.964 [main] DEBUG org.restct.RESTCT -             avatar: 2 - [NULL=null, Random=long random long random]
+2023-05-21 18:10:42.964 [main] DEBUG org.restct.RESTCT -             description: 3 - [NULL=null, Random=Shared project for Html5 Boilerplate, Default=GitLab Community Edition]
+2023-05-21 18:10:42.964 [main] DEBUG org.restct.RESTCT -             forking_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.964 [main] DEBUG org.restct.RESTCT -             wiki_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             issues_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             allow_merge_on_skipped_pipeline: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             autoclose_referenced_issues: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             packages_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             public_builds: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             repository_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.965 [main] DEBUG org.restct.RESTCT -             name: 3 - [NULL=null, Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:42.966 [main] DEBUG org.restct.RESTCT -             ci_config_path: 4 - [Random=lMFHe9VPEkFVA, NULL=null, Random=BJhyz3GsDp2F3EGh52ofxEwr5, Random=7LlWZUuxFYP6]
+2023-05-21 18:10:42.966 [main] DEBUG org.restct.RESTCT -             request_access_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.966 [main] DEBUG org.restct.RESTCT -             import_url: 4 - [NULL=null, Random=MVGngkpH7NwTsJvVC, Random=bZSeGfngW9kxxQUeeRbGx, Random=gZ1r]
+2023-05-21 18:10:42.966 [main] DEBUG org.restct.RESTCT -             snippets_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.966 [main] DEBUG org.restct.RESTCT -             snippets_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.966 [main] DEBUG org.restct.RESTCT -             builds_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:42.967 [main] DEBUG org.restct.RESTCT -             auto_devops_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.967 [main] DEBUG org.restct.RESTCT -             initialize_with_readme: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.967 [main] DEBUG org.restct.RESTCT -             lfs_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.967 [main] DEBUG org.restct.RESTCT -             printing_merge_request_link_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:42.967 [main] DEBUG org.restct.RESTCT -             emails_disabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:43.529 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:43.530 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 41, parameters: 57
+2023-05-21 18:10:43.530 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:43.597 [main] DEBUG org.restct.RESTCT - 2-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/merged_branches
+2023-05-21 18:10:43.598 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:43.598 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:43.977 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:43.978 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 1, constraints: 0
+2023-05-21 18:10:43.980 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:43.980 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:44.346 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:44.346 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 2, parameters: 1
+2023-05-21 18:10:44.346 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:44.348 [main] DEBUG org.restct.RESTCT - 3-th operation: post*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:44.349 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:44.349 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:44.349 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default, Random]
+2023-05-21 18:10:44.349 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:44.736 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:44.737 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 12, parameters: 3, constraints: 0
+2023-05-21 18:10:44.750 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:44.751 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:44.751 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default=master, Random=test-branch]
+2023-05-21 18:10:44.751 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=, Random=rR6DeqbNc5xGEq, Random=eGYcxFgk9AYs5QTPn4TRycKvMlYm3rH]
+2023-05-21 18:10:45.144 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:45.145 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 3
+2023-05-21 18:10:45.145 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:45.151 [main] DEBUG org.restct.RESTCT - 4-th operation: get*http://localhost:30000/api/v4/projects/{id}/repository/branches/{branch}
+2023-05-21 18:10:45.152 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:45.152 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:45.152 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:45.522 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:45.523 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 18:10:45.528 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:45.528 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=ylvCpYun2rB5, Random=Zao208XJlbBl6EC9X36IDYA, Random=5x]
+2023-05-21 18:10:45.528 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:45.900 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:45.900 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 6, parameters: 2
+2023-05-21 18:10:45.900 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:45.904 [main] DEBUG org.restct.RESTCT - 5-th operation: post*http://localhost:30000/api/v4/projects/{id}/protected_branches
+2023-05-21 18:10:45.905 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:45.905 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:45.905 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]
+2023-05-21 18:10:46.432 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:46.432 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:10:46.435 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:46.436 [main] DEBUG org.restct.RESTCT -             merge_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:46.436 [main] DEBUG org.restct.RESTCT -             push_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:46.436 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:46.436 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:46.436 [main] DEBUG org.restct.RESTCT -             allow_force_push: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:46.436 [main] DEBUG org.restct.RESTCT -             unprotect_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:46.923 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:46.924 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 25, parameters: 6
+2023-05-21 18:10:46.925 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:46.952 [main] DEBUG org.restct.RESTCT - 6-th operation: delete*http://localhost:30000/api/v4/projects/{id}/protected_branches/{name}
+2023-05-21 18:10:46.952 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:46.953 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]
+2023-05-21 18:10:46.953 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:47.343 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:47.343 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:10:47.347 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:47.347 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:47.347 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:47.982 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:47.983 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 4, parameters: 2
+2023-05-21 18:10:47.984 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:47.989 [main] DEBUG org.restct.RESTCT - 7-th operation: get*http://localhost:30000/api/v4/projects
+2023-05-21 18:10:47.989 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 18:10:47.991 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:47.991 [main] DEBUG org.restct.RESTCT -             sort: 3 - [NULL=null, Enum=asc, Enum=desc]
+2023-05-21 18:10:47.991 [main] DEBUG org.restct.RESTCT -             membership: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.991 [main] DEBUG org.restct.RESTCT -             order_by: 11 - [Enum=last_activity_at, Enum=wiki_size, NULL=null, Enum=storage_size, Enum=packages_size, Enum=repository_size, Enum=updated_at, Enum=path, Enum=name, Enum=id, Enum=created_at]
+2023-05-21 18:10:47.992 [main] DEBUG org.restct.RESTCT -             archived: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.992 [main] DEBUG org.restct.RESTCT -             last_activity_after: 7 - [NULL=null, Random=2023-05-21T18:10:38, Random=2023-05-23T18:10:38, Random=2023-05-20T18:10:38, Random=Random]
+2023-05-21 18:10:47.992 [main] DEBUG org.restct.RESTCT -             id_after: 4 - [NULL=null, Random=92, Random=78, Random=62]
+2023-05-21 18:10:47.992 [main] DEBUG org.restct.RESTCT -             min_access_level: 7 - [Enum=30, NULL=null, Enum=0, Enum=50, Enum=20, Enum=40, Enum=10]
+2023-05-21 18:10:47.992 [main] DEBUG org.restct.RESTCT -             repository_storage: 3 - [NULL=null, Random=defaultc, Default=default]
+2023-05-21 18:10:47.992 [main] DEBUG org.restct.RESTCT -             with_programming_language: 4 - [NULL=null, Random=wtb9Lhf9812xIbArVomR6DO, Random=Rd9VoxZFbeWdWiKY, Random=MbBNIojQ9OJVeqLyGlC0]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             statistics: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             simple: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             with_issues_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             starred: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             with_merge_requests_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             last_activity_before: 7 - [NULL=null, Random=2023-05-21T18:10:38, Random=2023-05-23T18:10:38, Random=2023-05-20T18:10:38, Random=Random]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             visibility: 4 - [Enum=public, NULL=null, Enum=private, Enum=internal]
+2023-05-21 18:10:47.993 [main] DEBUG org.restct.RESTCT -             with_custom_attributes: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.994 [main] DEBUG org.restct.RESTCT -             search_namespaces: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.994 [main] DEBUG org.restct.RESTCT -             owned: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:47.994 [main] DEBUG org.restct.RESTCT -             search: 4 - [NULL=null, Random=YXVg9yQKyygjCGlnWUPJ3ulsGZ7em2, Random=mghuzbQLrinuZRzkV, Random=C5tPFr5AScv2Fa9bAo1dn]
+2023-05-21 18:10:47.994 [main] DEBUG org.restct.RESTCT -             id_before: 4 - [Random=25, NULL=null, Random=81, Random=46]
+2023-05-21 18:10:48.531 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:48.532 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 79, parameters: 21
+2023-05-21 18:10:48.532 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:48.737 [main] DEBUG org.restct.RESTCT - 8-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/branches/{branch}
+2023-05-21 18:10:48.738 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:48.738 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:48.739 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:49.582 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:49.583 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 18:10:49.592 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:49.592 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:49.592 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=oeQZIEnokptI0HDNpoQOy, Random=tcMe6UUc0HsaVNLcXRQl, Random=t]
+2023-05-21 18:10:50.020 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:50.021 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 6, parameters: 2
+2023-05-21 18:10:50.021 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:50.026 [main] DEBUG org.restct.RESTCT - 9-th operation: get*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:50.026 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:50.026 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:50.445 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:50.446 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 2, parameters: 1, constraints: 0
+2023-05-21 18:10:50.448 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:50.448 [main] DEBUG org.restct.RESTCT -             search: 4 - [NULL=null, Random=vkWHpdRGOQosVi6QKsll5PtjjPfvi, Random=zF1gzMB6LZoq2veRLnocGt81Qne3zaiY0bi4, Random=o6j79q0Pw0upLHoTNXd1ZH4IrfPjBv0]
+2023-05-21 18:10:50.448 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:50.847 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:50.848 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 8, parameters: 2
+2023-05-21 18:10:50.848 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:50.854 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 18:10:50.855 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 17.019
+2023-05-21 18:10:50.855 [main] DEBUG org.restct.RESTCT - 1-th operation: post*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:50.855 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:50.855 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:50.855 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default, Random]
+2023-05-21 18:10:50.855 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:51.273 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:51.274 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 12, parameters: 3, constraints: 0
+2023-05-21 18:10:51.283 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:51.283 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:51.283 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default=master, Random=test-branch]
+2023-05-21 18:10:51.283 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=, Random=rR6DeqbNc5xGEq, Random=eGYcxFgk9AYs5QTPn4TRycKvMlYm3rH]
+2023-05-21 18:10:51.697 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:51.698 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 6, parameters: 3
+2023-05-21 18:10:51.698 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:51.703 [main] DEBUG org.restct.RESTCT - 2-th operation: get*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:51.704 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:51.704 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:52.093 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:52.093 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 1, constraints: 0
+2023-05-21 18:10:52.095 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:52.095 [main] DEBUG org.restct.RESTCT -             search: 4 - [NULL=null, Random=vkWHpdRGOQosVi6QKsll5PtjjPfvi, Random=zF1gzMB6LZoq2veRLnocGt81Qne3zaiY0bi4, Random=o6j79q0Pw0upLHoTNXd1ZH4IrfPjBv0]
+2023-05-21 18:10:52.096 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:52.493 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:52.494 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 8, parameters: 2
+2023-05-21 18:10:52.494 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:52.501 [main] DEBUG org.restct.RESTCT - 3-th operation: post*http://localhost:30000/api/v4/projects/{id}/protected_branches
+2023-05-21 18:10:52.502 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:52.502 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:52.502 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]
+2023-05-21 18:10:52.896 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:52.896 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -             merge_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -             push_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -             allow_force_push: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:52.900 [main] DEBUG org.restct.RESTCT -             unprotect_access_level: 5 - [Enum=30, NULL=null, Enum=0, Enum=40, Enum=60]
+2023-05-21 18:10:53.463 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:53.463 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 25, parameters: 6
+2023-05-21 18:10:53.463 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:53.489 [main] DEBUG org.restct.RESTCT - 4-th operation: get*http://localhost:30000/api/v4/projects/{id}/repository/branches/{branch}
+2023-05-21 18:10:53.489 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:53.489 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:53.489 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:53.941 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:53.941 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 18:10:53.946 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:53.946 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=ylvCpYun2rB5, Random=Zao208XJlbBl6EC9X36IDYA, Random=5x]
+2023-05-21 18:10:53.946 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:54.321 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:54.321 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 6, parameters: 2
+2023-05-21 18:10:54.321 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:54.326 [main] DEBUG org.restct.RESTCT - 5-th operation: delete*http://localhost:30000/api/v4/projects/{id}/protected_branches/{name}
+2023-05-21 18:10:54.326 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:54.326 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]
+2023-05-21 18:10:54.326 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:54.698 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:54.698 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:10:54.701 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:54.701 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:54.701 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:55.076 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:55.077 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 4, parameters: 2
+2023-05-21 18:10:55.077 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:55.080 [main] DEBUG org.restct.RESTCT - 6-th operation: post*http://localhost:30000/api/v4/projects
+2023-05-21 18:10:55.080 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 18:10:55.081 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:55.081 [main] DEBUG org.restct.RESTCT -             requirements_access_level: 5 - [Enum=public, NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.081 [main] DEBUG org.restct.RESTCT -             remove_source_branch_after_merge: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.081 [main] DEBUG org.restct.RESTCT -             wiki_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             auto_devops_deploy_strategy: 4 - [Enum=timed_incremental, NULL=null, Enum=manual, Enum=continuous]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             cadence: 3 - [Random=7du, Default=7d, NULL=null]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             keep_n: 4 - [NULL=null, Random=iiAqwB, Random=Kd8joi1, Random=Iho6HGVgkgB6Rr2FBjFE]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             older_than: 4 - [Random=AzO6d, NULL=null, Random=71NDmCti9, Random=XG3]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             name_regex: 4 - [Random=fsXpys5bPrTbH4yzzcSvZa2iU, NULL=null, Random=WdeoBfiROef, Random=oZGPwfiVjOxgHf0W]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             name_regex_delete: 4 - [NULL=null, Random=9x5ZobU1fnEXLNW, Random=4vwfJjg9sRQAkFvk9Bp5qNNFtYlRcWeXgD, Random=mTXiTKQyJNsdTuxPD]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             name_regex_keep: 4 - [NULL=null, Random=zeopaYaQ, Random=zgOo, Random=dnAM0yynwAn0a]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             next_run_at: 3 - [NULL=null, Default=2020-01-07T21:42:58.658Z, Random=2020-05-04T06:13:22.654Z]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             template_name: 4 - [NULL=null, Random=PnAn7, Random=MVtxPJzE, Random=5SabXzmoDmVdS]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             default_branch: 2 - [NULL=null, Default=master]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             pages_access_level: 5 - [Enum=public, NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             merge_method: 4 - [NULL=null, Enum=ff, Enum=merge, Enum=rebase_merge]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             auto_cancel_pending_pipelines: 3 - [NULL=null, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             build_git_strategy: 2 - [NULL=null, Default=fetch]
+2023-05-21 18:10:55.082 [main] DEBUG org.restct.RESTCT -             shared_runners_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             repository_storage: 3 - [NULL=null, Default=default, Random=defuault]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             resolve_outdated_diff_discussions: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             build_timeout: 3 - [NULL=null, Random=6, Default=3600]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             container_registry_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             tag_list: 3 - [NULL=null, Default=[example, puppet], Random=[example, disapora client]]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             only_allow_merge_if_pipeline_succeeds: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             visibility: 4 - [Enum=public, NULL=null, Enum=private, Enum=internal]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             only_allow_merge_if_all_discussions_are_resolved: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             build_coverage_regex: 4 - [NULL=null, Random=Tq7U04VMZsPLBSoCT0n2vFxdDX6uXl2jMF, Random=8Xw26Nuq, Random=CXlVNlmqHlguNHoSsU]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             issues_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             merge_requests_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             show_default_award_emojis: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             jobs_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             merge_requests_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             namespace_id: 4 - [NULL=null, Random=7, Random=74, Random=51]
+2023-05-21 18:10:55.083 [main] DEBUG org.restct.RESTCT -             path: 3 - [NULL=null, Default=files/markdown, Random=diaspora-project-site]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             avatar: 2 - [NULL=null, Random=long random long random]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             description: 3 - [NULL=null, Random=Shared project for Html5 Boilerplate, Default=GitLab Community Edition]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             forking_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             wiki_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             issues_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             allow_merge_on_skipped_pipeline: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             autoclose_referenced_issues: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             packages_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             public_builds: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             repository_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             name: 3 - [NULL=null, Default=GNU Lesser General Public License v3.0, Random=Jody Baumbach]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             ci_config_path: 4 - [Random=lMFHe9VPEkFVA, NULL=null, Random=BJhyz3GsDp2F3EGh52ofxEwr5, Random=7LlWZUuxFYP6]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             request_access_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             import_url: 4 - [NULL=null, Random=MVGngkpH7NwTsJvVC, Random=bZSeGfngW9kxxQUeeRbGx, Random=gZ1r]
+2023-05-21 18:10:55.084 [main] DEBUG org.restct.RESTCT -             snippets_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             snippets_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             builds_access_level: 4 - [NULL=null, Enum=private, Enum=disabled, Enum=enabled]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             auto_devops_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             initialize_with_readme: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             lfs_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             printing_merge_request_link_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.085 [main] DEBUG org.restct.RESTCT -             emails_disabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:55.667 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:55.669 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 41, parameters: 57
+2023-05-21 18:10:55.669 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:55.728 [main] DEBUG org.restct.RESTCT - 7-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/merged_branches
+2023-05-21 18:10:55.728 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:55.728 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:56.139 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:56.140 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 2, parameters: 1, constraints: 0
+2023-05-21 18:10:56.143 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:56.143 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:56.650 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:56.651 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 2, parameters: 1
+2023-05-21 18:10:56.651 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:56.654 [main] DEBUG org.restct.RESTCT - 8-th operation: get*http://localhost:30000/api/v4/projects
+2023-05-21 18:10:56.654 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 18:10:56.656 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:56.656 [main] DEBUG org.restct.RESTCT -             sort: 3 - [NULL=null, Enum=asc, Enum=desc]
+2023-05-21 18:10:56.656 [main] DEBUG org.restct.RESTCT -             membership: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             order_by: 11 - [Enum=last_activity_at, Enum=wiki_size, NULL=null, Enum=storage_size, Enum=packages_size, Enum=repository_size, Enum=updated_at, Enum=path, Enum=name, Enum=id, Enum=created_at]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             archived: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             last_activity_after: 7 - [NULL=null, Random=2023-05-21T18:10:38, Random=2023-05-23T18:10:38, Random=2023-05-20T18:10:38, Random=Random]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             id_after: 4 - [NULL=null, Random=92, Random=78, Random=62]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             min_access_level: 7 - [Enum=30, NULL=null, Enum=0, Enum=50, Enum=20, Enum=40, Enum=10]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             repository_storage: 3 - [NULL=null, Random=defaultc, Default=default]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             with_programming_language: 4 - [NULL=null, Random=wtb9Lhf9812xIbArVomR6DO, Random=Rd9VoxZFbeWdWiKY, Random=MbBNIojQ9OJVeqLyGlC0]
+2023-05-21 18:10:56.657 [main] DEBUG org.restct.RESTCT -             statistics: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.658 [main] DEBUG org.restct.RESTCT -             simple: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.658 [main] DEBUG org.restct.RESTCT -             with_issues_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.658 [main] DEBUG org.restct.RESTCT -             starred: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.658 [main] DEBUG org.restct.RESTCT -             with_merge_requests_enabled: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.658 [main] DEBUG org.restct.RESTCT -             last_activity_before: 7 - [NULL=null, Random=2023-05-21T18:10:38, Random=2023-05-23T18:10:38, Random=2023-05-20T18:10:38, Random=Random]
+2023-05-21 18:10:56.659 [main] DEBUG org.restct.RESTCT -             visibility: 4 - [Enum=public, NULL=null, Enum=private, Enum=internal]
+2023-05-21 18:10:56.659 [main] DEBUG org.restct.RESTCT -             with_custom_attributes: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.659 [main] DEBUG org.restct.RESTCT -             search_namespaces: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.659 [main] DEBUG org.restct.RESTCT -             owned: 3 - [NULL=null, Enum=true, Enum=false]
+2023-05-21 18:10:56.659 [main] DEBUG org.restct.RESTCT -             search: 4 - [NULL=null, Random=YXVg9yQKyygjCGlnWUPJ3ulsGZ7em2, Random=mghuzbQLrinuZRzkV, Random=C5tPFr5AScv2Fa9bAo1dn]
+2023-05-21 18:10:56.659 [main] DEBUG org.restct.RESTCT -             id_before: 4 - [Random=25, NULL=null, Random=81, Random=46]
+2023-05-21 18:10:57.171 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:57.172 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 79, parameters: 21
+2023-05-21 18:10:57.173 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:57.236 [main] DEBUG org.restct.RESTCT - 9-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/branches/{branch}
+2023-05-21 18:10:57.237 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:57.237 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:57.237 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:57.646 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:57.647 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 18:10:57.654 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:57.654 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:57.654 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=oeQZIEnokptI0HDNpoQOy, Random=tcMe6UUc0HsaVNLcXRQl, Random=t]
+2023-05-21 18:10:58.194 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:58.195 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 6, parameters: 2
+2023-05-21 18:10:58.195 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:58.199 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 18:10:58.199 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 24.363
+2023-05-21 18:10:58.200 [main] DEBUG org.restct.RESTCT - 1-th operation: post*http://localhost:30000/api/v4/projects/{id}/repository/branches
+2023-05-21 18:10:58.200 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:58.200 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:58.200 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default, Random]
+2023-05-21 18:10:58.200 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:58.645 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:58.645 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 12, parameters: 3, constraints: 0
+2023-05-21 18:10:58.661 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:58.661 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:58.662 [main] DEBUG org.restct.RESTCT -             ref: 2 - [Default=master, Random=test-branch]
+2023-05-21 18:10:58.662 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=, Random=rR6DeqbNc5xGEq, Random=eGYcxFgk9AYs5QTPn4TRycKvMlYm3rH]
+2023-05-21 18:10:59.104 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:59.105 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 6, parameters: 3
+2023-05-21 18:10:59.105 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:59.112 [main] DEBUG org.restct.RESTCT - 2-th operation: delete*http://localhost:30000/api/v4/projects/{id}/repository/branches/{branch}
+2023-05-21 18:10:59.112 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:59.112 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:59.112 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random]
+2023-05-21 18:10:59.529 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:59.529 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 18:10:59.533 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:59.533 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default=31405c5ddef582c5a9b7a85230413ff90e2fe720, Random=a1e8f8d745cc87e3a9248358d9352bb7f9a0aeba]
+2023-05-21 18:10:59.533 [main] DEBUG org.restct.RESTCT -             branch: 3 - [Random=oeQZIEnokptI0HDNpoQOy, Random=tcMe6UUc0HsaVNLcXRQl, Random=t]
+2023-05-21 18:10:59.948 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:10:59.949 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 6, parameters: 2
+2023-05-21 18:10:59.949 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:10:59.954 [main] DEBUG org.restct.RESTCT - 3-th operation: post*http://localhost:30000/api/v4/projects/{id}/protected_branches
+2023-05-21 18:10:59.954 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:10:59.954 [main] DEBUG org.restct.RESTCT -             id: 2 - [Default, Random]
+2023-05-21 18:10:59.954 [main] DEBUG org.restct.RESTCT -             name: 2 - [Default, Random]

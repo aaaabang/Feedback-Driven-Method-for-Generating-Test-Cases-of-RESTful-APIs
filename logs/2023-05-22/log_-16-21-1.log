@@ -1,0 +1,3 @@
+2023-05-22 16:21:25.827 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:21:25.835 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/Convert/
+2023-05-22 16:21:26.211 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

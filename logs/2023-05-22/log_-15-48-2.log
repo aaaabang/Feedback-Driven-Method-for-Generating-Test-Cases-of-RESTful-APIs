@@ -1,0 +1,13 @@
+2023-05-22 15:49:16.116 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 15:49:16.133 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:49:16.133 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 15:49:16.133 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:49:16.746 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:49:18.618 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:49:18.618 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:49:37.820 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:49:37.820 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 15:49:37.820 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:49:38.655 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:49:42.453 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:49:42.453 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

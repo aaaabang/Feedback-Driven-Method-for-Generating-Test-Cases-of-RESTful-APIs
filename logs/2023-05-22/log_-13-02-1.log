@@ -1,0 +1,26 @@
+2023-05-22 13:02:29.368 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 13:02:29.479 [main] INFO  org.restct.RESTCT - Operations: 4
+2023-05-22 13:02:29.479 [main] INFO  org.restct.RESTCT - Examples found: 5
+2023-05-22 13:02:29.503 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 4
+2023-05-22 13:02:30.252 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 8, parameters: 3, constraints: 0
+2023-05-22 13:02:37.252 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 13:02:37.271 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:02:40.290 [main] ERROR org.restct.RESTCT - Program execution failed: fromIndex(0) > toIndex(-1)
+java.lang.IllegalArgumentException: fromIndex(0) > toIndex(-1)
+	at java.util.ArrayList.subListRangeCheck(ArrayList.java:1014) ~[?:1.8.0_231]
+	at java.util.ArrayList.subList(ArrayList.java:1004) ~[?:1.8.0_231]
+	at org.restct.CoveringArray.run(CoveringArray.java:159) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:106) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 13:02:40.306 [main] INFO  org.restct.RESTCT - Program execution time: 12371 ms.
+2023-05-22 13:02:45.181 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 13:02:45.403 [main] INFO  org.restct.RESTCT - Operations: 10
+2023-05-22 13:02:45.404 [main] INFO  org.restct.RESTCT - Examples found: 12
+2023-05-22 13:02:45.477 [main] INFO  org.restct.RESTCT - Uncovered combinations: 45, sequence length: 10
+2023-05-22 13:02:45.488 [main] INFO  org.restct.RESTCT - Uncovered combinations: 31, sequence length: 10
+2023-05-22 13:02:45.495 [main] INFO  org.restct.RESTCT - Uncovered combinations: 16, sequence length: 9
+2023-05-22 13:02:45.501 [main] INFO  org.restct.RESTCT - Uncovered combinations: 9, sequence length: 8
+2023-05-22 13:02:45.503 [main] INFO  org.restct.RESTCT - Uncovered combinations: 3, sequence length: 6
+2023-05-22 13:02:45.504 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 4
+2023-05-22 13:02:45.505 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-22 13:02:45.887 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0

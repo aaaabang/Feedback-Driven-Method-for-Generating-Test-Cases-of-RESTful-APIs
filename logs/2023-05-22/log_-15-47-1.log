@@ -1,0 +1,11 @@
+2023-05-22 15:47:20.271 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 52, parameters: 18
+2023-05-22 15:47:20.274 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:47:52.345 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:47:52.347 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 15:47:52.348 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:47:52.349 [main] INFO  org.restct.RESTCT -             waypoint.0: 2 - [Random=Seattle,WA;s64;1, Default=Seattle,WA;64;1]
+2023-05-22 15:47:52.349 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:47:52.349 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:47:52.349 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=17, Random=19, Random=18]
+2023-05-22 15:47:52.349 [main] INFO  org.restct.RESTCT -             waypoint.1: 2 - [Random=Redmond,WA;66;, Default=Redmond,WA;66;2]
+2023-05-22 15:47:52.854 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0

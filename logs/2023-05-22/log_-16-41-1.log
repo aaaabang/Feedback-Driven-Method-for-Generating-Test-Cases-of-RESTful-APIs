@@ -1,0 +1,19 @@
+2023-05-22 16:41:18.125 [main] INFO  org.restct.RESTCT - 5-th operation: get*http://dev.virtualearth.net/REST/v1/LocalSearch
+2023-05-22 16:41:18.131 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:41:18.132 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:41:18.495 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 16:41:20.143 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 24, parameters: 7
+2023-05-22 16:41:20.144 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:41:37.390 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:41:37.391 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/LocalSearch
+2023-05-22 16:41:37.391 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:41:37.392 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:41:37.860 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 16:41:39.309 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 24, parameters: 7
+2023-05-22 16:41:39.309 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:41:56.956 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 16:41:56.957 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:41:56.958 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:41:57.367 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 16:41:58.839 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 16:41:58.839 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

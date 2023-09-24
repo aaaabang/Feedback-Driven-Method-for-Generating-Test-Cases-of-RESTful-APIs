@@ -1,0 +1,9 @@
+2023-05-22 13:42:03.038 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 13:42:03.040 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:42:14.269 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 13:42:14.567 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 13:42:18.853 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 13:42:18.854 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:42:32.312 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 13:42:40.994 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 13:42:40.994 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

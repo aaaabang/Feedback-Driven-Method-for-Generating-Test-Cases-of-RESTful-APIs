@@ -1,0 +1,8 @@
+2023-05-22 01:10:26.337 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Isochrones
+2023-05-22 01:10:26.716 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 01:10:27.455 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 01:10:27.455 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 01:10:32.255 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 01:10:32.261 [main] INFO  org.restct.RESTCT - 3-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback
+2023-05-22 01:10:33.323 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0

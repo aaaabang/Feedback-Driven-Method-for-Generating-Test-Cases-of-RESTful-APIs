@@ -1,0 +1,7 @@
+2023-05-22 17:30:00.016 [main] INFO  org.restct.RESTCT - 5-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Truck
+2023-05-22 17:30:00.025 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 17:30:00.025 [main] INFO  org.restct.RESTCT -             waypoint.1: 2 - [Random=Seattl, Default=Seattle]
+2023-05-22 17:30:00.025 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 17:30:00.526 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:30:01.904 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 579, parameters: 28
+2023-05-22 17:30:01.905 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

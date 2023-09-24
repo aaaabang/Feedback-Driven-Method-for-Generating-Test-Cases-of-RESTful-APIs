@@ -1,0 +1,4 @@
+2023-05-22 16:15:13.654 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:15:13.692 [main] INFO  org.restct.RESTCT - Imagery,2,3,2,7.0,8.00,0.90,0.70,90,3,4819,883,43.83
+
+2023-05-22 16:15:13.692 [main] INFO  org.restct.RESTCT - Program execution time: 2630048 ms.

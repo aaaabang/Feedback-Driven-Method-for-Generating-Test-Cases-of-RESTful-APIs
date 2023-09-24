@@ -1,0 +1,10 @@
+2023-05-22 16:33:00.808 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 24, parameters: 6
+2023-05-22 16:33:00.812 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:33:08.842 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/LocationRecog/{point}
+2023-05-22 16:33:09.361 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:33:10.463 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 40, parameters: 10
+2023-05-22 16:33:10.464 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:33:21.347 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:33:21.418 [main] INFO  org.restct.RESTCT - Locations,2,3,2,3.0,4.67,1.00,1.00,20,0,371,175,2.82
+
+2023-05-22 16:33:21.418 [main] INFO  org.restct.RESTCT - Program execution time: 169404 ms.

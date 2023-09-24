@@ -1,0 +1,97 @@
+{
+  "responseChain": {},
+  "method": "get",
+  "response": {
+    "map": {
+      "traceId": "bcb855e553984b11bf154c5ed92f543f|PUS000DD93|0.0.0.0|HKG00067DB, HKG00067D9|Ref A: 754A2EFA2FF8448EBA1A65A3285BE885 Ref B: OSA02EDGE0819 Ref C: 2023-05-22T11:59:38Z|Ref A: C0CFB82E6CF04088ADBAA8D4A781E173 Ref B: OSA02EDGE1618 Ref C: 2023-05-22T11:59:38Z|Ref A: C7FCB4674AF44782B8AAD5EF597727EE Ref B: OSA02EDGE1511 Ref C: 2023-05-22T11:59:38Z",
+      "copyright": "Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+      "statusDescription": "Internal Server Error",
+      "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+      "resourceSets": {
+        "myArrayList": []
+      },
+      "authenticationResultCode": "ValidCredentials",
+      "errorDetails": {
+        "myArrayList": [
+          "Your request could not be completed because there was a problem with the service."
+        ]
+      },
+      "statusCode": 500
+    }
+  },
+  "parameters": {
+    "dateTime": {
+      "key": "Default",
+      "value": "03/01/2011 05:42:00"
+    },
+    "distanceUnit": {
+      "key": "Enum",
+      "value": "Mile"
+    },
+    "heading": {
+      "key": "Random",
+      "value": 53
+    },
+    "distanceBeforeFirstTurn": {
+      "key": "Random",
+      "value": 83
+    },
+    "viaWaypoint.2": {
+      "key": "Random",
+      "value": "Kirklandg"
+    },
+    "timeType": {
+      "key": "Enum",
+      "value": "Arrival"
+    },
+    "routePathOutput": {
+      "key": "Enum",
+      "value": "None"
+    },
+    "maxSolutions": {
+      "key": "NULL"
+    },
+    "optimize": {
+      "key": "Enum",
+      "value": "timeAvoidClosure"
+    },
+    "itineraryGroups": {
+      "key": "Enum",
+      "value": false
+    },
+    "waypoint.3": {
+      "key": "Default",
+      "value": "Redmond"
+    },
+    "routeAttributes": {
+      "key": "Enum",
+      "value": "routePath"
+    },
+    "waypoint.1": {
+      "key": "Default",
+      "value": "Seattle"
+    },
+    "avoid": {
+      "key": "Enum",
+      "value": "minimizeHighways"
+    },
+    "tolerances": {
+      "key": "Random",
+      "value": "0.00000344,0.0005978"
+    },
+    "key": {
+      "key": "Enum",
+      "value": "Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb"
+    },
+    "optimizeWaypoints": {
+      "key": "Enum",
+      "value": true
+    },
+    "travelMode": {
+      "key": "Enum",
+      "value": "Walking"
+    }
+  },
+  "url": "http://dev.virtualearth.net/REST/v1/Routes/{travelMode}",
+  "statusCode": 500
+}

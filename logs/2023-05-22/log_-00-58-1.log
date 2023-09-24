@@ -1,0 +1,27 @@
+2023-05-22 00:58:07.741 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 00:58:07.883 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-22 00:58:07.883 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-22 00:58:07.974 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-22 00:58:07.983 [main] INFO  org.restct.RESTCT - Uncovered combinations: 67, sequence length: 14
+2023-05-22 00:58:07.996 [main] INFO  org.restct.RESTCT - Uncovered combinations: 44, sequence length: 13
+2023-05-22 00:58:08.017 [main] INFO  org.restct.RESTCT - Uncovered combinations: 25, sequence length: 12
+2023-05-22 00:58:08.024 [main] INFO  org.restct.RESTCT - Uncovered combinations: 16, sequence length: 10
+2023-05-22 00:58:08.027 [main] INFO  org.restct.RESTCT - Uncovered combinations: 9, sequence length: 9
+2023-05-22 00:58:08.029 [main] INFO  org.restct.RESTCT - Uncovered combinations: 3, sequence length: 8
+2023-05-22 00:58:08.031 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 5
+2023-05-22 00:58:08.040 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/LocalInsights
+2023-05-22 00:58:08.702 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 00:58:11.130 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 00:58:11.140 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 00:58:28.372 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 00:58:28.802 [main] ERROR org.restct.RESTCT - Program execution failed: Index: 1, Size: 1
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_231]
+	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:636) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:657) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:206) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 00:58:28.811 [main] INFO  org.restct.RESTCT - Program execution time: 22311 ms.

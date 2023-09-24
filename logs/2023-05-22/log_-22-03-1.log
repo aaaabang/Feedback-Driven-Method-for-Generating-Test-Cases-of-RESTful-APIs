@@ -1,0 +1,4 @@
+2023-05-22 22:03:05.196 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 22:03:05.231 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback
+2023-05-22 22:03:07.111 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0

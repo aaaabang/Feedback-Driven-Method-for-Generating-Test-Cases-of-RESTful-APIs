@@ -1,0 +1,15 @@
+2023-05-22 16:04:54.987 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 16:04:54.992 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:04:54.992 [main] DEBUG org.restct.RESTCT -             query: 2 - [Default, Random]
+2023-05-22 16:04:54.992 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 16:04:55.665 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:04:55.666 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:04:56.726 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:04:56.726 [main] DEBUG org.restct.RESTCT -             includeDstRules: 3 - [NULL=null, Enum=false, Enum=true]
+2023-05-22 16:04:56.726 [main] DEBUG org.restct.RESTCT -             output: 3 - [NULL=null, Enum=XML, Enum=JSON]
+2023-05-22 16:04:56.727 [main] DEBUG org.restct.RESTCT -             dateTime: 3 - [NULL=null, Random=018-05-15T13:14:15Z, Default=2018-05-15T13:14:15Z]
+2023-05-22 16:04:56.727 [main] DEBUG org.restct.RESTCT -             query: 2 - [Random=bwellevue,wa,us, Default=bellevue,wa,us]
+2023-05-22 16:04:56.727 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 16:04:57.177 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:04:57.178 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:04:57.178 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

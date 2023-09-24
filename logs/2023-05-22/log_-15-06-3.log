@@ -1,0 +1,9 @@
+2023-05-22 15:07:16.583 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:07:16.590 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 15:07:17.007 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0
+2023-05-22 15:07:33.931 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 52, parameters: 18
+2023-05-22 15:07:33.931 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:07:55.722 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 15:07:56.221 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:07:57.830 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:07:57.831 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

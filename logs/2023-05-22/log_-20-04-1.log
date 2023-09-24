@@ -1,0 +1,2 @@
+2023-05-22 20:24:37.278 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 20:24:38.160 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0

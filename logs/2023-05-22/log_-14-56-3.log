@@ -1,0 +1,11 @@
+2023-05-22 14:57:16.689 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 52, parameters: 19
+2023-05-22 14:57:16.692 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:57:36.236 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 14:57:36.238 [main] INFO  org.restct.RESTCT - 9-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 14:57:36.239 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 14:57:36.239 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 14:57:36.239 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 14:57:37.231 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 11, parameters: 2, constraints: 0
+2023-05-22 14:57:40.712 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 66, parameters: 6
+2023-05-22 14:57:40.713 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

@@ -1,0 +1,9 @@
+2023-05-22 16:27:31.534 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 16:27:31.542 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}
+2023-05-22 16:27:31.895 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 16:27:35.477 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:27:35.477 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:27:46.297 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 16:27:50.244 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:27:50.244 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

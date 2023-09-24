@@ -1,0 +1,20 @@
+2023-05-22 16:14:28.129 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 16:14:28.132 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:14:28.132 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 16:14:28.132 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:14:28.707 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:14:33.325 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:14:33.325 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:14:51.179 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:14:51.179 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 16:14:51.179 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:14:51.622 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:14:55.962 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:14:55.963 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+ get*https://dev.virtualearth.net/REST/v1/TimeZone/Convert/
+2023-05-22 16:14:48.649 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:14:48.650 [main] DEBUG org.restct.RESTCT -             desttz: 21 - [Enum]
+2023-05-22 16:14:48.651 [main] DEBUG org.restct.RESTCT -             dateTime: 2 - [Default, Random]
+2023-05-22 16:14:48.653 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 16:14:49.521 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:14:49.524 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 42, parameters: 3, constraints: 0

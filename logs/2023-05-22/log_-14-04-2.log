@@ -1,0 +1,18 @@
+2023-05-22 14:05:02.740 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 40, parameters: 10
+2023-05-22 14:05:02.771 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:05:19.978 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 14:05:20.604 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 14:05:22.453 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 14:05:22.454 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:05:31.660 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{query}
+2023-05-22 14:05:31.992 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 14:05:33.665 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 20, parameters: 5
+2023-05-22 14:05:33.665 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:05:45.384 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/LocalSearch
+2023-05-22 14:05:45.753 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 14:05:46.522 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 24, parameters: 7
+2023-05-22 14:05:46.523 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:05:56.438 [main] INFO  org.restct.RESTCT - 5-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{point}
+2023-05-22 14:05:56.824 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 14:05:58.083 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 24, parameters: 6
+2023-05-22 14:05:58.084 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

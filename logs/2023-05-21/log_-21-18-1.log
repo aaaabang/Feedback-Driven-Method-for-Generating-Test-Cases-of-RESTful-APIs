@@ -1,0 +1,9 @@
+2023-05-21 21:18:01.079 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 225, parameters: 5
+2023-05-21 21:18:01.081 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 21:18:24.469 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 21:18:25.403 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 9, parameters: 5
+2023-05-21 21:18:25.404 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 21:18:27.128 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 21:18:27.143 [main] INFO  org.restct.RESTCT - TimeZone,2,3,2,3.0,4.00,1.00,1.00,12,0,2305,992,4.26
+
+2023-05-21 21:18:27.143 [main] INFO  org.restct.RESTCT - Program execution time: 255767 ms.

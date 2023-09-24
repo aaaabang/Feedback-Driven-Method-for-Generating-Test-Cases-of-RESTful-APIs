@@ -1,0 +1,28 @@
+2023-05-22 17:51:44.545 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:51:45.515 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 51, parameters: 17
+2023-05-22 17:51:45.515 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:45.530 [main] INFO  org.restct.RESTCT - 6-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync
+2023-05-22 17:51:46.012 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 17:51:46.638 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 17:51:46.638 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:46.649 [main] INFO  org.restct.RESTCT - 7-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 17:51:47.406 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 17:51:48.101 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 17:51:48.101 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:48.112 [main] INFO  org.restct.RESTCT - 8-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/LocalInsights
+2023-05-22 17:51:48.583 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 17:51:49.122 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 17:51:49.122 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:49.132 [main] INFO  org.restct.RESTCT - 9-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync
+2023-05-22 17:51:51.023 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0
+2023-05-22 17:51:52.721 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 577, parameters: 23
+2023-05-22 17:51:52.722 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:52.876 [main] INFO  org.restct.RESTCT - 10-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 17:51:53.484 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 17:51:54.100 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 17:51:54.101 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:54.115 [main] INFO  org.restct.RESTCT - 11-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Isochrones
+2023-05-22 17:51:55.459 [main] INFO  org.restct.RESTCT -         11-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:51:58.264 [main] INFO  org.restct.RESTCT -         11-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 17:51:58.265 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:51:58.305 [main] INFO  org.restct.RESTCT - 12-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItinerary

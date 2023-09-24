@@ -1,0 +1,9 @@
+2023-05-22 16:18:50.286 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/Convert/
+2023-05-22 16:18:51.000 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 16:18:51.122 [main] INFO  org.restct.RESTCT - Operations: 10
+2023-05-22 16:18:51.125 [main] INFO  org.restct.RESTCT - Examples found: 12
+2023-05-22 16:18:51.168 [main] INFO  org.restct.RESTCT - Uncovered combinations: 45, sequence length: 10
+2023-05-22 16:18:51.176 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 16:18:51.589 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:18:57.541 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:18:57.552 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

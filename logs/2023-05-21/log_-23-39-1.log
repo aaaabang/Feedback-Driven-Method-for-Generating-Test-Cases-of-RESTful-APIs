@@ -1,0 +1,16 @@
+2023-05-21 23:39:40.091 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 23:39:40.099 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 23:39:40.185 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 23:39:51.118 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 23:39:51.265 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 23:39:51.266 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 23:39:51.335 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 23:39:51.350 [main] INFO  org.restct.RESTCT - Uncovered combinations: 60, sequence length: 14
+2023-05-21 23:39:51.360 [main] INFO  org.restct.RESTCT - Uncovered combinations: 45, sequence length: 13
+2023-05-21 23:39:51.390 [main] INFO  org.restct.RESTCT - Uncovered combinations: 25, sequence length: 12
+2023-05-21 23:39:51.394 [main] INFO  org.restct.RESTCT - Uncovered combinations: 15, sequence length: 10
+2023-05-21 23:39:51.399 [main] INFO  org.restct.RESTCT - Uncovered combinations: 7, sequence length: 9
+2023-05-21 23:39:51.402 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 8
+2023-05-21 23:39:52.170 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 23:39:53.482 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 51, parameters: 17
+2023-05-21 23:39:53.494 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

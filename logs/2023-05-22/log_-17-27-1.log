@@ -1,0 +1,4 @@
+2023-05-22 17:27:46.546 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 17:27:46.987 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 17:27:53.154 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 17:27:53.155 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

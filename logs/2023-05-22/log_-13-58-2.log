@@ -1,0 +1,12 @@
+2023-05-22 13:59:24.980 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 13:59:25.336 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 13:59:26.605 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 13:59:26.605 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:59:29.831 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/{point}
+2023-05-22 13:59:30.285 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 13:59:32.101 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 13:59:32.101 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:59:34.860 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 13:59:34.879 [main] INFO  org.restct.RESTCT - TimeZone,2,3,2,3.0,4.00,1.00,1.00,12,0,1941,848,13.37
+
+2023-05-22 13:59:34.880 [main] INFO  org.restct.RESTCT - Program execution time: 802308 ms.

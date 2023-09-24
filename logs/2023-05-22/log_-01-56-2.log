@@ -1,0 +1,8 @@
+2023-05-22 02:01:25.729 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 02:01:25.737 [main] INFO  org.restct.RESTCT - 6-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/LocalInsights
+2023-05-22 02:01:26.519 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 02:01:28.312 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 02:01:28.312 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 02:01:47.961 [main] INFO  org.restct.RESTCT - 7-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 02:01:48.706 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0

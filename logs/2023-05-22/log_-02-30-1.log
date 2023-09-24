@@ -1,0 +1,13 @@
+2023-05-22 02:30:00.128 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 02:30:00.741 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 02:30:00.741 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 02:30:05.614 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 02:30:05.615 [main] INFO  org.restct.RESTCT - 10-th operation: get*http://dev.virtualearth.net/REST/v1/Routes
+2023-05-22 02:30:06.048 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 02:30:06.729 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 51, parameters: 17
+2023-05-22 02:30:06.729 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 02:30:15.989 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 02:30:15.990 [main] INFO  org.restct.RESTCT - 11-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync
+2023-05-22 02:30:17.080 [main] INFO  org.restct.RESTCT -         11-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0

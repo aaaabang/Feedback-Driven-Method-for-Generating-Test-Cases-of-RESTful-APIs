@@ -1,0 +1,7 @@
+2023-05-22 21:00:06.818 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 21:00:07.965 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 486, parameters: 28
+2023-05-22 21:00:07.965 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 21:00:08.169 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads
+2023-05-22 21:00:08.182 [main] INFO  org.restct.RESTCT - Route,2,3,2,15.0,4.47,0.07,0.00,182,1,49288,6,64.23
+
+2023-05-22 21:00:08.185 [main] INFO  org.restct.RESTCT - Program execution time: 3853971 ms.

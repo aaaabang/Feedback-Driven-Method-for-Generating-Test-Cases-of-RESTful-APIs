@@ -1,0 +1,4 @@
+2023-05-22 16:24:00.850 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:24:00.856 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:24:04.828 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone
+2023-05-22 16:24:05.192 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

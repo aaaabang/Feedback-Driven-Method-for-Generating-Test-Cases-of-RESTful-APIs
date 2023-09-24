@@ -1,0 +1,14 @@
+2023-05-22 14:49:01.062 [main] INFO  org.restct.RESTCT - 7-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 14:49:01.859 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 14:49:04.473 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 14:49:04.473 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:49:21.710 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 14:49:23.694 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 14:49:23.695 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:49:34.861 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 14:49:36.785 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 14:49:36.785 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+ct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}
+2023-05-22 14:49:07.650 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 60, parameters: 4, constraints: 0
+2023-05-22 14:49:46.287 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 44, parameters: 20
+2023-05-22 14:49:46.300 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

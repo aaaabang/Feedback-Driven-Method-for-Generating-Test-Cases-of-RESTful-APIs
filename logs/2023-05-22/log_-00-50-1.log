@@ -1,0 +1,28 @@
+2023-05-22 00:50:56.313 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 00:50:56.505 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-22 00:50:56.505 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-22 00:50:56.584 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-22 00:50:56.594 [main] INFO  org.restct.RESTCT - Uncovered combinations: 55, sequence length: 14
+2023-05-22 00:50:56.610 [main] INFO  org.restct.RESTCT - Uncovered combinations: 23, sequence length: 13
+2023-05-22 00:50:56.631 [main] INFO  org.restct.RESTCT - Uncovered combinations: 12, sequence length: 12
+2023-05-22 00:50:56.635 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 11
+2023-05-22 00:50:56.637 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 4
+2023-05-22 00:50:56.640 [main] INFO  org.restct.RESTCT - 1-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 00:50:57.298 [main] ERROR org.restct.RESTCT - Program execution failed: 12
+java.lang.ArrayIndexOutOfBoundsException: 12
+	at org.restct.ACTS.getName(CoveringArray.java:520) ~[classes/:?]
+	at org.restct.ACTS.lambda$parseOutput$0(CoveringArray.java:624) ~[classes/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_231]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_231]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_231]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_231]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_231]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_231]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:625) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:656) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:205) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 00:50:57.309 [main] INFO  org.restct.RESTCT - Program execution time: 2467 ms.

@@ -1,0 +1,55 @@
+2023-05-22 00:18:02.639 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 00:18:02.645 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 00:18:03.364 [main] ERROR org.restct.RESTCT - Program execution failed: 14
+java.lang.ArrayIndexOutOfBoundsException: 14
+	at org.restct.ACTS.getName(CoveringArray.java:508) ~[classes/:?]
+	at org.restct.ACTS.lambda$parseOutput$0(CoveringArray.java:612) ~[classes/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_231]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:1.8.0_231]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_231]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_231]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_231]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_231]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:613) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:644) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:193) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 00:18:03.439 [main] INFO  org.restct.RESTCT - Program execution time: 91291 ms.
+2023-05-22 00:18:19.227 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 00:18:19.440 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-22 00:18:19.445 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-22 00:18:19.556 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-22 00:18:19.570 [main] INFO  org.restct.RESTCT - Uncovered combinations: 70, sequence length: 14
+2023-05-22 00:18:19.594 [main] INFO  org.restct.RESTCT - Uncovered combinations: 39, sequence length: 13
+2023-05-22 00:18:19.642 [main] INFO  org.restct.RESTCT - Uncovered combinations: 26, sequence length: 12
+2023-05-22 00:18:19.650 [main] INFO  org.restct.RESTCT - Uncovered combinations: 15, sequence length: 11
+2023-05-22 00:18:19.666 [main] INFO  org.restct.RESTCT - Uncovered combinations: 8, sequence length: 10
+2023-05-22 00:18:19.671 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 9
+2023-05-22 00:18:19.673 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-22 00:18:20.472 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 00:18:22.941 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 00:18:22.954 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 00:18:43.959 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 00:18:44.637 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 00:18:44.638 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 00:18:47.567 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 00:18:48.152 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 00:18:48.152 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 00:18:51.126 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 00:18:51.849 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 00:18:51.849 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 00:18:54.764 [main] ERROR org.restct.RESTCT - Program execution failed: Index: 1, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_231]
+	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:621) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:642) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:193) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-22 00:18:54.774 [main] INFO  org.restct.RESTCT - Program execution time: 37431 ms.

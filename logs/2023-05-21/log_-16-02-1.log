@@ -1,0 +1,344 @@
+2023-05-21 16:02:03.056 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 16:02:03.181 [main] INFO  org.restct.RESTCT - Operations: 6
+2023-05-21 16:02:03.181 [main] INFO  org.restct.RESTCT - Examples found: 2
+2023-05-21 16:02:03.212 [main] INFO  org.restct.RESTCT - Uncovered combinations: 18, sequence length: 4
+2023-05-21 16:02:03.214 [main] INFO  org.restct.RESTCT - Uncovered combinations: 16, sequence length: 4
+2023-05-21 16:02:03.216 [main] INFO  org.restct.RESTCT - Uncovered combinations: 8, sequence length: 6
+2023-05-21 16:02:03.217 [main] INFO  org.restct.RESTCT - Uncovered combinations: 3, sequence length: 5
+2023-05-21 16:02:03.218 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 3
+2023-05-21 16:02:03.219 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-21 16:02:03.222 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 1.864
+2023-05-21 16:02:03.225 [main] DEBUG org.restct.RESTCT - 1-th operation: post*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:03.239 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:03.240 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:03.241 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:03.243 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:03.245 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:03.998 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:04.003 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 16:02:04.569 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:04.569 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:04.569 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default=123, Random=1, NULL=null]
+2023-05-21 16:02:04.570 [main] DEBUG org.restct.RESTCT -             body: 2 - [Random=firstf blog, Default=first blog]
+2023-05-21 16:02:04.570 [main] DEBUG org.restct.RESTCT -             client_id: 4 - [Random=ShBWdMUqKW23kf7iBHW6f3JC4Ewv, NULL=null, Random=BDmk4V3, Random=hcZORayBjLMozty2VCzRDbkAYX]
+2023-05-21 16:02:04.570 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:04.572 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:05.003 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:05.003 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:05.014 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:05.035 [main] DEBUG org.restct.RESTCT - 2-th operation: delete*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:05.036 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:05.036 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:05.036 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:05.037 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:05.447 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:05.448 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:05.456 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:05.457 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=17, Random=11, Random=59]
+2023-05-21 16:02:05.457 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:05.458 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:05.939 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:05.940 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:05.940 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:05.946 [main] DEBUG org.restct.RESTCT - 3-th operation: get*http://localhost:8888/api/doc
+2023-05-21 16:02:05.947 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:05.949 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 1, parameters: 0
+2023-05-21 16:02:05.949 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:05.951 [main] DEBUG org.restct.RESTCT - 4-th operation: get*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:05.951 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:05.954 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:05.954 [main] DEBUG org.restct.RESTCT -             page: 2 - [NULL=null, Default=1]
+2023-05-21 16:02:05.956 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:05.956 [main] DEBUG org.restct.RESTCT -             per_page: 4 - [Enum=2, Enum=50, NULL=null, Enum=10]
+2023-05-21 16:02:05.957 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:05.958 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:06.400 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:06.400 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 8, parameters: 3
+2023-05-21 16:02:06.401 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:06.419 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 16:02:06.419 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 5.061
+2023-05-21 16:02:06.420 [main] DEBUG org.restct.RESTCT - 1-th operation: get*http://localhost:8888/api/doc
+2023-05-21 16:02:06.420 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:06.423 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 1, parameters: 0
+2023-05-21 16:02:06.424 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:06.426 [main] DEBUG org.restct.RESTCT - 2-th operation: delete*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:06.426 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:06.427 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:06.427 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:06.428 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:06.843 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:06.844 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:06.848 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:06.849 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=1, Random=46, Random=9]
+2023-05-21 16:02:06.850 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:06.850 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:07.222 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:07.222 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:07.222 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:07.226 [main] DEBUG org.restct.RESTCT - 3-th operation: post*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:07.226 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:07.227 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:07.227 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:07.227 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:07.228 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:07.621 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:07.622 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 16:02:07.632 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:07.632 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:07.632 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default=123, Random=1, NULL=null]
+2023-05-21 16:02:07.632 [main] DEBUG org.restct.RESTCT -             body: 2 - [Random=firstf blog, Default=first blog]
+2023-05-21 16:02:07.633 [main] DEBUG org.restct.RESTCT -             client_id: 4 - [Random=ShBWdMUqKW23kf7iBHW6f3JC4Ewv, NULL=null, Random=BDmk4V3, Random=hcZORayBjLMozty2VCzRDbkAYX]
+2023-05-21 16:02:07.633 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:07.634 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:08.067 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:08.068 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:08.068 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:08.086 [main] DEBUG org.restct.RESTCT - 4-th operation: get*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:08.087 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:08.089 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:08.089 [main] DEBUG org.restct.RESTCT -             page: 2 - [NULL=null, Default=1]
+2023-05-21 16:02:08.089 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:08.089 [main] DEBUG org.restct.RESTCT -             per_page: 4 - [Enum=2, Enum=50, NULL=null, Enum=10]
+2023-05-21 16:02:08.090 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:08.091 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:08.541 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:08.542 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 8, parameters: 3
+2023-05-21 16:02:08.542 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:08.552 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 16:02:08.552 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 7.194
+2023-05-21 16:02:08.552 [main] DEBUG org.restct.RESTCT - 1-th operation: put*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:08.553 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:08.553 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:08.553 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random, NULL]
+2023-05-21 16:02:08.553 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:08.553 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:08.554 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:08.555 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:09.089 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:09.089 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 36, parameters: 4, constraints: 0
+2023-05-21 16:02:09.139 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:09.140 [main] DEBUG org.restct.RESTCT -             id: 3 - [Random=5, Default=123, NULL=null]
+2023-05-21 16:02:09.140 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random=kdRR2t4ijAxvFfK, Random=kw6syePx, Random=f1G25PGqOYrnD1VUzA8NUFe9K, NULL=null]
+2023-05-21 16:02:09.140 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default=first blog, Random=fxirst blog]
+2023-05-21 16:02:09.140 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=84, Random=20, Random=33]
+2023-05-21 16:02:09.141 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:09.141 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:09.545 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:09.546 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:09.546 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:09.565 [main] DEBUG org.restct.RESTCT - 2-th operation: get*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:09.566 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:09.566 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:09.567 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:09.567 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:09.979 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:09.979 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:09.984 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:09.984 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=66, Random=76, Random=47]
+2023-05-21 16:02:09.985 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:09.986 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:10.345 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:10.346 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:10.346 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:10.349 [main] DEBUG org.restct.RESTCT - 3-th operation: get*http://localhost:8888/api/doc
+2023-05-21 16:02:10.349 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:10.351 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 1, parameters: 0
+2023-05-21 16:02:10.351 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:10.354 [main] DEBUG org.restct.RESTCT - 4-th operation: post*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:10.354 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:10.354 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:10.354 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:10.355 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:10.356 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:10.760 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:10.761 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 16:02:10.771 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:10.771 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:10.771 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default=123, Random=1, NULL=null]
+2023-05-21 16:02:10.771 [main] DEBUG org.restct.RESTCT -             body: 2 - [Random=firstf blog, Default=first blog]
+2023-05-21 16:02:10.771 [main] DEBUG org.restct.RESTCT -             client_id: 4 - [Random=ShBWdMUqKW23kf7iBHW6f3JC4Ewv, NULL=null, Random=BDmk4V3, Random=hcZORayBjLMozty2VCzRDbkAYX]
+2023-05-21 16:02:10.772 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:10.772 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:11.198 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:11.198 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:11.199 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:11.213 [main] DEBUG org.restct.RESTCT - 5-th operation: get*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:11.214 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:11.215 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:11.215 [main] DEBUG org.restct.RESTCT -             page: 2 - [NULL=null, Default=1]
+2023-05-21 16:02:11.215 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:11.215 [main] DEBUG org.restct.RESTCT -             per_page: 4 - [Enum=2, Enum=50, NULL=null, Enum=10]
+2023-05-21 16:02:11.215 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:11.216 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:11.628 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:11.629 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 8, parameters: 3
+2023-05-21 16:02:11.629 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:11.637 [main] DEBUG org.restct.RESTCT - 6-th operation: delete*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:11.637 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:11.637 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:11.638 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:11.638 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:12.015 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:12.015 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:12.019 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:12.020 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=4, Random=9, Random=90]
+2023-05-21 16:02:12.020 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:12.021 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:12.379 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:12.380 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:12.380 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:12.383 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 16:02:12.384 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 11.026
+2023-05-21 16:02:12.384 [main] DEBUG org.restct.RESTCT - 1-th operation: post*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:12.384 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:12.385 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:12.385 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:12.385 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:12.386 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:12.777 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:12.778 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 6, parameters: 2, constraints: 0
+2023-05-21 16:02:12.786 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:12.786 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:12.787 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default=123, Random=1, NULL=null]
+2023-05-21 16:02:12.787 [main] DEBUG org.restct.RESTCT -             body: 2 - [Random=firstf blog, Default=first blog]
+2023-05-21 16:02:12.787 [main] DEBUG org.restct.RESTCT -             client_id: 4 - [Random=ShBWdMUqKW23kf7iBHW6f3JC4Ewv, NULL=null, Random=BDmk4V3, Random=hcZORayBjLMozty2VCzRDbkAYX]
+2023-05-21 16:02:12.787 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:12.788 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:13.216 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:13.217 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:13.217 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:13.232 [main] DEBUG org.restct.RESTCT - 2-th operation: get*http://localhost:8888/api/blog/posts
+2023-05-21 16:02:13.233 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:13.235 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:13.235 [main] DEBUG org.restct.RESTCT -             page: 2 - [NULL=null, Default=1]
+2023-05-21 16:02:13.235 [main] DEBUG org.restct.RESTCT -             correlation_id: 2 - [NULL=null, Default=00000000-0000-0000-0000-000000000000]
+2023-05-21 16:02:13.235 [main] DEBUG org.restct.RESTCT -             per_page: 4 - [Enum=2, Enum=50, NULL=null, Enum=10]
+2023-05-21 16:02:13.236 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:13.236 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:13.671 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:13.672 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 8, parameters: 3
+2023-05-21 16:02:13.672 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:13.681 [main] DEBUG org.restct.RESTCT - 3-th operation: put*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:13.681 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:13.682 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:13.682 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random, NULL]
+2023-05-21 16:02:13.682 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:13.682 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:13.683 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:13.683 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:14.127 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:14.128 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 36, parameters: 4, constraints: 0
+2023-05-21 16:02:14.252 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:14.252 [main] DEBUG org.restct.RESTCT -             id: 3 - [Random=5, Default=123, NULL=null]
+2023-05-21 16:02:14.252 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random=kdRR2t4ijAxvFfK, Random=kw6syePx, Random=f1G25PGqOYrnD1VUzA8NUFe9K, NULL=null]
+2023-05-21 16:02:14.252 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default=first blog, Random=fxirst blog]
+2023-05-21 16:02:14.253 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=100, Random=86, Random=17]
+2023-05-21 16:02:14.253 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:14.254 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:14.707 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:14.708 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:14.709 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:14.727 [main] DEBUG org.restct.RESTCT - 4-th operation: get*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:14.727 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:14.727 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:14.728 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:14.728 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:15.168 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:15.168 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:15.173 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:15.173 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=54, Random=15]
+2023-05-21 16:02:15.173 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:15.174 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:15.578 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:15.578 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:15.579 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:15.583 [main] DEBUG org.restct.RESTCT - 5-th operation: get*http://localhost:8888/api/doc
+2023-05-21 16:02:15.583 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:15.585 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 1, parameters: 0
+2023-05-21 16:02:15.585 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:15.587 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 16:02:15.587 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 14.229
+2023-05-21 16:02:15.588 [main] DEBUG org.restct.RESTCT - 1-th operation: get*http://localhost:8888/api/doc
+2023-05-21 16:02:15.588 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 0, constraints: 0
+2023-05-21 16:02:15.589 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 1, parameters: 0
+2023-05-21 16:02:15.590 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:15.591 [main] DEBUG org.restct.RESTCT - 2-th operation: put*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:15.592 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:15.592 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:15.592 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random, NULL]
+2023-05-21 16:02:15.592 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:15.592 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:15.592 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:15.593 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:16.032 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:16.032 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 36, parameters: 4, constraints: 0
+2023-05-21 16:02:16.103 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:16.104 [main] DEBUG org.restct.RESTCT -             id: 3 - [Random=5, Default=123, NULL=null]
+2023-05-21 16:02:16.105 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random=kdRR2t4ijAxvFfK, Random=kw6syePx, Random=f1G25PGqOYrnD1VUzA8NUFe9K, NULL=null]
+2023-05-21 16:02:16.105 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default=first blog, Random=fxirst blog]
+2023-05-21 16:02:16.105 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=98, Random=51, Random=58]
+2023-05-21 16:02:16.106 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:16.107 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:16.592 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:16.592 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:16.592 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:16.604 [main] DEBUG org.restct.RESTCT - 3-th operation: get*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:16.604 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:16.604 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:16.604 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:16.605 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:17.042 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:17.042 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:17.045 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:17.045 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=48, Random=78, Random=91]
+2023-05-21 16:02:17.046 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:17.046 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:17.456 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:17.457 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:17.457 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:17.461 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 16:02:17.461 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 16.103
+2023-05-21 16:02:17.461 [main] DEBUG org.restct.RESTCT - 1-th operation: get*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:17.462 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:17.462 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:17.462 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:17.463 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:17.901 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:17.902 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 3, parameters: 1, constraints: 0
+2023-05-21 16:02:17.907 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:17.907 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=6, Random=81, Random=90]
+2023-05-21 16:02:17.908 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:17.909 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:18.348 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:18.349 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 3, parameters: 1
+2023-05-21 16:02:18.349 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:18.354 [main] DEBUG org.restct.RESTCT - 2-th operation: put*http://localhost:8888/api/blog/posts/{postId}
+2023-05-21 16:02:18.355 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:18.355 [main] DEBUG org.restct.RESTCT -             id: 3 - [Default, Random, NULL]
+2023-05-21 16:02:18.355 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random, NULL]
+2023-05-21 16:02:18.356 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default, Random]
+2023-05-21 16:02:18.356 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random]
+2023-05-21 16:02:18.356 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:18.357 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:18.942 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:18.943 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 36, parameters: 4, constraints: 0
+2023-05-21 16:02:19.004 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 16:02:19.004 [main] DEBUG org.restct.RESTCT -             id: 3 - [Random=5, Default=123, NULL=null]
+2023-05-21 16:02:19.005 [main] DEBUG org.restct.RESTCT -             checksum: 4 - [Random=kdRR2t4ijAxvFfK, Random=kw6syePx, Random=f1G25PGqOYrnD1VUzA8NUFe9K, NULL=null]
+2023-05-21 16:02:19.005 [main] DEBUG org.restct.RESTCT -             body: 2 - [Default=first blog, Random=fxirst blog]
+2023-05-21 16:02:19.005 [main] DEBUG org.restct.RESTCT -             postId: 3 - [Random=47, Random=90, Random=27]
+2023-05-21 16:02:19.006 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/input.txt
+2023-05-21 16:02:19.007 [main] DEBUG org.restct.RESTCT - demo_server/results/swagger/acts/output.txt
+2023-05-21 16:02:19.519 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 16:02:19.520 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 12, parameters: 4
+2023-05-21 16:02:19.520 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 16:02:19.547 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 16:02:19.559 [main] DEBUG org.restct.RESTCT - SequenceInfo [6, 4]
+ Sequence Tested [0, 24, 0, 41, 24]
+, bug 0
+, total 352
+ cost 0.30315
+
+2023-05-21 16:02:19.563 [main] INFO  org.restct.RESTCT - swagger,2,3,2,6.0,4.00,0.00,0.00,24.0,0.0,352.0,0,0.30
+
+2023-05-21 16:02:19.563 [main] INFO  org.restct.RESTCT - Program execution time: 18205 ms.

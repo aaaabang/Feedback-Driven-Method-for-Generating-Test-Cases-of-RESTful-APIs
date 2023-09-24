@@ -1,0 +1,37 @@
+2023-05-22 15:55:35.141 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/{point}
+2023-05-22 15:55:35.152 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:55:35.152 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:55:35.153 [main] DEBUG org.restct.RESTCT -             point: 2 - [Default, Random]
+2023-05-22 15:55:35.839 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:55:35.840 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:55:36.418 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:55:36.419 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:55:36.419 [main] DEBUG org.restct.RESTCT -             dateTime: 3 - [NULL=null, Random=018-05-15T13:14:15Z, Default=2018-05-15T13:14:15Z]
+2023-05-22 15:55:36.420 [main] DEBUG org.restct.RESTCT -             includeDstRules: 3 - [NULL=null, Enum=false, Enum=true]
+2023-05-22 15:55:36.420 [main] DEBUG org.restct.RESTCT -             point: 2 - [Random=7.610679194331169,-122.10788659751415, Default=47.610679194331169,-122.10788659751415]
+2023-05-22 15:55:36.421 [main] DEBUG org.restct.RESTCT -             output: 3 - [NULL=null, Enum=XML, Enum=JSON]
+2023-05-22 15:55:37.076 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:55:37.077 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 15:55:37.078 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:55:39.793 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 15:55:39.794 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:55:39.794 [main] DEBUG org.restct.RESTCT -             query: 2 - [Default, Random]
+2023-05-22 15:55:39.794 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:55:40.308 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:55:40.309 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:55:41.173 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:55:41.173 [main] DEBUG org.restct.RESTCT -             includeDstRules: 3 - [NULL=null, Enum=false, Enum=true]
+2023-05-22 15:55:41.174 [main] DEBUG org.restct.RESTCT -             output: 3 - [NULL=null, Enum=XML, Enum=JSON]
+2023-05-22 15:55:41.174 [main] DEBUG org.restct.RESTCT -             dateTime: 3 - [NULL=null, Random=018-05-15T13:14:15Z, Default=2018-05-15T13:14:15Z]
+2023-05-22 15:55:41.174 [main] DEBUG org.restct.RESTCT -             query: 2 - [Random=bwellevue,wa,us, Default=bellevue,wa,us]
+2023-05-22 15:55:41.175 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:55:41.571 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:55:41.572 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 15:55:41.572 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:55:44.942 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/Convert/
+2023-05-22 15:55:44.943 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:55:44.943 [main] DEBUG org.restct.RESTCT -             desttz: 75 - [Enum]
+2023-05-22 15:55:44.943 [main] DEBUG org.restct.RESTCT -             dateTime: 2 - [Default, Random]
+2023-05-22 15:55:44.944 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:55:45.405 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:55:45.407 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

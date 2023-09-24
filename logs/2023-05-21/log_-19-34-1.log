@@ -1,0 +1,41 @@
+2023-05-21 19:34:45.912 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 19:34:46.053 [main] INFO  org.restct.RESTCT - Operations: 5
+2023-05-21 19:34:46.053 [main] INFO  org.restct.RESTCT - Examples found: 11
+2023-05-21 19:34:46.076 [main] INFO  org.restct.RESTCT - Uncovered combinations: 10, sequence length: 5
+2023-05-21 19:34:46.078 [main] INFO  org.restct.RESTCT - Uncovered combinations: 4, sequence length: 5
+2023-05-21 19:34:46.079 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 4
+2023-05-21 19:34:46.081 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 3
+2023-05-21 19:34:46.086 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 1.545
+2023-05-21 19:34:46.088 [main] DEBUG org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{point}
+2023-05-21 19:34:46.102 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 19:34:46.103 [main] DEBUG org.restct.RESTCT -             point: 2 - [Default, Random]
+2023-05-21 19:34:46.104 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-21 19:34:46.926 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 19:34:46.928 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 19:34:47.963 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 19:34:47.964 [main] DEBUG org.restct.RESTCT -             include: 2 - [NULL=null, Enum=ciso2]
+2023-05-21 19:34:47.964 [main] DEBUG org.restct.RESTCT -             includeEntityTypes: 8 - [Enum=Address, NULL=null, Enum=CountryRegion, Enum=PopulatedPlace, Enum=AdminDivision1, Enum=Neighborhood, Enum=Postcode1, Enum=AdminDivision2]
+2023-05-21 19:34:47.965 [main] DEBUG org.restct.RESTCT -             point: 2 - [Random=47.64054,-d122.12934, Default=47.64054,-122.12934]
+2023-05-21 19:34:47.965 [main] DEBUG org.restct.RESTCT -             verboseplacenames: 3 - [NULL=null, Enum=false, Enum=true]
+2023-05-21 19:34:47.965 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-21 19:34:47.965 [main] DEBUG org.restct.RESTCT -             includeNeighborhood: 3 - [Enum=1, NULL=null, Enum=0]
+2023-05-21 19:34:49.012 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 19:34:49.014 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 24, parameters: 6
+2023-05-21 19:34:49.035 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 19:34:52.885 [main] DEBUG org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/LocationRecog/{point}
+2023-05-21 19:34:52.886 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 19:34:52.886 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-21 19:34:52.887 [main] DEBUG org.restct.RESTCT -             point: 2 - [Default, Random]
+2023-05-21 19:34:53.334 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 19:34:53.334 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 19:34:53.436 [main] ERROR org.restct.RESTCT - Program execution failed: closed
+java.lang.IllegalStateException: closed
+	at okio.RealBufferedSource.select(RealBufferedSource.kt:218) ~[okio-2.8.0.jar:?]
+	at okhttp3.internal.Util.readBomAsCharset(Util.kt:265) ~[okhttp-4.9.2.jar:?]
+	at okhttp3.ResponseBody.string(ResponseBody.kt:187) ~[okhttp-4.9.2.jar:?]
+	at org.restct.utils.SendRequest.send(SendRequest.java:203) ~[classes/:?]
+	at org.restct.utils.SendRequest.run(SendRequest.java:88) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:103) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-21 19:34:53.451 [main] INFO  org.restct.RESTCT - Program execution time: 8910 ms.

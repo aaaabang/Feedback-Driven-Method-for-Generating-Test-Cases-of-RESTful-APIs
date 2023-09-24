@@ -1,0 +1,29 @@
+2023-05-21 18:27:55.636 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 18:27:55.815 [main] INFO  org.restct.RESTCT - Operations: 4
+2023-05-21 18:27:55.816 [main] INFO  org.restct.RESTCT - Examples found: 5
+2023-05-21 18:27:55.860 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 4
+2023-05-21 18:27:55.861 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 4
+2023-05-21 18:27:55.866 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 3
+2023-05-21 18:27:55.867 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-21 18:27:55.876 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 2.137
+2023-05-21 18:27:55.880 [main] DEBUG org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/List
+2023-05-21 18:27:55.897 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:27:55.898 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-21 18:27:55.899 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-21 18:27:57.005 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:27:57.008 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 18:27:58.125 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:27:58.126 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random=35.89431,-110.72522,35.893m93,-110.72578,35.89374, Default=35.89431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-21 18:27:58.127 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-21 18:27:58.127 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AtI47DZkFsqZK_2Ks7A_68EwjlpTLNI2imXFZey-6jt_YnFE1n3SXVZ6umljRFch]
+2023-05-21 18:27:58.653 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:27:58.654 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 6, parameters: 3
+2023-05-21 18:27:58.667 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:27:59.284 [main] DEBUG org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Bounds
+2023-05-21 18:27:59.285 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:27:59.285 [main] DEBUG org.restct.RESTCT -             rows: 2 - [Default, Random]
+2023-05-21 18:27:59.286 [main] DEBUG org.restct.RESTCT -             cols: 2 - [Default, Random]
+2023-05-21 18:27:59.286 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-21 18:27:59.286 [main] DEBUG org.restct.RESTCT -             bounds: 2 - [Default, Random]
+2023-05-21 18:27:59.677 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:27:59.678 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 8, parameters: 4, constraints: 0

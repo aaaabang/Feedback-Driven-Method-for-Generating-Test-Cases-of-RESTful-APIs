@@ -1,0 +1,6 @@
+2023-05-22 15:08:10.457 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 15:08:10.461 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:08:55.732 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:08:55.736 [main] INFO  org.restct.RESTCT - Uncovered combinations: 8, sequence length: 8
+2023-05-22 15:08:55.737 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 15:08:56.144 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 14, parameters: 2, constraints: 0

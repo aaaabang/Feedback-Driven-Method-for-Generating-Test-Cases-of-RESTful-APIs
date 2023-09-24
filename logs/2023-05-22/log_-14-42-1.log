@@ -1,0 +1,31 @@
+2023-05-22 14:42:01.630 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/Convert/
+2023-05-22 14:42:01.639 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 14:42:01.639 [main] INFO  org.restct.RESTCT -             desttz: 11 - [Enum=Dateline Standard Time, Enum=Samoa Standard Time, Enum=Hawaiian Standard Time, Enum=Alaskan Standard Time, Enum=Pacific Standard Time, Enum=Mountain Standard Time, Enum=Mexico Standard Time 2, Enum=U.S. Mountain Standard Time, Enum=Central Standard Time, Enum=Canada Central Standard Time, Enum=Mexico Standard Time]
+2023-05-22 14:42:01.640 [main] INFO  org.restct.RESTCT -             dateTime: 2 - [Random=20j18-05-15T13:14:15Z, Default=2018-05-15T13:14:15Z]
+2023-05-22 14:42:01.640 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 14:42:02.056 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 14:42:11.644 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 33, parameters: 5
+2023-05-22 14:42:11.644 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:42:25.898 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone
+2023-05-22 14:42:25.898 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 14:42:25.898 [main] INFO  org.restct.RESTCT -             desttz: 11 - [Enum=Dateline Standard Time, Enum=Samoa Standard Time, Enum=Hawaiian Standard Time, Enum=Alaskan Standard Time, Enum=Pacific Standard Time, Enum=Mountain Standard Time, Enum=Mexico Standard Time 2, Enum=U.S. Mountain Standard Time, Enum=Central Standard Time, Enum=Canada Central Standard Time, Enum=Mexico Standard Time]
+2023-05-22 14:42:25.899 [main] INFO  org.restct.RESTCT -             timezonestandard: 2 - [Enum=IANA, Enum=Windows]
+2023-05-22 14:42:25.899 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 14:42:26.249 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 14:42:36.162 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 33, parameters: 5
+2023-05-22 14:42:36.162 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:42:50.475 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/{point}
+2023-05-22 14:42:50.476 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 14:42:50.476 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 14:42:50.477 [main] INFO  org.restct.RESTCT -             point: 2 - [Random=4.610679194331169,-122.10788659751415, Default=47.610679194331169,-122.10788659751415]
+2023-05-22 14:42:50.853 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 14:42:52.064 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 14:42:52.065 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:42:56.181 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 14:42:56.187 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/{point}
+2023-05-22 14:42:56.187 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 14:42:56.188 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 14:42:56.189 [main] INFO  org.restct.RESTCT -             point: 2 - [Random=4.610679194331169,-122.10788659751415, Default=47.610679194331169,-122.10788659751415]
+2023-05-22 14:42:56.666 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 14:42:57.889 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 14:42:57.890 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

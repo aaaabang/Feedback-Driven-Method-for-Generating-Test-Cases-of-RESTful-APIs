@@ -1,0 +1,10 @@
+2023-05-22 14:55:11.952 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 44, parameters: 20
+2023-05-22 14:55:11.955 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:55:25.264 [main] INFO  org.restct.RESTCT - 5-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 14:55:25.604 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 14:55:28.908 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 14:55:28.908 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:55:41.546 [main] INFO  org.restct.RESTCT - 6-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}
+2023-05-22 14:55:41.988 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0
+2023-05-22 14:55:51.988 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 14:55:51.988 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

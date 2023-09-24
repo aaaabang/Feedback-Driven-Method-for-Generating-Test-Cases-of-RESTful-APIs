@@ -1,0 +1,8 @@
+2023-05-22 21:56:07.682 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 21:56:07.886 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-22 21:56:07.886 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-22 21:56:07.961 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-22 21:56:07.967 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Truck
+2023-05-22 21:56:08.741 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 21:56:12.214 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 579, parameters: 28
+2023-05-22 21:56:12.228 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

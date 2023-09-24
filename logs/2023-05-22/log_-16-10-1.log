@@ -1,0 +1,42 @@
+2023-05-22 16:10:01.244 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 16:10:01.247 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:10:20.097 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 16:10:20.097 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:10:20.097 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 16:10:20.097 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:10:21.619 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:10:27.282 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:10:27.283 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:10:45.973 [main] INFO  org.restct.RESTCT - 5-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
+2023-05-22 16:10:45.973 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:10:45.973 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 16:10:45.973 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Default=47.610,-122.107, Random=47.610,-122.10]
+2023-05-22 16:10:45.973 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:10:46.337 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 16:10:57.113 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 66, parameters: 8
+2023-05-22 16:10:57.114 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+ize: 42, parameters: 3, constraints: 0
+2023-05-22 16:10:37.493 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:10:37.493 [main] DEBUG org.restct.RESTCT -             desttz: 21 - [Enum=Central Standard Time, Enum=U.S. Eastern Standard Time, Enum=Newfoundland and Labrador Standard Time, Enum=Dateline Standard Time, Enum=Canada Central Standard Time, Enum=Mexico Standard Time 2, Enum=S.A. Eastern Standard Time, Enum=Atlantic Standard Time, Enum=Samoa Standard Time, Enum=Alaskan Standard Time, Enum=Pacific Standard Time, Enum=S.A. Western Standard Time, Enum=U.S. Mountain Standard Time, Enum=S.A. Pacific Standard Time, Enum=Mountain Standard Time, Enum=Central America Standard Time, Enum=Eastern Standard Time, Enum=Mexico Standard Time, Enum=Hawaiian Standard Time, Enum=E. South America Standard Time, Enum=Pacific S.A. Standard Time]
+2023-05-22 16:10:37.494 [main] DEBUG org.restct.RESTCT -             includeDstRules: 3 - [Enum=true, NULL=null, Enum=false]
+2023-05-22 16:10:37.494 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 16:10:37.495 [main] DEBUG org.restct.RESTCT -             dateTime: 2 - [Random=2018-05-15T13:14l:15Z, Default=2018-05-15T13:14:15Z]
+2023-05-22 16:10:37.495 [main] DEBUG org.restct.RESTCT -             output: 3 - [NULL=null, Enum=JSON, Enum=XML]
+2023-05-22 16:10:37.913 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:10:37.914 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 63, parameters: 5
+2023-05-22 16:10:37.926 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:10:57.478 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 16:10:57.479 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:10:57.479 [main] DEBUG org.restct.RESTCT -             query: 2 - [Default, Random]
+2023-05-22 16:10:57.480 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 16:10:57.873 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:10:57.874 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:10:58.808 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 16:10:58.808 [main] DEBUG org.restct.RESTCT -             query: 2 - [Default=bellevue,wa,us, Random=bellevue,a,us]
+2023-05-22 16:10:58.809 [main] DEBUG org.restct.RESTCT -             dateTime: 3 - [Random=2018-05-5T13:14:15Z, NULL=null, Default=2018-05-15T13:14:15Z]
+2023-05-22 16:10:58.809 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 16:10:58.809 [main] DEBUG org.restct.RESTCT -             includeDstRules: 3 - [Enum=true, NULL=null, Enum=false]
+2023-05-22 16:10:58.810 [main] DEBUG org.restct.RESTCT -             output: 3 - [NULL=null, Enum=JSON, Enum=XML]
+2023-05-22 16:10:59.217 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 16:10:59.218 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:10:59.218 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

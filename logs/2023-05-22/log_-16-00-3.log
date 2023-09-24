@@ -1,0 +1,9 @@
+2023-05-22 16:01:19.266 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 44, parameters: 20
+2023-05-22 16:01:19.269 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:01:39.899 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 16:01:39.900 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:01:39.900 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 16:01:39.900 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:01:40.423 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:01:45.454 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:01:45.454 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

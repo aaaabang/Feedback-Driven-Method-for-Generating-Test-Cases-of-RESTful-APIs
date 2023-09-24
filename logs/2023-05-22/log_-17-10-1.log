@@ -1,0 +1,8 @@
+2023-05-22 17:10:22.153 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 17:10:22.164 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 17:10:22.170 [main] INFO  org.restct.RESTCT - Uncovered combinations: 24, sequence length: 8
+2023-05-22 17:10:22.172 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}/Routes/{travelMode}
+2023-05-22 17:10:22.761 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 60, parameters: 6, constraints: 0
+2023-05-22 17:10:54.713 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 52, parameters: 19
+2023-05-22 17:10:54.713 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

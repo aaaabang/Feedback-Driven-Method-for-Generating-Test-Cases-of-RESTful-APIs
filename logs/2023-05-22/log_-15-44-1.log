@@ -1,0 +1,17 @@
+2023-05-22 15:44:09.158 [main] INFO  org.restct.RESTCT - 7-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 15:44:09.163 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:44:09.164 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 15:44:09.164 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:44:09.555 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:44:11.329 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:44:11.329 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:44:21.110 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:44:21.110 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 15:44:21.111 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:44:21.485 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:44:23.432 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:44:23.432 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:44:57.840 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:44:57.841 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=9, Random=8, Random=1]
+2023-05-22 15:44:57.841 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:44:58.270 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0

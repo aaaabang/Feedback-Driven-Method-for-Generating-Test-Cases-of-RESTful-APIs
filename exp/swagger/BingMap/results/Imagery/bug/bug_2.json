@@ -1,0 +1,88 @@
+{
+  "responseChain": {},
+  "method": "get",
+  "response": {
+    "map": {
+      "traceId": "75b37f70e36a47f69dfef5768e0a4aea|PUS000DD91|0.0.0.1",
+      "copyright": "Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+      "statusDescription": "Internal Server Error",
+      "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+      "resourceSets": {
+        "myArrayList": []
+      },
+      "authenticationResultCode": "ValidCredentials",
+      "errorDetails": {
+        "myArrayList": [
+          "The remote server returned an error: (500) Internal Server Error."
+        ]
+      },
+      "statusCode": 500
+    }
+  },
+  "parameters": {
+    "orientation": {
+      "key": "NULL"
+    },
+    "mapSize": {
+      "key": "NULL"
+    },
+    "heading": {
+      "key": "NULL"
+    },
+    "highlightEntity": {
+      "key": "Enum",
+      "value": 1
+    },
+    "query": {
+      "key": "Random",
+      "value": "Seattle%20Cengter"
+    },
+    "mapMetadata": {
+      "key": "NULL"
+    },
+    "format": {
+      "key": "NULL"
+    },
+    "mapLayer": {
+      "key": "Enum",
+      "value": "OrdnanceSurvey"
+    },
+    "imagerySet": {
+      "key": "Enum",
+      "value": "CanvasDark"
+    },
+    "declutterPins": {
+      "key": "Enum",
+      "value": 1
+    },
+    "fieldOfView": {
+      "key": "NULL"
+    },
+    "style": {
+      "key": "NULL"
+    },
+    "pitch": {
+      "key": "NULL"
+    },
+    "dpi": {
+      "key": "NULL"
+    },
+    "pushpin": {
+      "key": "Random",
+      "value": "47.610,-122.10;5;P10"
+    },
+    "drawCurve": {
+      "key": "NULL"
+    },
+    "key": {
+      "key": "Enum",
+      "value": "Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb"
+    },
+    "mapArea": {
+      "key": "Default",
+      "value": "45.219,-122.325,47.610,-122.107"
+    }
+  },
+  "url": "https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}",
+  "statusCode": 500
+}

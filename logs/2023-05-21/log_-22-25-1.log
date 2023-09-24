@@ -1,0 +1,30 @@
+2023-05-21 22:25:21.244 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 22:25:21.538 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 22:25:21.539 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 22:25:21.665 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 22:25:21.683 [main] INFO  org.restct.RESTCT - Uncovered combinations: 56, sequence length: 14
+2023-05-21 22:25:21.699 [main] INFO  org.restct.RESTCT - Uncovered combinations: 36, sequence length: 13
+2023-05-21 22:25:21.719 [main] INFO  org.restct.RESTCT - Uncovered combinations: 23, sequence length: 11
+2023-05-21 22:25:21.726 [main] INFO  org.restct.RESTCT - Uncovered combinations: 18, sequence length: 10
+2023-05-21 22:25:21.747 [main] INFO  org.restct.RESTCT - Uncovered combinations: 13, sequence length: 9
+2023-05-21 22:25:21.750 [main] INFO  org.restct.RESTCT - Uncovered combinations: 8, sequence length: 8
+2023-05-21 22:25:21.767 [main] INFO  org.restct.RESTCT - Uncovered combinations: 3, sequence length: 7
+2023-05-21 22:25:21.770 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 4
+2023-05-21 22:25:21.775 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes
+2023-05-21 22:25:22.603 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 22:25:23.855 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 51, parameters: 17
+2023-05-21 22:25:23.878 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 22:25:35.955 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-21 22:25:35.957 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback
+2023-05-21 22:25:36.270 [main] ERROR org.restct.RESTCT - Program execution failed: Index: 3, Size: 3
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_231]
+	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:623) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:644) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:193) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-21 22:25:36.277 [main] INFO  org.restct.RESTCT - Program execution time: 17630 ms.

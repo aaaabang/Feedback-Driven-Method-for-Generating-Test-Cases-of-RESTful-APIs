@@ -1,0 +1,30 @@
+2023-05-22 15:39:21.961 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:39:21.969 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:39:21.969 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:39:22.467 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:39:29.368 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:39:29.369 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:39:48.779 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:39:48.779 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:39:48.780 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:39:49.259 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:39:56.474 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:39:56.474 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:39:59.737 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-22 15:39:59.859 [main] INFO  org.restct.RESTCT - Operations: 5
+2023-05-22 15:39:59.859 [main] INFO  org.restct.RESTCT - Examples found: 11
+2023-05-22 15:39:59.890 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.892 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.892 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.892 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.894 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:39:59.894 [main] INFO  org.restct.RESTCT - Uncovered combinations: 10, sequence length: 5
+2023-05-22 15:39:59.900 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 1.503
+2023-05-22 15:39:59.902 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/LocalSearch
+2023-05-22 15:39:59.918 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:39:59.922 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]

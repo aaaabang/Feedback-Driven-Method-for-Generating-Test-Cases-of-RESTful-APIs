@@ -1,0 +1,15 @@
+2023-05-22 16:16:00.679 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 16:16:01.205 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:16:02.925 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:16:02.925 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:16:06.356 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:16:06.357 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/
+2023-05-22 16:16:06.779 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:16:07.900 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:16:07.901 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:16:11.457 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/{point}
+2023-05-22 16:16:11.929 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:16:13.354 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 9, parameters: 5
+2023-05-22 16:16:13.355 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:16:16.234 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone
+2023-05-22 16:16:16.730 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

@@ -1,0 +1,70 @@
+2023-05-22 17:23:01.034 [main] INFO  org.restct.RESTCT -         14-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 17:23:04.221 [main] INFO  org.restct.RESTCT -         14-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 17:23:04.222 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:23:04.274 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 17:23:04.277 [main] INFO  org.restct.RESTCT - 1-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 17:23:04.278 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 17:23:04.279 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 17:23:04.279 [main] INFO  org.restct.RESTCT -             latitude: 3 - [Random=-26.237496883690177, Random=-3.0088238356080126, Random=-37.13011109160378]
+2023-05-22 17:23:04.280 [main] INFO  org.restct.RESTCT -             longitude: 3 - [Random=11.57759725956464, Random=85.540810904034, Random=140.932668782515]
+2023-05-22 17:23:04.280 [main] INFO  org.restct.RESTCT -             travelMode: 3 - [Enum=driving, Enum=walking, Enum=transit]
+2023-05-22 17:23:04.280 [main] INFO  org.restct.RESTCT -             startTime: 7 - [Random=Random, Random=2023-05-22T17:22:58, Random=Random, Random=2023-05-21T17:22:58, Random=Random, Random=2023-05-24T17:22:58, NULL=null]
+2023-05-22 17:23:04.281 [main] INFO  org.restct.RESTCT -             endTime: 7 - [Random=Random, Random=2023-05-22T17:22:58, Random=Random, Random=2023-05-21T17:22:58, Random=Random, Random=2023-05-24T17:22:58, NULL=null]
+2023-05-22 17:23:04.281 [main] INFO  org.restct.RESTCT -             resolution: 5 - [Enum=1, Enum=2, Enum=3, Enum=4, NULL=null]
+2023-05-22 17:23:04.282 [main] INFO  org.restct.RESTCT -             distanceUnit: 5 - [Enum=mile, Enum=mi, Enum=kilometer, Enum=km, NULL=null]
+2023-05-22 17:23:04.282 [main] INFO  org.restct.RESTCT -             timeUnit: 3 - [Enum=minute, Enum=second, NULL=null]
+2023-05-22 17:23:07.163 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 17:23:10.541 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 17:23:10.541 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:23:10.597 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 17:23:10.598 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 17:23:10.598 [main] INFO  org.restct.RESTCT -             name: 3 - [Random=WeYlJXwdxEzL7LIe2db5gO1C, Random=m9MdM, Random=F51FSaLLHh]
+2023-05-22 17:23:10.599 [main] INFO  org.restct.RESTCT -             startTime: 6 - [Random=Random, Random=2023-05-22T17:22:46, Random=Random, Random=2023-05-21T17:22:46, Random=Random, Random=2023-05-24T17:22:46]
+2023-05-22 17:23:10.600 [main] INFO  org.restct.RESTCT -             latitude: 3 - [Random=-30.92922018438157, Random=-2.9447726726918972, Random=62.26823521145647]
+2023-05-22 17:23:10.600 [main] INFO  org.restct.RESTCT -             longitude: 3 - [Random=-60.504472427666684, Random=7.2052234226940755, Random=118.70327602307106]
+2023-05-22 17:23:10.601 [main] INFO  org.restct.RESTCT -             endTime: 6 - [Random=Random, Random=2023-05-22T17:22:46, Random=Random, Random=2023-05-21T17:22:46, Random=Random, Random=2023-05-24T17:22:46]
+2023-05-22 17:23:10.601 [main] INFO  org.restct.RESTCT -             duration: 4 - [Random=53hQ7w1gMx9dX1s, Random=jfCJlgUtJ, Random=6DIDojUvjYj1, NULL=null]
+2023-05-22 17:23:10.602 [main] INFO  org.restct.RESTCT -             fixedPrice: 3 - [Random=7.441721258336398, Random=32.28984245222916, Random=75.8927121230554]
+2023-05-22 17:23:10.602 [main] INFO  org.restct.RESTCT -             pricePerKM: 3 - [Random=79.05470666427432, Random=93.59495561350593, Random=6.121825434784622]
+2023-05-22 17:23:10.603 [main] INFO  org.restct.RESTCT -             pricePerHour: 3 - [Random=54.63463471390884, Random=64.89768824942212, Random=97.56665595570564]
+2023-05-22 17:23:10.603 [main] INFO  org.restct.RESTCT -             capacity: 4 - [Random=40, Random=37, Random=48, NULL=null]
+2023-05-22 17:23:10.604 [main] INFO  org.restct.RESTCT -             openingTime: 6 - [Random=Random, Random=2023-05-22T17:22:46, Random=Random, Random=2023-05-21T17:22:46, Random=Random, Random=2023-05-24T17:22:46]
+2023-05-22 17:23:10.604 [main] INFO  org.restct.RESTCT -             closingTime: 6 - [Random=Random, Random=2023-05-22T17:22:46, Random=Random, Random=2023-05-21T17:22:46, Random=Random, Random=2023-05-24T17:22:46]
+2023-05-22 17:23:10.605 [main] INFO  org.restct.RESTCT -             dwellTime: 3 - [Random=4TVWq1IfRDgiPRmALaYHz, Random=eg, Random=TXP6ZIjKoTqLWs7DvNCPKtdYStyA]
+2023-05-22 17:23:10.605 [main] INFO  org.restct.RESTCT -             priority: 3 - [Random=17, Random=6, Random=13]
+2023-05-22 17:23:10.605 [main] INFO  org.restct.RESTCT -             quantity: 4 - [Random=32, Random=18, Random=31, NULL=null]
+2023-05-22 17:23:10.606 [main] INFO  org.restct.RESTCT -             depot: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:10.606 [main] INFO  org.restct.RESTCT -             dropOffFrom: 4 - [Random=Vc4Q4fiH9x6z1dlcgdlsSNl, Random=k27xw, Random=9Nz8ddaMfbYPTdSMJm, NULL=null]
+2023-05-22 17:23:10.606 [main] INFO  org.restct.RESTCT -             type: 3 - [Enum=SimpleRequest, Enum=TrafficRequest, NULL=null]
+2023-05-22 17:23:10.607 [main] INFO  org.restct.RESTCT -             roadnetwork: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:10.607 [main] INFO  org.restct.RESTCT -             costvalue: 4 - [Enum=TravelTime, Enum=Distance, Enum=Price, NULL=null]
+2023-05-22 17:23:10.608 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 17:23:14.518 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
+2023-05-22 17:23:18.129 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 17:23:18.130 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:23:18.190 [main] INFO  org.restct.RESTCT - 3-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback
+2023-05-22 17:23:18.195 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 17:23:18.196 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 17:23:18.196 [main] INFO  org.restct.RESTCT -             latitude: 3 - [Random=50.433866042836144, Random=43.017629112731754, Random=50.36498440489689]
+2023-05-22 17:23:18.197 [main] INFO  org.restct.RESTCT -             longitude: 3 - [Random=117.54882512177073, Random=-175.83015982296968, Random=-94.03189963157386]
+2023-05-22 17:23:18.197 [main] INFO  org.restct.RESTCT -             interpolate: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:18.197 [main] INFO  org.restct.RESTCT -             includeSpeedLimit: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:18.198 [main] INFO  org.restct.RESTCT -             includeTruckSpeedLimit: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:18.199 [main] INFO  org.restct.RESTCT -             speedUnit: 3 - [Enum=MPH, Enum=KPH, NULL=null]
+2023-05-22 17:23:18.200 [main] INFO  org.restct.RESTCT -             travelMode: 3 - [Enum=driving, Enum=walking, NULL=null]
+2023-05-22 17:23:18.202 [main] INFO  org.restct.RESTCT -             dimensionUnit: 5 - [Enum=meter, Enum=m, Enum=foot, Enum=ft, NULL=null]
+2023-05-22 17:23:18.203 [main] INFO  org.restct.RESTCT -             weightUnit: 5 - [Enum=kilogram , Enum=kg, Enum=pound , Enum=lb, NULL=null]
+2023-05-22 17:23:18.204 [main] INFO  org.restct.RESTCT -             vehicleHeight: 3 - [Random=1, Default=5, NULL=null]
+2023-05-22 17:23:18.204 [main] INFO  org.restct.RESTCT -             vehicleWidth: 3 - [Random=3.5e, Default=3.5, NULL=null]
+2023-05-22 17:23:18.204 [main] INFO  org.restct.RESTCT -             vehicleLength: 3 - [Random=6, Default=30, NULL=null]
+2023-05-22 17:23:18.205 [main] INFO  org.restct.RESTCT -             vehicleWeight: 3 - [Random=9, Default=30000, NULL=null]
+2023-05-22 17:23:18.205 [main] INFO  org.restct.RESTCT -             vehicleAxles: 3 - [Random=4, Default=3, NULL=null]
+2023-05-22 17:23:18.205 [main] INFO  org.restct.RESTCT -             vehicleTrailers: 3 - [Random=1, Default=2, NULL=null]
+2023-05-22 17:23:18.206 [main] INFO  org.restct.RESTCT -             vehicleSemi: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:18.206 [main] INFO  org.restct.RESTCT -             vehicleMaxGradient: 3 - [Random=4, Default=10, NULL=null]
+2023-05-22 17:23:18.206 [main] INFO  org.restct.RESTCT -             vehicleMinTurnRadius: 3 - [Random=5, Default=15, NULL=null]
+2023-05-22 17:23:18.207 [main] INFO  org.restct.RESTCT -             vehicleAvoidCrossWind: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:18.207 [main] INFO  org.restct.RESTCT -             vehicleAvoidGroundingRisk: 3 - [Enum=false, Enum=true, NULL=null]
+2023-05-22 17:23:18.207 [main] INFO  org.restct.RESTCT -             vehicleHazardousMaterials: 25 - [Enum=Combustable, Enum=C, Enum=Corrosive, Enum=Cr, Enum=Explosive, Enum=E, Enum=Flammable, Enum=F, Enum=FlammableSolid, Enum=FS, Enum=Gas, Enum=G, Enum=GoodsHarmfulToWater, Enum=WH, Enum=Organic, Enum=O, Enum=Other, Enum=Poison, Enum=P, Enum=PoisonousInhalation, Enum=PI, Enum=Radioactive, Enum=R, Enum=None, NULL=null]
+2023-05-22 17:23:18.208 [main] INFO  org.restct.RESTCT -             vehicleHazardousPermits: 23 - [Enum=AllAppropriateForLoad, Enum=Combustable, Enum=C, Enum=Corrosive, Enum=Cr, Enum=Explosive, Enum=E, Enum=Flammable, Enum=F, Enum=FlammableSolid, Enum=FS, Enum=Gas, Enum=G, Enum=Organic, Enum=O, Enum=Poison, Enum=P, Enum=PoisonousInhalation, Enum=PI, Enum=Radioactive, Enum=R, Enum=None, NULL=null]
+2023-05-22 17:23:27.577 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0

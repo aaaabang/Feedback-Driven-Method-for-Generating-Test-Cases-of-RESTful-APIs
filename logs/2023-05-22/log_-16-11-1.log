@@ -1,0 +1,13 @@
+2023-05-22 16:11:27.847 [main] INFO  org.restct.RESTCT - 6-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}
+2023-05-22 16:11:27.853 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:11:27.853 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Default=47.610,-122.107, Random=47.610,-122.07]
+2023-05-22 16:11:27.853 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 16:11:27.853 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 16:11:28.434 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 16:11:38.585 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 66, parameters: 8
+2023-05-22 16:11:38.585 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+ combinations: 6, sequence length: 4
+2023-05-22 16:11:33.511 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 4
+2023-05-22 16:11:33.513 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 3
+2023-05-22 16:11:33.518 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone
+2023-05-22 16:11:34.150 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

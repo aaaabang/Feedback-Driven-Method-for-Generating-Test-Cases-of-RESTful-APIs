@@ -1,0 +1,19 @@
+2023-05-21 18:46:00.241 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:46:00.244 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-21 18:46:00.865 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-21 18:46:00.865 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random=35.89431,-110.72522,35.8393,-110.72578,35.89374, Default=35.89431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-21 18:46:00.866 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=sealevel, NULL=null, Enum=ellipsoid]
+2023-05-21 18:46:00.866 [main] DEBUG org.restct.RESTCT -             key: 2 - [Enum=AtI47DZkFsqZK_2Ks7A_68EwjlpTLNI2imXFZey-6jt_YnFE1n3SXVZ6umljRFch, Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-21 18:46:01.315 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-21 18:46:01.316 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 3
+2023-05-21 18:46:01.316 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 18:46:02.296 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 18:46:02.303 [main] DEBUG org.restct.RESTCT - SequenceInfo [3, 4]
+ Sequence Tested [1, 11, 0, 15, 12]
+, bug 0
+, total 182
+ cost 0.8979333333333333
+
+2023-05-21 18:46:02.307 [main] INFO  org.restct.RESTCT - Elevations,2,3,2,3.0,4.00,0.09,0.00,12.0,0.0,182.0,15,0.90
+
+2023-05-21 18:46:02.307 [main] INFO  org.restct.RESTCT - Program execution time: 53887 ms.

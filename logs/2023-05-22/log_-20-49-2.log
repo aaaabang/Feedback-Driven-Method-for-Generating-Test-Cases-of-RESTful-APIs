@@ -1,0 +1,49 @@
+2023-05-22 20:54:33.933 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 486, parameters: 23
+2023-05-22 20:54:33.938 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:34.224 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback
+2023-05-22 20:54:34.912 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 20:54:35.481 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 20:54:35.482 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:35.490 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 20:54:35.492 [main] INFO  org.restct.RESTCT - Uncovered combinations: 29, sequence length: 4
+2023-05-22 20:54:35.492 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/LocalInsightsAsync
+2023-05-22 20:54:35.982 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 20:54:36.540 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 20:54:36.540 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:36.551 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrixAsync
+2023-05-22 20:54:37.123 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 20:54:37.768 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 20:54:37.768 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:37.785 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/{travelMode}
+2023-05-22 20:54:38.247 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 20:54:38.792 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 51, parameters: 18
+2023-05-22 20:54:38.792 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:38.808 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/LocalInsights
+2023-05-22 20:54:39.249 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 20:54:40.083 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 20:54:40.084 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:40.091 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 20:54:40.093 [main] INFO  org.restct.RESTCT - Uncovered combinations: 27, sequence length: 3
+2023-05-22 20:54:40.093 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads
+2023-05-22 20:54:40.535 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 20:54:40.969 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 15, parameters: 6
+2023-05-22 20:54:40.969 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:40.973 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Isochrones
+2023-05-22 20:54:41.414 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 20:54:41.891 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 9
+2023-05-22 20:54:41.892 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:41.897 [main] INFO  org.restct.RESTCT - 3-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 20:54:42.420 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 20:54:42.948 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 20:54:42.948 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:42.962 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 20:54:42.963 [main] INFO  org.restct.RESTCT - Uncovered combinations: 25, sequence length: 3
+2023-05-22 20:54:42.963 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/{travelMode}
+2023-05-22 20:54:43.419 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 20:54:45.165 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 51, parameters: 18
+2023-05-22 20:54:45.166 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:45.252 [main] INFO  org.restct.RESTCT - 2-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync
+2023-05-22 20:54:53.113 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2542, parameters: 23, constraints: 0
+2023-05-22 20:54:58.214 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 486, parameters: 23
+2023-05-22 20:54:58.214 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:54:58.657 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Isochrones

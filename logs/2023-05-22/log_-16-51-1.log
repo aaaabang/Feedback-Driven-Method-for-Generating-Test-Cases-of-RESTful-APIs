@@ -1,0 +1,6 @@
+2023-05-22 16:51:29.658 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:51:29.664 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 5
+2023-05-22 16:51:29.666 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 16:51:30.171 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0
+2023-05-22 16:51:54.469 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 52, parameters: 18
+2023-05-22 16:51:54.469 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

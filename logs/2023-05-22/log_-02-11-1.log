@@ -1,0 +1,4 @@
+2023-05-22 02:11:11.027 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 42, parameters: 21
+2023-05-22 02:11:11.032 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 02:11:35.842 [main] INFO  org.restct.RESTCT - 8-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback
+2023-05-22 02:11:37.088 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 3034, parameters: 23, constraints: 0

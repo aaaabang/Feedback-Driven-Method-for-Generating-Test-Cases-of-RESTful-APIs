@@ -1,0 +1,5 @@
+2023-05-22 15:27:01.840 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:27:01.846 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
+2023-05-22 15:27:02.317 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0
+2023-05-22 15:27:17.353 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 15:27:17.354 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

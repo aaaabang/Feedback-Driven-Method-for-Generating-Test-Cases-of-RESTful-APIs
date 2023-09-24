@@ -1,0 +1,10 @@
+2023-05-22 16:25:06.097 [main] INFO  org.restct.RESTCT - 10-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 16:25:06.466 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 14, parameters: 2, constraints: 0
+2023-05-22 16:25:12.464 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 84, parameters: 6
+2023-05-22 16:25:12.465 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:25:46.871 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:25:46.877 [main] INFO  org.restct.RESTCT - Uncovered combinations: 29, sequence length: 8
+2023-05-22 16:25:46.882 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 16:25:47.225 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 14, parameters: 2, constraints: 0
+2023-05-22 16:25:52.948 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 84, parameters: 6
+2023-05-22 16:25:52.948 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

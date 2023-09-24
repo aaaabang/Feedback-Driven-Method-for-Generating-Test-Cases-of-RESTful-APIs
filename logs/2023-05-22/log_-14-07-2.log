@@ -1,0 +1,17 @@
+2023-05-22 14:08:05.338 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 14:08:05.658 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 14:08:06.825 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 14:08:06.825 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:08:15.292 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 14:08:15.293 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 14:08:15.680 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 14:08:17.262 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 14:08:17.262 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:08:25.735 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/LocationRecog/{point}
+2023-05-22 14:08:26.430 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 14:08:27.754 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 40, parameters: 10
+2023-05-22 14:08:27.755 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:08:44.080 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 14:08:44.164 [main] INFO  org.restct.RESTCT - Locations,2,3,2,4.0,4.00,1.00,1.00,20,0,425,203,3.79
+
+2023-05-22 14:08:44.165 [main] INFO  org.restct.RESTCT - Program execution time: 227252 ms.

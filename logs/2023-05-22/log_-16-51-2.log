@@ -1,0 +1,17 @@
+2023-05-22 16:52:08.410 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/LocationRecog/{point}
+2023-05-22 16:52:08.416 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:52:08.416 [main] INFO  org.restct.RESTCT -             point: 1 - [Default=47.64054,-122.12934]
+2023-05-22 16:52:08.416 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:52:08.754 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 2, constraints: 0
+2023-05-22 16:52:09.847 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 40, parameters: 10
+2023-05-22 16:52:09.847 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:52:25.947 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 16:52:25.947 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:52:25.947 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:52:26.954 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 16:52:28.352 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 16:52:28.352 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:52:36.535 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:52:36.553 [main] INFO  org.restct.RESTCT - Locations,2,3,2,4.0,4.25,1.00,1.00,20,0,449,263,4.98
+
+2023-05-22 16:52:36.553 [main] INFO  org.restct.RESTCT - Program execution time: 299054 ms.

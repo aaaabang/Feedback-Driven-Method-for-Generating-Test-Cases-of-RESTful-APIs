@@ -1,0 +1,17 @@
+[System]
+-- specify system name
+Name: acts2
+
+[Parameter]
+-- general syntax is parameter_name(type): value1, value2...
+P0(int):0,1,
+P1(int):0,
+P2(int):0,1,2,
+P3(int):0,1,2,3,
+P4(int):0,1,2,
+P5(int):0,1,2,
+P6(int):0,1,2,
+P7(int):0,1,2,
+P8(int):0,1,2,
+P9(int):0,1,2,
+

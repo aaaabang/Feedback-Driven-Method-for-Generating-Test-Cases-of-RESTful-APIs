@@ -1,0 +1,462 @@
+{
+  "responseChain": {
+    "GET***http://localhost:8888/api/doc": {
+      "map": {
+        "basePath": "/api",
+        "paths": {
+          "map": {
+            "/blog/posts": {
+              "map": {
+                "post": {
+                  "map": {
+                    "summary": "Creates a new blog post",
+                    "responses": {
+                      "map": {
+                        "200": {
+                          "map": {
+                            "schema": {
+                              "map": {
+                                "$ref": "#/definitions/Blog post public"
+                              }
+                            },
+                            "description": "Success"
+                          }
+                        }
+                      }
+                    },
+                    "operationId": "post_posts_collection",
+                    "parameters": {
+                      "myArrayList": [
+                        {
+                          "map": {
+                            "schema": {
+                              "map": {
+                                "$ref": "#/definitions/Blog post public"
+                              }
+                            },
+                            "in": "body",
+                            "name": "payload",
+                            "required": true
+                          }
+                        }
+                      ]
+                    },
+                    "tags": {
+                      "myArrayList": [
+                        "blog/posts"
+                      ]
+                    }
+                  }
+                },
+                "get": {
+                  "map": {
+                    "summary": "Returns a list of blog posts",
+                    "responses": {
+                      "map": {
+                        "200": {
+                          "map": {
+                            "schema": {
+                              "map": {
+                                "$ref": "#/definitions/Page of blog posts"
+                              }
+                            },
+                            "description": "Success"
+                          }
+                        }
+                      }
+                    },
+                    "operationId": "get_posts_collection",
+                    "parameters": {
+                      "myArrayList": [
+                        {
+                          "map": {
+                            "default": 10,
+                            "in": "query",
+                            "name": "per_page",
+                            "description": "Results per page {error_msg}",
+                            "type": "integer",
+                            "collectionFormat": "multi",
+                            "enum": {
+                              "myArrayList": [
+                                2,
+                                10,
+                                50
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "map": {
+                            "default": 1,
+                            "in": "query",
+                            "name": "page",
+                            "description": "Page number",
+                            "type": "integer"
+                          }
+                        }
+                      ]
+                    },
+                    "tags": {
+                      "myArrayList": [
+                        "blog/posts"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "/blog/posts/{postId}": {
+              "map": {
+                "get": {
+                  "map": {
+                    "summary": "Returns a blog post with matching \"postId\"",
+                    "responses": {
+                      "map": {
+                        "200": {
+                          "map": {
+                            "schema": {
+                              "map": {
+                                "$ref": "#/definitions/Blog post"
+                              }
+                            },
+                            "description": "Success"
+                          }
+                        },
+                        "201": {
+                          "map": {
+                            "description": "Post found."
+                          }
+                        },
+                        "404": {
+                          "map": {
+                            "description": "Post not found."
+                          }
+                        }
+                      }
+                    },
+                    "operationId": "get_post_item",
+                    "tags": {
+                      "myArrayList": [
+                        "blog/posts"
+                      ]
+                    }
+                  }
+                },
+                "parameters": {
+                  "myArrayList": [
+                    {
+                      "map": {
+                        "in": "path",
+                        "name": "postId",
+                        "type": "integer",
+                        "required": true
+                      }
+                    }
+                  ]
+                },
+                "delete": {
+                  "map": {
+                    "summary": "Deletes a blog post with matching \"postId\"",
+                    "responses": {
+                      "map": {
+                        "201": {
+                          "map": {
+                            "description": "Post found."
+                          }
+                        },
+                        "204": {
+                          "map": {
+                            "description": "Post successfully deleted."
+                          }
+                        },
+                        "404": {
+                          "map": {
+                            "description": "Post not found."
+                          }
+                        }
+                      }
+                    },
+                    "operationId": "delete_post_item",
+                    "tags": {
+                      "myArrayList": [
+                        "blog/posts"
+                      ]
+                    }
+                  }
+                },
+                "put": {
+                  "map": {
+                    "summary": "Updates a blog post with matching \"postId\" and \"checksum\"",
+                    "responses": {
+                      "map": {
+                        "201": {
+                          "map": {
+                            "description": "Post found."
+                          }
+                        },
+                        "204": {
+                          "map": {
+                            "description": "Post successfully updated."
+                          }
+                        },
+                        "404": {
+                          "map": {
+                            "description": "Post not found."
+                          }
+                        }
+                      }
+                    },
+                    "operationId": "put_post_item",
+                    "parameters": {
+                      "myArrayList": [
+                        {
+                          "map": {
+                            "schema": {
+                              "map": {
+                                "$ref": "#/definitions/Blog post"
+                              }
+                            },
+                            "in": "body",
+                            "name": "payload",
+                            "required": true
+                          }
+                        }
+                      ]
+                    },
+                    "tags": {
+                      "myArrayList": [
+                        "blog/posts"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "/doc": {
+              "map": {
+                "get": {
+                  "map": {
+                    "summary": "Returns list of blog categories",
+                    "responses": {
+                      "map": {
+                        "200": {
+                          "map": {
+                            "description": "Success"
+                          }
+                        }
+                      }
+                    },
+                    "operationId": "get_doc",
+                    "tags": {
+                      "myArrayList": [
+                        "/"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "produces": {
+          "myArrayList": [
+            "application/json"
+          ]
+        },
+        "host": "localhost:8888",
+        "responses": {
+          "map": {
+            "MaskError": {
+              "map": {
+                "description": "When any error occurs on mask"
+              }
+            },
+            "NoResultFound": {
+              "map": {}
+            },
+            "ParseError": {
+              "map": {
+                "description": "When a mask can\u0027t be parsed"
+              }
+            }
+          }
+        },
+        "definitions": {
+          "map": {
+            "A page of results": {
+              "map": {
+                "type": "object",
+                "properties": {
+                  "map": {
+                    "per_page": {
+                      "map": {
+                        "description": "Number of items per page of results",
+                        "type": "integer"
+                      }
+                    },
+                    "total": {
+                      "map": {
+                        "description": "Total number of results",
+                        "type": "integer"
+                      }
+                    },
+                    "page": {
+                      "map": {
+                        "description": "Number of this page of results",
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Page of blog posts": {
+              "map": {
+                "allOf": {
+                  "myArrayList": [
+                    {
+                      "map": {
+                        "$ref": "#/definitions/A page of results"
+                      }
+                    },
+                    {
+                      "map": {
+                        "type": "object",
+                        "properties": {
+                          "map": {
+                            "items": {
+                              "map": {
+                                "type": "array",
+                                "items": {
+                                  "map": {
+                                    "$ref": "#/definitions/Blog post public"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "Blog post public": {
+              "map": {
+                "type": "object",
+                "required": {
+                  "myArrayList": [
+                    "body"
+                  ]
+                },
+                "properties": {
+                  "map": {
+                    "id": {
+                      "map": {
+                        "description": "The unique identifier of a blog post",
+                        "type": "integer"
+                      }
+                    },
+                    "body": {
+                      "map": {
+                        "description": "Article content",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Blog post": {
+              "map": {
+                "type": "object",
+                "required": {
+                  "myArrayList": [
+                    "body"
+                  ]
+                },
+                "properties": {
+                  "map": {
+                    "checksum": {
+                      "map": {
+                        "description": "The sha1 checksum of the body",
+                        "type": "string"
+                      }
+                    },
+                    "id": {
+                      "map": {
+                        "description": "The unique identifier of a blog post",
+                        "type": "integer"
+                      }
+                    },
+                    "body": {
+                      "map": {
+                        "description": "Article content",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "swagger": "2.0",
+        "info": {
+          "map": {
+            "description": "A simple demonstration of a Flask RestPlus powered API",
+            "title": "My Blog API",
+            "version": "1.0"
+          }
+        },
+        "consumes": {
+          "myArrayList": [
+            "application/json"
+          ]
+        },
+        "tags": {
+          "myArrayList": [
+            {
+              "map": {
+                "name": "blog/posts",
+                "description": "Operations related to blog posts"
+              }
+            },
+            {
+              "map": {
+                "name": "/",
+                "description": "Operations related to blog categories"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "method": "put",
+  "response": {
+    "map": {
+      "message": "The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application."
+    }
+  },
+  "parameters": {
+    "checksum": {
+      "key": "Random",
+      "value": "K07ya0"
+    },
+    "id": {
+      "key": "NULL"
+    },
+    "postId": {
+      "key": "Random",
+      "value": 95
+    },
+    "body": {
+      "key": "Random",
+      "value": "firstf blog"
+    }
+  },
+  "url": "http://localhost:8888/api/blog/posts/{postId}",
+  "statusCode": 500
+}

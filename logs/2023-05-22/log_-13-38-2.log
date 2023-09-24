@@ -1,0 +1,29 @@
+2023-05-22 13:39:05.181 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 5
+2023-05-22 13:39:05.196 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:08.923 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Polyline
+2023-05-22 13:39:09.396 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 8, parameters: 3, constraints: 0
+2023-05-22 13:39:14.369 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 13:39:14.369 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:17.296 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 8, parameters: 3, constraints: 0
+2023-05-22 13:39:20.928 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 13:39:20.928 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:23.863 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 8, parameters: 3, constraints: 0
+2023-05-22 13:39:28.455 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 13:39:28.455 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:30.913 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 13:39:30.915 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Polyline
+2023-05-22 13:39:31.255 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 8, parameters: 3, constraints: 0
+2023-05-22 13:39:35.064 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 13:39:35.065 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:37.853 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Bounds
+2023-05-22 13:39:38.212 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 8, parameters: 4, constraints: 0
+2023-05-22 13:39:42.762 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 6, parameters: 5
+2023-05-22 13:39:42.763 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:47.757 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/List
+2023-05-22 13:39:48.108 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-22 13:39:50.239 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 13:39:50.239 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:53.063 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0
+2023-05-22 13:39:55.132 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 13:39:55.132 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:39:58.196 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 2, constraints: 0

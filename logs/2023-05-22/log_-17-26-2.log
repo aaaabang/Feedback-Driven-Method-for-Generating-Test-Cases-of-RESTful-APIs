@@ -1,0 +1,4 @@
+2023-05-22 17:27:12.155 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 17:27:12.164 [main] INFO  org.restct.RESTCT - 11-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItinerary
+2023-05-22 17:27:12.840 [main] INFO  org.restct.RESTCT -         11-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0

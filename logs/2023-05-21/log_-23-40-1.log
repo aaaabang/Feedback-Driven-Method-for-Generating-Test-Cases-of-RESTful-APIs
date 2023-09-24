@@ -1,0 +1,20 @@
+2023-05-21 23:40:03.689 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-21 23:40:05.549 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 35, parameters: 10
+2023-05-21 23:40:05.549 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 23:40:33.673 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 23:40:34.366 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 51, parameters: 18
+2023-05-21 23:40:34.366 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 23:40:42.465 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 23:40:43.901 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 15, parameters: 6
+2023-05-21 23:40:43.901 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 23:40:50.303 [main] ERROR org.restct.RESTCT - Program execution failed: Index: 1, Size: 1
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_231]
+	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:621) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:642) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:193) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-21 23:40:50.318 [main] INFO  org.restct.RESTCT - Program execution time: 60494 ms.

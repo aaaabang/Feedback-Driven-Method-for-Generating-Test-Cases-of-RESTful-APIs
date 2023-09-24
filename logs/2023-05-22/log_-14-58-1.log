@@ -1,0 +1,4 @@
+2023-05-22 14:58:24.114 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 14:58:24.555 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0
+2023-05-22 14:58:43.530 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 52, parameters: 18
+2023-05-22 14:58:43.530 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

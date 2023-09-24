@@ -1,0 +1,9 @@
+2023-05-21 17:24:19.130 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 17:24:19.332 [main] ERROR org.restct.RESTCT - Program execution failed: java.lang.Integer cannot be cast to java.lang.String
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+	at org.restct.dto.param.Parameter.buildParam(Parameter.java:65) ~[classes/:?]
+	at org.restct.ParseJson._parsePaths(ParseJson.java:104) ~[classes/:?]
+	at org.restct.ParseJson.parse(ParseJson.java:61) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:104) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-21 17:24:19.347 [main] INFO  org.restct.RESTCT - Program execution time: 1689 ms.

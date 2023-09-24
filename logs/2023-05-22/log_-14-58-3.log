@@ -1,0 +1,6 @@
+2023-05-22 14:59:01.948 [main] INFO  org.restct.RESTCT - 5-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}/Routes/{travelMode}
+2023-05-22 14:59:02.370 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 60, parameters: 6, constraints: 0
+2023-05-22 14:59:29.714 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 52, parameters: 19
+2023-05-22 14:59:29.715 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 14:59:52.201 [main] INFO  org.restct.RESTCT - 6-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}
+2023-05-22 14:59:52.633 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 60, parameters: 4, constraints: 0

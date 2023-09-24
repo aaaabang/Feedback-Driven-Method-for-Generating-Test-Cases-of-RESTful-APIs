@@ -1,0 +1,8 @@
+2023-05-22 16:47:00.299 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:47:11.223 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:47:11.223 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:47:39.449 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 16:47:43.815 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 16:47:43.815 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:47:59.375 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 16:47:59.913 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0

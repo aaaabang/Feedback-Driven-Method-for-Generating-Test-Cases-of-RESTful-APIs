@@ -1,0 +1,2 @@
+2023-05-22 02:49:08.686 [main] INFO  org.restct.RESTCT - 12-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItinerary
+2023-05-22 02:49:10.640 [main] INFO  org.restct.RESTCT -         12-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0

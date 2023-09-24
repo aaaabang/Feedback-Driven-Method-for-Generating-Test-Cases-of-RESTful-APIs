@@ -1,0 +1,7 @@
+2023-05-22 17:07:27.166 [main] INFO  org.restct.RESTCT - 8-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{query}
+2023-05-22 17:07:27.556 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 17:07:31.716 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 17:07:31.716 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:07:46.300 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 17:07:52.314 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 17:07:52.315 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

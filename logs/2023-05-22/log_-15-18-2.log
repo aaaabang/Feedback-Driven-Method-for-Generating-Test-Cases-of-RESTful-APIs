@@ -1,0 +1,15 @@
+2023-05-22 15:19:05.476 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:19:05.480 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.10,-122.107, Default=47.610,-122.107]
+2023-05-22 15:19:05.480 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=11, Random=10, Random=9]
+2023-05-22 15:19:05.480 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:19:05.835 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:19:10.703 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:19:10.703 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:19:21.301 [main] INFO  org.restct.RESTCT - 5-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}
+2023-05-22 15:19:21.302 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:19:21.302 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.610,-122.07, Default=47.610,-122.107]
+2023-05-22 15:19:21.302 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:19:21.302 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 15:19:21.752 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 15:19:33.034 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 66, parameters: 8
+2023-05-22 15:19:33.035 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

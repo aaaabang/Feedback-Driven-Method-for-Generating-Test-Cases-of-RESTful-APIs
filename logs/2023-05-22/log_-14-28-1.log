@@ -1,0 +1,4 @@
+2023-05-22 14:28:41.759 [main] INFO  org.restct.RESTCT - 9-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 14:28:42.091 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 14, parameters: 2, constraints: 0
+2023-05-22 14:28:48.248 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 84, parameters: 6
+2023-05-22 14:28:48.248 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

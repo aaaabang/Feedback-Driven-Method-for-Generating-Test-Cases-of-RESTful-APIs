@@ -1,0 +1,4 @@
+2023-05-21 22:39:03.031 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 15, parameters: 6
+2023-05-21 22:39:03.058 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 22:39:18.414 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Truck
+2023-05-21 22:39:33.398 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0

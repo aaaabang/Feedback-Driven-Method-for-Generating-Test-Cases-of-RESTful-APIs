@@ -1,0 +1,10 @@
+2023-05-22 17:14:35.577 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 17:14:35.589 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Routes
+2023-05-22 17:14:35.935 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:14:36.874 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 51, parameters: 17
+2023-05-22 17:14:36.874 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:14:58.081 [main] INFO  org.restct.RESTCT - 5-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/{travelMode}
+2023-05-22 17:14:58.420 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:14:59.364 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 51, parameters: 18
+2023-05-22 17:14:59.364 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

@@ -1,0 +1,5 @@
+2023-05-22 13:33:13.030 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 13:33:13.642 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0
+2023-05-22 13:33:26.802 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 13:33:26.802 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

@@ -1,0 +1,7 @@
+2023-05-22 13:54:07.570 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 14, parameters: 3, constraints: 0
+2023-05-22 13:54:14.664 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 13:54:14.664 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:54:58.438 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 13:54:58.517 [main] INFO  org.restct.RESTCT - Imagery,2,3,2,7.0,7.00,0.70,0.47,90,2,5525,849,52.26
+
+2023-05-22 13:54:58.518 [main] INFO  org.restct.RESTCT - Program execution time: 3135613 ms.

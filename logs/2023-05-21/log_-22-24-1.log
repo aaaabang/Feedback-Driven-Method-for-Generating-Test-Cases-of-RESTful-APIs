@@ -1,0 +1,18 @@
+2023-05-21 22:24:42.032 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-21 22:24:42.371 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 22:24:43.070 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 51, parameters: 18
+2023-05-21 22:24:43.070 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 22:24:50.844 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-21 22:24:51.185 [main] ERROR org.restct.RESTCT - Program execution failed: Index: 3, Size: 3
+java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_231]
+	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:623) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:644) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:193) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+2023-05-21 22:24:51.254 [main] INFO  org.restct.RESTCT - Program execution time: 92375 ms.

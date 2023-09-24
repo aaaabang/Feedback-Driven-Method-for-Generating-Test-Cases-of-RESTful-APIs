@@ -1,0 +1,6 @@
+2023-05-22 13:58:13.304 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 14, parameters: 2, constraints: 0
+2023-05-22 13:58:19.199 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 84, parameters: 6
+2023-05-22 13:58:19.200 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 13:58:54.582 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 13:58:54.585 [main] INFO  org.restct.RESTCT - Uncovered combinations: 16, sequence length: 5
+2023-05-22 13:58:55.213 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 60, parameters: 6, constraints: 0

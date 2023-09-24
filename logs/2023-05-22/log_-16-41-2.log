@@ -1,0 +1,21 @@
+2023-05-22 16:42:12.639 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{query}
+2023-05-22 16:42:12.648 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:42:12.648 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:42:12.648 [main] INFO  org.restct.RESTCT -             query: 2 - [Random=Whit%20House, Default=White%20House]
+2023-05-22 16:42:13.036 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:42:15.373 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 20, parameters: 5
+2023-05-22 16:42:15.373 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:42:31.916 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{point}
+2023-05-22 16:42:31.917 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:42:31.917 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:42:31.918 [main] INFO  org.restct.RESTCT -             point: 2 - [Random=47.64054-122.12934, Default=47.64054,-122.12934]
+2023-05-22 16:42:32.389 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 16:42:34.022 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 24, parameters: 6
+2023-05-22 16:42:34.022 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 16:42:52.600 [main] INFO  org.restct.RESTCT - 5-th operation: get*http://dev.virtualearth.net/REST/v1/LocationRecog/{point}
+2023-05-22 16:42:52.602 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 16:42:52.603 [main] INFO  org.restct.RESTCT -             point: 1 - [Default=47.64054,-122.12934]
+2023-05-22 16:42:52.603 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 16:42:53.027 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 1, parameters: 2, constraints: 0
+2023-05-22 16:42:53.951 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 40, parameters: 10
+2023-05-22 16:42:53.952 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

@@ -1,0 +1,16 @@
+2023-05-22 15:06:10.883 [main] INFO  org.restct.RESTCT - 9-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}
+2023-05-22 15:06:10.886 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:06:10.886 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:06:10.887 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 15:06:11.290 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 11, parameters: 2, constraints: 0
+2023-05-22 15:06:16.743 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 66, parameters: 6
+2023-05-22 15:06:16.743 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:06:45.321 [main] INFO  org.restct.RESTCT - 10-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}/Routes/{travelMode}
+2023-05-22 15:06:45.323 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:06:45.323 [main] INFO  org.restct.RESTCT -             centerPoint: 1 - [Random=47.u610,-122.107]
+2023-05-22 15:06:45.323 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:06:45.324 [main] INFO  org.restct.RESTCT -             waypoint.0: 2 - [Random=Seattle,qWA;64;1, Default=Seattle,WA;64;1]
+2023-05-22 15:06:45.325 [main] INFO  org.restct.RESTCT -             zoomLevel: 2 - [Random=6, Random=12]
+2023-05-22 15:06:45.325 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:06:45.325 [main] INFO  org.restct.RESTCT -             waypoint.1: 2 - [Random=Redmon,WA;66;2, Default=Redmond,WA;66;2]
+2023-05-22 15:06:45.979 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 40, parameters: 6, constraints: 0

@@ -1,0 +1,28 @@
+2023-05-21 23:29:47.321 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 23:29:47.570 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 23:29:47.570 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 23:29:47.658 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 23:29:47.671 [main] INFO  org.restct.RESTCT - Uncovered combinations: 47, sequence length: 14
+2023-05-21 23:29:47.677 [main] INFO  org.restct.RESTCT - Uncovered combinations: 30, sequence length: 12
+2023-05-21 23:29:47.684 [main] INFO  org.restct.RESTCT - Uncovered combinations: 22, sequence length: 10
+2023-05-21 23:29:47.693 [main] INFO  org.restct.RESTCT - Uncovered combinations: 13, sequence length: 9
+2023-05-21 23:29:47.696 [main] INFO  org.restct.RESTCT - Uncovered combinations: 7, sequence length: 8
+2023-05-21 23:29:47.698 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 7
+2023-05-21 23:29:47.703 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-21 23:29:47.725 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/IsochronesAsyncCallback
+2023-05-21 23:29:54.847 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 23:29:55.162 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 23:29:55.165 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 23:29:55.378 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 23:29:55.404 [main] INFO  org.restct.RESTCT - Uncovered combinations: 56, sequence length: 14
+2023-05-21 23:29:55.413 [main] INFO  org.restct.RESTCT - Uncovered combinations: 41, sequence length: 13
+2023-05-21 23:29:55.488 [main] INFO  org.restct.RESTCT - Uncovered combinations: 26, sequence length: 12
+2023-05-21 23:29:55.493 [main] INFO  org.restct.RESTCT - Uncovered combinations: 5, sequence length: 11
+2023-05-21 23:29:55.517 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 6
+2023-05-21 23:29:55.527 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-21 23:29:55.535 [main] INFO  org.restct.RESTCT - 1-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-21 23:29:56.782 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-21 23:29:58.506 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 2, parameters: 2
+2023-05-21 23:29:58.521 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-21 23:29:58.742 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/Truck
+2023-05-21 23:29:59.172 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0

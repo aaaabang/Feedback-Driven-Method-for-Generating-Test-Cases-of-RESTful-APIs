@@ -1,0 +1,4 @@
+2023-05-22 16:26:28.751 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 16:26:29.721 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0
+2023-05-22 16:26:59.341 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 52, parameters: 18
+2023-05-22 16:26:59.341 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

@@ -1,0 +1,189 @@
+2023-05-22 15:28:01.614 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:01.641 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:01.641 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:02.196 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:02.196 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:28:02.742 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:02.743 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:02.744 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random=35.89431,-110.72522,3w5.89393,-110.72578,35.89374, Default=35.89431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:28:02.745 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:03.139 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:03.140 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 15:28:03.140 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:04.891 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Polyline
+2023-05-22 15:28:04.892 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:04.893 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:04.893 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:04.894 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default, Random]
+2023-05-22 15:28:05.643 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:05.644 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 3, constraints: 0
+2023-05-22 15:28:06.759 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:06.759 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:06.760 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:06.760 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=35.89431,-110.72522,35.89393,-110.72578,y35.89374]
+2023-05-22 15:28:06.760 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default=30, Random=8]
+2023-05-22 15:28:07.260 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:07.261 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 15:28:07.261 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:09.091 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:09.091 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:09.091 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:09.092 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default, Random]
+2023-05-22 15:28:09.434 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:09.434 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 3, constraints: 0
+2023-05-22 15:28:10.589 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:10.589 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:10.590 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:10.590 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=35.89431,-110.72522,35.89393,-110.72578,y35.89374]
+2023-05-22 15:28:10.590 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default=30, Random=8]
+2023-05-22 15:28:11.055 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:11.056 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 15:28:11.056 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:12.703 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:12.703 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:12.704 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:12.704 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default, Random]
+2023-05-22 15:28:13.115 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:13.117 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 4, parameters: 3, constraints: 0
+2023-05-22 15:28:14.230 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:14.230 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:14.231 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:14.231 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=35.89431,-110.72522,35.89393,-110.72578,y35.89374]
+2023-05-22 15:28:14.232 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default=30, Random=8]
+2023-05-22 15:28:14.638 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:14.639 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 15:28:14.639 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:16.361 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel
+2023-05-22 15:28:16.362 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:16.362 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:16.362 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:16.702 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:16.703 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:28:17.234 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:17.235 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:17.235 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=3589431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:28:17.599 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:17.599 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 2, parameters: 2
+2023-05-22 15:28:17.600 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:18.140 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:18.141 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:18.141 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:18.483 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:18.484 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:28:19.082 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:19.083 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:19.083 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=3589431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:28:19.455 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:19.455 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 2, parameters: 2
+2023-05-22 15:28:19.456 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:19.986 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:19.987 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:19.987 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:20.386 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:20.387 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:28:20.968 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:20.968 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:20.969 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=3589431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:28:21.304 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:21.305 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 2, parameters: 2
+2023-05-22 15:28:21.305 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:21.891 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:28:21.892 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:28:21.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:28:21.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:28:21.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:28:21.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:28:21.893 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:28:21.894 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 4
+2023-05-22 15:28:21.894 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 37.231
+2023-05-22 15:28:21.894 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel
+2023-05-22 15:28:21.895 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:21.895 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:21.895 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:22.247 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:22.248 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:28:22.789 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:22.790 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:22.790 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=3589431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:28:23.153 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:23.154 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 2, parameters: 2
+2023-05-22 15:28:23.154 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:23.693 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Polyline
+2023-05-22 15:28:23.693 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:23.693 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:23.694 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:23.694 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default, Random]
+2023-05-22 15:28:24.088 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:24.088 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 4, parameters: 3, constraints: 0
+2023-05-22 15:28:25.246 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:25.247 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:25.247 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:25.247 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default=35.89431,-110.72522,35.89393,-110.72578,35.89374, Random=35.89431,-110.72522,35.89393,-110.72578,y35.89374]
+2023-05-22 15:28:25.247 [main] DEBUG org.restct.RESTCT -             samples: 2 - [Default=30, Random=8]
+2023-05-22 15:28:25.620 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:25.620 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 6, parameters: 4
+2023-05-22 15:28:25.620 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:27.385 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/List
+2023-05-22 15:28:27.385 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:27.385 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:27.386 [main] DEBUG org.restct.RESTCT -             points: 2 - [Default, Random]
+2023-05-22 15:28:27.750 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:27.751 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:28:28.283 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:28.283 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:28.283 [main] DEBUG org.restct.RESTCT -             points: 2 - [Random=35.89431,-110.72522,3w5.89393,-110.72578,35.89374, Default=35.89431,-110.72522,35.89393,-110.72578,35.89374]
+2023-05-22 15:28:28.284 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:28.647 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:28.648 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 6, parameters: 3
+2023-05-22 15:28:28.648 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:30.491 [main] INFO  org.restct.RESTCT - 4-th operation: get*http://dev.virtualearth.net/REST/v1/Elevation/Bounds
+2023-05-22 15:28:30.492 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:30.492 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:28:30.493 [main] DEBUG org.restct.RESTCT -             rows: 2 - [Default, Random]
+2023-05-22 15:28:30.493 [main] DEBUG org.restct.RESTCT -             bounds: 2 - [Default, Random]
+2023-05-22 15:28:30.493 [main] DEBUG org.restct.RESTCT -             cols: 2 - [Default, Random]
+2023-05-22 15:28:30.899 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:30.899 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 8, parameters: 4, constraints: 0
+2023-05-22 15:28:34.385 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:28:34.386 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AkZxRYtSbfisLxUcZO1-iXl9g0XNRBkq17TFotpXeNWFuERIJ1yqMcu2dbcolA0P]
+2023-05-22 15:28:34.386 [main] DEBUG org.restct.RESTCT -             rows: 2 - [Default=30, Random=8]
+2023-05-22 15:28:34.386 [main] DEBUG org.restct.RESTCT -             bounds: 2 - [Random=45.219c,-122.234,47.61,-122.07, Default=45.219,-122.234,47.61,-122.07]
+2023-05-22 15:28:34.386 [main] DEBUG org.restct.RESTCT -             heights: 3 - [Enum=ellipsoid, Enum=sealevel, NULL=null]
+2023-05-22 15:28:34.386 [main] DEBUG org.restct.RESTCT -             cols: 2 - [Default=15, Random=5]
+2023-05-22 15:28:34.755 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:28:34.756 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 6, parameters: 5
+2023-05-22 15:28:34.756 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:28:37.175 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:28:37.182 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.182 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline]]
+2023-05-22 15:28:37.183 [main] DEBUG org.restct.RESTCT - computeCombinations []
+2023-05-22 15:28:37.183 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.183 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.184 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline]]
+2023-05-22 15:28:37.184 [main] DEBUG org.restct.RESTCT - computeCombinations []
+2023-05-22 15:28:37.184 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.184 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.184 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline]]
+2023-05-22 15:28:37.185 [main] DEBUG org.restct.RESTCT - computeCombinations []
+2023-05-22 15:28:37.185 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.185 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.185 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline]]
+2023-05-22 15:28:37.185 [main] DEBUG org.restct.RESTCT - computeCombinations []
+2023-05-22 15:28:37.186 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.197 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.197 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline]]
+2023-05-22 15:28:37.197 [main] DEBUG org.restct.RESTCT - computeCombinations []
+2023-05-22 15:28:37.197 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.200 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.201 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline]]
+2023-05-22 15:28:37.202 [main] DEBUG org.restct.RESTCT - computeCombinations []
+2023-05-22 15:28:37.202 [main] DEBUG org.restct.RESTCT - computeCombinations [[GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline], [GET***http://dev.virtualearth.net/REST/v1/Elevation/List, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/List], [GET***http://dev.virtualearth.net/REST/v1/Elevation/SeaLevel, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds], [GET***http://dev.virtualearth.net/REST/v1/Elevation/Polyline, GET***http://dev.virtualearth.net/REST/v1/Elevation/Bounds]]
+2023-05-22 15:28:37.203 [main] DEBUG org.restct.RESTCT - SequenceInfo [2, 4]
+ Sequence Tested [1, 4, 0, 12, 12]
+, bug 0
+, total 116
+ cost 0.8752
+
+2023-05-22 15:28:37.205 [main] INFO  org.restct.RESTCT - Elevations,2,3,2,2.0,4.00,0.25,0.00,12,0,116,11,0.88
+
+2023-05-22 15:28:37.205 [main] INFO  org.restct.RESTCT - Program execution time: 52542 ms.

@@ -1,0 +1,30 @@
+2023-05-22 15:37:14.799 [main] INFO  org.restct.RESTCT - 8-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}
+2023-05-22 15:37:14.804 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:37:14.804 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.610,-122e.107, Default=47.610,-122.107]
+2023-05-22 15:37:14.804 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=4, Random=2, Random=7]
+2023-05-22 15:37:14.805 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:37:15.194 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:37:18.304 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:37:18.305 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:37:25.359 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:37:25.359 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47d.610,-122.107, Default=47.610,-122.107]
+2023-05-22 15:37:25.360 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=5, Random=1, Random=1]
+2023-05-22 15:37:25.360 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:37:25.692 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:37:29.323 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:37:29.324 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:37:36.679 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:37:36.679 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.610,-122107, Default=47.610,-122.107]
+2023-05-22 15:37:36.680 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=4, Random=9, Random=8]
+2023-05-22 15:37:36.680 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:37:37.068 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:37:40.088 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:37:40.088 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:37:47.060 [main] INFO  org.restct.RESTCT - 9-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/Routes/{travelMode}
+2023-05-22 15:37:47.061 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:37:47.061 [main] INFO  org.restct.RESTCT -             waypoint.0: 2 - [Random=Seattle,WA;s64;1, Default=Seattle,WA;64;1]
+2023-05-22 15:37:47.061 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:37:47.061 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:37:47.062 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=17, Random=19, Random=18]
+2023-05-22 15:37:47.062 [main] INFO  org.restct.RESTCT -             waypoint.1: 2 - [Random=Redmond,WA;66;, Default=Redmond,WA;66;2]
+2023-05-22 15:37:47.419 [main] INFO  org.restct.RESTCT -         9-th operation essential parameters covering array size: 60, parameters: 5, constraints: 0

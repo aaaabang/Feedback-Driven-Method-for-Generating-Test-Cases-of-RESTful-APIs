@@ -1,0 +1,15 @@
+2023-05-22 15:18:30.884 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{centerPoint}/{zoomLevel}
+2023-05-22 15:18:30.889 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:18:30.889 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.61b0,-122.107, Default=47.610,-122.107]
+2023-05-22 15:18:30.889 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=16, Random=9, Random=6]
+2023-05-22 15:18:30.889 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:18:31.259 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:18:36.380 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:18:36.380 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:18:49.235 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:18:49.236 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.610,-122.f107, Default=47.610,-122.107]
+2023-05-22 15:18:49.236 [main] INFO  org.restct.RESTCT -             zoomLevel: 3 - [Random=13, Random=2, Random=5]
+2023-05-22 15:18:49.236 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:18:49.617 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 6, parameters: 3, constraints: 0
+2023-05-22 15:18:53.535 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:18:53.536 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

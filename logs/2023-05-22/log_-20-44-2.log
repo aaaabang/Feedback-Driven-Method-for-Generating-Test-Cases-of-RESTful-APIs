@@ -1,0 +1,7 @@
+2023-05-22 20:48:58.833 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 35, parameters: 10
+2023-05-22 20:48:58.838 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:48:58.848 [main] INFO  org.restct.RESTCT - 5-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix
+2023-05-22 20:48:59.400 [main] INFO  org.restct.RESTCT -         5-th operation essential parameters covering array size: 272, parameters: 9, constraints: 0
+2023-05-22 20:48:59.955 [main] INFO  org.restct.RESTCT -         5-th operation all parameters covering array size: 50, parameters: 9
+2023-05-22 20:48:59.955 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 20:48:59.972 [main] INFO  org.restct.RESTCT - 6-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsync

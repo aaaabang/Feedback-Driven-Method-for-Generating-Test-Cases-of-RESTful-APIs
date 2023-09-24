@@ -1,0 +1,11 @@
+2023-05-22 15:42:00.861 [main] INFO  org.restct.RESTCT -         9-th operation all parameters covering array size: 52, parameters: 19
+2023-05-22 15:42:00.865 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:42:28.008 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 15:42:28.009 [main] INFO  org.restct.RESTCT - 10-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 15:42:28.483 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:42:31.024 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:42:31.024 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:42:54.772 [main] INFO  org.restct.RESTCT -         10-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 15:42:57.108 [main] INFO  org.restct.RESTCT -         10-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 15:42:57.109 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

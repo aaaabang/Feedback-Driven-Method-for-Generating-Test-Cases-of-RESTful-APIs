@@ -1,0 +1,4 @@
+2023-05-22 16:37:43.578 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 16:37:43.688 [main] INFO  org.restct.RESTCT - TimeZone,2,3,2,3.0,3.67,1.00,1.00,12,0,2305,1007,18.30
+
+2023-05-22 16:37:43.688 [main] INFO  org.restct.RESTCT - Program execution time: 1098038 ms.

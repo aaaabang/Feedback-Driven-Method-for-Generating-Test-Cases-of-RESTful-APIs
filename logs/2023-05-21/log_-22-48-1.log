@@ -1,0 +1,13 @@
+2023-05-21 22:48:46.805 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 22:48:47.057 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 22:48:47.058 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 22:48:47.122 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 22:48:47.133 [main] INFO  org.restct.RESTCT - Uncovered combinations: 56, sequence length: 14
+2023-05-21 22:48:47.142 [main] INFO  org.restct.RESTCT - Uncovered combinations: 37, sequence length: 13
+2023-05-21 22:48:47.149 [main] INFO  org.restct.RESTCT - Uncovered combinations: 26, sequence length: 12
+2023-05-21 22:48:47.153 [main] INFO  org.restct.RESTCT - Uncovered combinations: 14, sequence length: 11
+2023-05-21 22:48:47.157 [main] INFO  org.restct.RESTCT - Uncovered combinations: 8, sequence length: 10
+2023-05-21 22:48:47.159 [main] INFO  org.restct.RESTCT - Uncovered combinations: 3, sequence length: 8
+2023-05-21 22:48:47.164 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 4
+2023-05-21 22:48:47.165 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-21 22:48:47.174 [main] INFO  org.restct.RESTCT - 1-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/SnapToRoadAsyncCallback

@@ -1,0 +1,14 @@
+2023-05-22 15:58:23.907 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:58:23.913 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:58:23.914 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:58:23.914 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:58:23.914 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:58:23.914 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 4
+2023-05-22 15:58:23.916 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 331.781
+2023-05-22 15:58:23.917 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/TimeZone/Convert/
+2023-05-22 15:58:23.917 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:58:23.917 [main] DEBUG org.restct.RESTCT -             desttz: 75 - [Enum]
+2023-05-22 15:58:23.918 [main] DEBUG org.restct.RESTCT -             dateTime: 2 - [Default, Random]
+2023-05-22 15:58:23.918 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:58:24.385 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:58:24.385 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 150, parameters: 3, constraints: 0

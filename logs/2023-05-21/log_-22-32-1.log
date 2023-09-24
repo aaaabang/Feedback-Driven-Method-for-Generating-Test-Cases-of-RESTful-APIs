@@ -1,0 +1,27 @@
+2023-05-21 22:32:08.766 [main] INFO  org.restct.RESTCT - Start running program.
+2023-05-21 22:32:09.037 [main] INFO  org.restct.RESTCT - Operations: 14
+2023-05-21 22:32:09.038 [main] INFO  org.restct.RESTCT - Examples found: 18
+2023-05-21 22:32:09.148 [main] INFO  org.restct.RESTCT - Uncovered combinations: 91, sequence length: 14
+2023-05-21 22:32:09.160 [main] INFO  org.restct.RESTCT - Uncovered combinations: 47, sequence length: 14
+2023-05-21 22:32:09.166 [main] INFO  org.restct.RESTCT - Uncovered combinations: 19, sequence length: 13
+2023-05-21 22:32:09.181 [main] INFO  org.restct.RESTCT - Uncovered combinations: 12, sequence length: 10
+2023-05-21 22:32:09.184 [main] INFO  org.restct.RESTCT - Uncovered combinations: 6, sequence length: 8
+2023-05-21 22:32:09.187 [main] INFO  org.restct.RESTCT - Uncovered combinations: 2, sequence length: 7
+2023-05-21 22:32:09.189 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 3
+2023-05-21 22:32:09.191 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-21 22:32:09.934 [main] ERROR org.restct.RESTCT - Program execution failed: java.io.FileNotFoundException: exp/swagger/BingMap/results/Route/acts/output.txt (No such file or directory)
+java.lang.RuntimeException: java.io.FileNotFoundException: exp/swagger/BingMap/results/Route/acts/output.txt (No such file or directory)
+	at org.restct.ACTS.parseOutput(CoveringArray.java:631) ~[classes/:?]
+	at org.restct.ACTS.run(CoveringArray.java:642) ~[classes/:?]
+	at org.restct.CoveringArray.genEssentialParamsCase(CoveringArray.java:193) ~[classes/:?]
+	at org.restct.CoveringArray.run(CoveringArray.java:99) ~[classes/:?]
+	at org.restct.RESTCT.run(RESTCT.java:121) [classes/:?]
+	at org.restct.Main.main(Main.java:11) [classes/:?]
+Caused by: java.io.FileNotFoundException: exp/swagger/BingMap/results/Route/acts/output.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_231]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_231]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_231]
+	at java.io.FileReader.<init>(FileReader.java:72) ~[?:1.8.0_231]
+	at org.restct.ACTS.parseOutput(CoveringArray.java:601) ~[classes/:?]
+	... 5 more
+2023-05-21 22:32:09.945 [main] INFO  org.restct.RESTCT - Program execution time: 3453 ms.

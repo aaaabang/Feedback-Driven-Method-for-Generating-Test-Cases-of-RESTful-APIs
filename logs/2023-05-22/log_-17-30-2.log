@@ -1,0 +1,16 @@
+2023-05-22 17:32:04.258 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 17:32:11.208 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 17:32:11.208 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:32:30.860 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 17:32:36.420 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 17:32:36.420 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:32:54.898 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 17:32:54.900 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 2
+2023-05-22 17:32:54.900 [main] INFO  org.restct.RESTCT - 1-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}
+2023-05-22 17:32:54.901 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 4, constraints: 0
+2023-05-22 17:32:55.599 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 1, parameters: 20
+2023-05-22 17:32:55.599 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:32:56.157 [main] INFO  org.restct.RESTCT - 2-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/Streetside/{address}
+2023-05-22 17:32:56.545 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 3, parameters: 2, constraints: 0
+2023-05-22 17:32:58.472 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 25, parameters: 18
+2023-05-22 17:32:58.472 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

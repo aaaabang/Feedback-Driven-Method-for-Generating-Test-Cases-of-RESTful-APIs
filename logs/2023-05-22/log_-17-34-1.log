@@ -1,0 +1,16 @@
+2023-05-22 17:34:25.445 [main] INFO  org.restct.RESTCT - bugFile written successfully.
+
+2023-05-22 17:34:25.468 [main] INFO  org.restct.RESTCT - 6-th operation: get*http://dev.virtualearth.net/REST/v1/Routes/FromMajorRoads
+2023-05-22 17:34:25.469 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 17:34:25.469 [main] INFO  org.restct.RESTCT -             destination: 2 - [Random=4g7.610,-122.107, Default=47.610,-122.107]
+2023-05-22 17:34:25.469 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 17:34:26.156 [main] INFO  org.restct.RESTCT -         6-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:34:27.792 [main] INFO  org.restct.RESTCT -         6-th operation all parameters covering array size: 15, parameters: 6
+2023-05-22 17:34:27.792 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 17:34:36.598 [main] INFO  org.restct.RESTCT - 7-th operation: get*http://dev.virtualearth.net/REST/v1/Routes
+2023-05-22 17:34:36.599 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 17:34:36.599 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 17:34:36.600 [main] INFO  org.restct.RESTCT -             waypoint.1: 2 - [Random=Sattle, Default=Seattle]
+2023-05-22 17:34:36.992 [main] INFO  org.restct.RESTCT -         7-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 17:34:38.318 [main] INFO  org.restct.RESTCT -         7-th operation all parameters covering array size: 51, parameters: 17
+2023-05-22 17:34:38.318 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

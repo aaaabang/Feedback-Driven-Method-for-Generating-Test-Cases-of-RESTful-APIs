@@ -1,0 +1,10 @@
+2023-05-21 19:38:00.784 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-21 19:38:00.909 [main] DEBUG org.restct.RESTCT - SequenceInfo [4, 4]
+ Sequence Tested [46, 17, 54, 29, 20]
+, bug 0
+, total 456
+ cost 1.5453166666666667
+
+2023-05-21 19:38:00.912 [main] INFO  org.restct.RESTCT - Locations,2,3,2,4.0,4.00,2.71,1.86,20,0,456,226,1.55
+
+2023-05-21 19:38:00.912 [main] INFO  org.restct.RESTCT - Program execution time: 92838 ms.

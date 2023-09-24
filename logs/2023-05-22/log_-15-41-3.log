@@ -1,0 +1,94 @@
+2023-05-22 15:42:05.955 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:42:05.961 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:42:05.962 [main] INFO  org.restct.RESTCT - Uncovered combinations: 1, sequence length: 3
+2023-05-22 15:42:05.964 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 127.567
+2023-05-22 15:42:05.964 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Locations/{point}
+2023-05-22 15:42:05.965 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:05.965 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:42:05.965 [main] DEBUG org.restct.RESTCT -             point: 2 - [Random, Default]
+2023-05-22 15:42:06.422 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:06.423 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 2, parameters: 2, constraints: 0
+2023-05-22 15:42:07.303 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:07.304 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 15:42:07.304 [main] DEBUG org.restct.RESTCT -             point: 2 - [Default=47.64054,-122.12934, Random=47.64054,-122.f12934]
+2023-05-22 15:42:07.304 [main] DEBUG org.restct.RESTCT -             includeNeighborhood: 3 - [NULL=null, Enum=0, Enum=1]
+2023-05-22 15:42:07.305 [main] DEBUG org.restct.RESTCT -             includeEntityTypes: 8 - [Enum=Address, NULL=null, Enum=Neighborhood, Enum=AdminDivision1, Enum=PopulatedPlace, Enum=Postcode1, Enum=AdminDivision2, Enum=CountryRegion]
+2023-05-22 15:42:07.305 [main] DEBUG org.restct.RESTCT -             include: 2 - [NULL=null, Enum=ciso2]
+2023-05-22 15:42:07.305 [main] DEBUG org.restct.RESTCT -             verboseplacenames: 3 - [Enum=false, NULL=null, Enum=true]
+2023-05-22 15:42:07.759 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:07.760 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 24, parameters: 6
+2023-05-22 15:42:07.761 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:42:18.740 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/LocalSearch
+2023-05-22 15:42:18.741 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:18.742 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:42:19.187 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:19.188 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 15:42:19.578 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:19.579 [main] DEBUG org.restct.RESTCT -             userLocation: 3 - [NULL=null, Default=48.604311,-122.981998,5000, Random=48.604311,-1d22.981998,5000]
+2023-05-22 15:42:19.579 [main] DEBUG org.restct.RESTCT -             userCircularMapView: 3 - [NULL=null, Default=48.604311,-122.981998,5000, Random=48.604311,-122.98i1998,5000]
+2023-05-22 15:42:19.579 [main] DEBUG org.restct.RESTCT -             query: 3 - [Default=White%20House, NULL=null, Random=Whie%20House]
+2023-05-22 15:42:19.579 [main] DEBUG org.restct.RESTCT -             userMapView: 3 - [Random=29.8171041,-122.98195,48.604311,-95.5413725, NULL=null, Default=29.8171041,-122.981995,48.604311,-95.5413725]
+2023-05-22 15:42:19.580 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 15:42:19.580 [main] DEBUG org.restct.RESTCT -             maxResults: 2 - [NULL=null, Default=5]
+2023-05-22 15:42:19.580 [main] DEBUG org.restct.RESTCT -             type: 8 - [Enum=Parking, NULL=null, Enum=EatDrink, Enum=HotelsAndMotels, Enum=Shop, Enum=SeeDo, Enum=BanksAndCreditUnions, Enum=Hospitals]
+2023-05-22 15:42:20.096 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:20.097 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 24, parameters: 7
+2023-05-22 15:42:20.097 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:42:30.378 [main] INFO  org.restct.RESTCT - 3-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 15:42:30.379 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:30.379 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:42:31.128 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:31.129 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 15:42:31.896 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:31.897 [main] DEBUG org.restct.RESTCT -             include: 2 - [NULL=null, Enum=ciso2]
+2023-05-22 15:42:31.897 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 15:42:31.897 [main] DEBUG org.restct.RESTCT -             postalCode: 3 - [NULL=null, Default=98178, Random=9878]
+2023-05-22 15:42:31.897 [main] DEBUG org.restct.RESTCT -             maxResults: 4 - [Random=18, NULL=null, Random=17, Random=9]
+2023-05-22 15:42:31.897 [main] DEBUG org.restct.RESTCT -             includeNeighborhood: 3 - [NULL=null, Enum=0, Enum=1]
+2023-05-22 15:42:31.897 [main] DEBUG org.restct.RESTCT -             strictMatch: 3 - [NULL=null, Enum=0, Enum=1]
+2023-05-22 15:42:31.898 [main] DEBUG org.restct.RESTCT -             adminDistrict: 3 - [Default=WA, NULL=null, Random=W]
+2023-05-22 15:42:31.898 [main] DEBUG org.restct.RESTCT -             locality: 3 - [Random=Settle, Default=Seattle, NULL=null]
+2023-05-22 15:42:31.898 [main] DEBUG org.restct.RESTCT -             countryRegion: 3 - [Random=mAU, NULL=null, Default=AU]
+2023-05-22 15:42:31.898 [main] DEBUG org.restct.RESTCT -             addressLine: 3 - [NULL=null, Default=1 Microsoft Way, Random=1 Microsoft Wa]
+2023-05-22 15:42:32.490 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:32.491 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 15:42:32.491 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:42:40.889 [main] INFO  org.restct.RESTCT -    unresolved parameters:
+2023-05-22 15:42:40.891 [main] DEBUG org.restct.RESTCT - uncoveredSet remove 2
+2023-05-22 15:42:40.891 [main] INFO  org.restct.RESTCT - Uncovered combinations: 0, sequence length: 2
+2023-05-22 15:42:40.893 [main] DEBUG org.restct.RESTCT - budget 3600 , now cost: 162.496
+2023-05-22 15:42:40.893 [main] INFO  org.restct.RESTCT - 1-th operation: get*http://dev.virtualearth.net/REST/v1/Locations
+2023-05-22 15:42:40.893 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:40.894 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:42:41.577 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:41.579 [main] INFO  org.restct.RESTCT -         1-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 15:42:42.423 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:42.424 [main] DEBUG org.restct.RESTCT -             include: 2 - [NULL=null, Enum=ciso2]
+2023-05-22 15:42:42.424 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 15:42:42.424 [main] DEBUG org.restct.RESTCT -             postalCode: 3 - [NULL=null, Default=98178, Random=9878]
+2023-05-22 15:42:42.425 [main] DEBUG org.restct.RESTCT -             maxResults: 4 - [Random=18, NULL=null, Random=17, Random=9]
+2023-05-22 15:42:42.425 [main] DEBUG org.restct.RESTCT -             includeNeighborhood: 3 - [NULL=null, Enum=0, Enum=1]
+2023-05-22 15:42:42.425 [main] DEBUG org.restct.RESTCT -             strictMatch: 3 - [NULL=null, Enum=0, Enum=1]
+2023-05-22 15:42:42.425 [main] DEBUG org.restct.RESTCT -             adminDistrict: 3 - [Default=WA, NULL=null, Random=W]
+2023-05-22 15:42:42.425 [main] DEBUG org.restct.RESTCT -             locality: 3 - [Random=Settle, Default=Seattle, NULL=null]
+2023-05-22 15:42:42.425 [main] DEBUG org.restct.RESTCT -             countryRegion: 3 - [Random=mAU, NULL=null, Default=AU]
+2023-05-22 15:42:42.426 [main] DEBUG org.restct.RESTCT -             addressLine: 3 - [NULL=null, Default=1 Microsoft Way, Random=1 Microsoft Wa]
+2023-05-22 15:42:42.930 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:42.930 [main] INFO  org.restct.RESTCT -         1-th operation all parameters covering array size: 15, parameters: 10
+2023-05-22 15:42:42.931 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:42:51.463 [main] INFO  org.restct.RESTCT - 2-th operation: get*http://dev.virtualearth.net/REST/v1/LocalSearch
+2023-05-22 15:42:51.464 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:51.464 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum]
+2023-05-22 15:42:51.810 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:51.810 [main] INFO  org.restct.RESTCT -         2-th operation essential parameters covering array size: 1, parameters: 1, constraints: 0
+2023-05-22 15:42:52.205 [main] DEBUG org.restct.RESTCT -         generate new domains...
+2023-05-22 15:42:52.206 [main] DEBUG org.restct.RESTCT -             userLocation: 3 - [NULL=null, Default=48.604311,-122.981998,5000, Random=48.604311,-1d22.981998,5000]
+2023-05-22 15:42:52.206 [main] DEBUG org.restct.RESTCT -             userCircularMapView: 3 - [NULL=null, Default=48.604311,-122.981998,5000, Random=48.604311,-122.98i1998,5000]
+2023-05-22 15:42:52.206 [main] DEBUG org.restct.RESTCT -             query: 3 - [Default=White%20House, NULL=null, Random=Whie%20House]
+2023-05-22 15:42:52.206 [main] DEBUG org.restct.RESTCT -             userMapView: 3 - [Random=29.8171041,-122.98195,48.604311,-95.5413725, NULL=null, Default=29.8171041,-122.981995,48.604311,-95.5413725]
+2023-05-22 15:42:52.206 [main] DEBUG org.restct.RESTCT -             key: 1 - [Enum=AlHl96AYbOKB8QxE_ETFXpSNVAFZP6wx0k30DlO7X8OIc3CzRtbUFThxUEj_byNG]
+2023-05-22 15:42:52.206 [main] DEBUG org.restct.RESTCT -             maxResults: 2 - [NULL=null, Default=5]
+2023-05-22 15:42:52.207 [main] DEBUG org.restct.RESTCT -             type: 8 - [Enum=Parking, NULL=null, Enum=EatDrink, Enum=HotelsAndMotels, Enum=Shop, Enum=SeeDo, Enum=BanksAndCreditUnions, Enum=Hospitals]
+2023-05-22 15:42:52.642 [main] DEBUG org.restct.RESTCT - ACTS Exited with code 0
+2023-05-22 15:42:52.643 [main] INFO  org.restct.RESTCT -         2-th operation all parameters covering array size: 24, parameters: 7
+2023-05-22 15:42:52.643 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

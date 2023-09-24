@@ -1,0 +1,4 @@
+2023-05-22 15:13:12.755 [main] INFO  org.restct.RESTCT - 8-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Metadata/{imagerySet}/{centerPoint}
+2023-05-22 15:13:13.337 [main] INFO  org.restct.RESTCT -         8-th operation essential parameters covering array size: 28, parameters: 3, constraints: 0
+2023-05-22 15:13:47.528 [main] INFO  org.restct.RESTCT -         8-th operation all parameters covering array size: 84, parameters: 8
+2023-05-22 15:13:47.529 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

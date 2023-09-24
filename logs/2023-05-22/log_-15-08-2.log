@@ -1,0 +1,15 @@
+2023-05-22 15:09:01.078 [main] INFO  org.restct.RESTCT - 3-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/BasicMetadata/{imagerySet}/{centerPoint}
+2023-05-22 15:09:01.085 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:09:01.085 [main] INFO  org.restct.RESTCT -             centerPoint: 2 - [Random=47.610,-122.07, Default=47.610,-122.107]
+2023-05-22 15:09:01.086 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:09:01.086 [main] INFO  org.restct.RESTCT -             imagerySet: 11 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=BirdseyeV2, Enum=BirdseyeV2WithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=OrdnanceSurvey]
+2023-05-22 15:09:01.452 [main] INFO  org.restct.RESTCT -         3-th operation essential parameters covering array size: 22, parameters: 3, constraints: 0
+2023-05-22 15:09:13.666 [main] INFO  org.restct.RESTCT -         3-th operation all parameters covering array size: 66, parameters: 8
+2023-05-22 15:09:13.667 [main] INFO  org.restct.RESTCT - ****************************************************************************************************
+2023-05-22 15:09:46.740 [main] INFO  org.restct.RESTCT - 4-th operation: get*https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}
+2023-05-22 15:09:46.741 [main] INFO  org.restct.RESTCT -         generate new domains...
+2023-05-22 15:09:46.742 [main] INFO  org.restct.RESTCT -             imagerySet: 10 - [Enum=Aerial, Enum=AerialWithLabels, Enum=AerialWithLabelsOnDemand, Enum=Birdseye, Enum=BirdseyeWithLabels, Enum=CanvasDark, Enum=CanvasLight, Enum=CanvasGray, Enum=Road, Enum=Streetside]
+2023-05-22 15:09:46.742 [main] INFO  org.restct.RESTCT -             key: 1 - [Enum=Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb]
+2023-05-22 15:09:47.167 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 10, parameters: 2, constraints: 0
+2023-05-22 15:09:52.290 [main] INFO  org.restct.RESTCT -         4-th operation all parameters covering array size: 44, parameters: 18
+2023-05-22 15:09:52.291 [main] INFO  org.restct.RESTCT - ****************************************************************************************************

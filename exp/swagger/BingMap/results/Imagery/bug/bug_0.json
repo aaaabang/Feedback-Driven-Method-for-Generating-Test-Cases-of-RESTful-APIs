@@ -1,0 +1,97 @@
+{
+  "responseChain": {},
+  "method": "get",
+  "response": {
+    "map": {
+      "traceId": "a58300f4aef949a1884b5df133d2b078|PUS000DE18|0.0.0.1",
+      "copyright": "Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+      "statusDescription": "Internal Server Error",
+      "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+      "resourceSets": {
+        "myArrayList": []
+      },
+      "authenticationResultCode": "ValidCredentials",
+      "errorDetails": {
+        "myArrayList": [
+          "The remote server returned an error: (500) Internal Server Error."
+        ]
+      },
+      "statusCode": 500
+    }
+  },
+  "parameters": {
+    "dateTime": {
+      "key": "NULL"
+    },
+    "zoomLevel": {
+      "key": "Random",
+      "value": 18
+    },
+    "mapSize": {
+      "key": "NULL"
+    },
+    "distanceBeforeFirstTurn": {
+      "key": "Random",
+      "value": 97
+    },
+    "mapMetadata": {
+      "key": "NULL"
+    },
+    "format": {
+      "key": "Enum",
+      "value": "gif"
+    },
+    "timeType": {
+      "key": "Enum",
+      "value": "Arrival"
+    },
+    "mapLayer": {
+      "key": "Enum",
+      "value": "OrdnanceSurvey"
+    },
+    "imagerySet": {
+      "key": "Enum",
+      "value": "CanvasLight"
+    },
+    "centerPoint": {
+      "key": "Default",
+      "value": "47.610,-122.107"
+    },
+    "maxSolutions": {
+      "key": "NULL"
+    },
+    "optimize": {
+      "key": "NULL"
+    },
+    "avoid": {
+      "key": "Enum",
+      "value": "minimizeTolls"
+    },
+    "waypoint.1": {
+      "key": "Random",
+      "value": "xRedmond,WA;66;2"
+    },
+    "waypoint.0": {
+      "key": "Random",
+      "value": "Seattlse,WA;64;1"
+    },
+    "pushpin": {
+      "key": "Random",
+      "value": "47.610,-12.107;5;P10"
+    },
+    "key": {
+      "key": "Enum",
+      "value": "Av4fQ9XDFL4V7pk6Y0_gwG71JhO_ABjvJDdudpG8bztUgaHiWllH7Dmo9IYnwgVb"
+    },
+    "travelMode": {
+      "key": "Enum",
+      "value": "Walking"
+    },
+    "mapArea": {
+      "key": "Default",
+      "value": "45.219,-122.325,47.610,-122.107"
+    }
+  },
+  "url": "https://dev.virtualearth.net/REST/v1/Imagery/Map/{imagerySet}/{centerPoint}/{zoomLevel}/Routes/{travelMode}",
+  "statusCode": 500
+}

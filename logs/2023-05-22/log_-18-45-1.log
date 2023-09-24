@@ -1,0 +1,2 @@
+2023-05-22 18:45:00.741 [main] INFO  org.restct.RESTCT - 4-th operation: post*http://dev.virtualearth.net/REST/v1/Routes/OptimizeItineraryAsync
+2023-05-22 18:45:01.397 [main] INFO  org.restct.RESTCT -         4-th operation essential parameters covering array size: 294, parameters: 21, constraints: 0
